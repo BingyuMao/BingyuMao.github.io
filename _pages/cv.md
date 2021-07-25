@@ -12,21 +12,21 @@ redirect_from:
 
 ## Education
 
-### The University of Texas Health Science Center at Houston | Houston, TX                               
+### [The University of Texas Health Science Center at Houston](https://www.uth.edu/) | Houston, TX                               
 
 Aug 2020 - May 2025 (Expected)
 
 *Doctor of Philosophy in Biomedical Informatics* 
 
 
-### University of Wisconsin-Madison | Madison, WI                               
+### [University of Wisconsin-Madison](https://www.wisc.edu/) | Madison, WI                               
 
 Aug 2018 - May 2020
 
 *Master of Arts in Mathematics*
 
 
-### Sun Yat-Sen University | Guangzhou, China                                      
+### [Sun Yat-Sen University](http://www.sysu.edu.cn/en/index.htm) | Guangzhou, China                                      
 
 Aug 2015 - Jun 2019
 
@@ -69,7 +69,7 @@ Jul 2019 - Aug 2019
 
 Supervisor: Yaoyun Zhang, The University of Texas Health Science Center at Houston
 
-• Standardization of drug terminology completed by Python: Normalized the drug dataset named NCCD from Chinese Food and Drug Administration(CFDA); Used web crawler to link drug name from NCCD to RxNorm(drug dataset from U.S.FDA);Mapped the data and arrange to a dictionary.
+• Standardization of drug terminology completed by Python: Normalized the drug dataset named NCCD from Chinese Food and Drug Administration (CFDA); Used web crawler to link drug name from NCCD to RxNorm; Mapped the data and arrange to a dictionary.
 
 • Practiced to use the Java projects for NLP models and handle result sets.
 
