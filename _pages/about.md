@@ -7,10 +7,10 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<!-- <img src=https://github.com/ninaroussille/ninaroussille.github.io/tree/master/images/profile.jpg style="width:540px;height:740px;"> -->
+<!-- <img src=https://github.com/bingyumao/bingyumao.github.io/tree/master/images/profile.jpg style="width:540px;height:740px;"> -->
 
 <!--![github small](/images/profile.jpg) -->
-<img src="/images/profile.jpg" alt="drawing" width="400" height="520" style="float: left; padding-right:15px"/>   <br>
+<img src="/images/profile.jpg" alt="drawing" width="400" height="520" style="float: left; padding-right:15px"/>
 
 My name is Bingyu Mao (毛冰玉), I am a second year PhD student at [School of Biomedical Informatics](https://sbmi.uth.edu/), [The University of Texas Health Science Center at Houston](https://www.uth.edu/). My research interest is in Deep Learning and Neural Ordinary Differential Equation.  <br>
 
