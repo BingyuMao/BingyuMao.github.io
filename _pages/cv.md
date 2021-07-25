@@ -36,11 +36,15 @@ Bachelor of Science in Mathematics and Applied Mathematics
 
 ### Mathematical Contest In Modeling/Interdisciplinary Contest In Modeling(MCM/ICM)
 
-Feb 2017 | Honorable Mention 
+Feb 2017 
+
+Honorable Mention 
 
 ### China Undergraduate Mathematical Contest in Modeling(CUMCM)
 
-Sep 2017 |Second prize
+Sep 2017 
+
+Second prize
 
 ## Work Experience                                  
 
