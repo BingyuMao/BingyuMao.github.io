@@ -18,4 +18,6 @@ My name is Bingyu Mao (毛冰玉), I am a second year PhD student at [School of 
 I am now working as a Graduate Research Assistant in [Dr. Degui Zhi's group](https://zhigroup.github.io/).  <br>
 
 
-You can contact me at: [Bingyu.Mao@uth.tmc.edu](mailto:Bingyu.Mao@uth.tmc.edu)
+You can contact me at: [Bingyu.Mao@uth.tmc.edu](mailto:Bingyu.Mao@uth.tmc.edu) <br>
+
+Read more: [GitHub](https://github.com/BingyuMao)  • [LinkedIn](https://www.linkedin.com/in/bingyu-mao/)
