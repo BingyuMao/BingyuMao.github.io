@@ -10,12 +10,11 @@ redirect_from:
 <!-- <img src=https://github.com/ninaroussille/ninaroussille.github.io/tree/master/images/profile.jpg style="width:540px;height:740px;"> -->
 
 <!--![github small](/images/profile.jpg) -->
-<img src="/images/profile.jpg" alt="drawing" width="400" height="520" style="float: left; padding-right:15px"/>  I will join MIT's Economics Department as an Assistant Professor in 2023, after spending the 2021-2022 academic year as an Assistant Professorial Research Fellow at LSE and the 2022-2023 academic year as a Postdoctoral Associate at MIT. <br>
+<img src="/images/profile.jpg" alt="drawing" width="400" height="520" style="float: left; padding-right:15px"/>  
 
- I work on topics in labor, gender and public economics, with a particular interest for the distributional effects of labor market policies.  <br>
+Welcome! I am a second year PhD student at [The University of Texas Health Science Center at Houston](https://www.uth.edu/). My major is [Biomedical Informatics](https://sbmi.uth.edu/) and my research interest is in Deep Learning and Neural Ordinary Differential Equation.  <br>
 
-I received my PhD in Economics from UC Berkeley in 2021 and previously worked as a pre-doctoral fellow at Harvard for the [Opportunity Insight lab](https://opportunityinsights.org/).
-<br>
+I am now working as a Graduate Research Assistant in [Dr. Degui Zhi's group](https://zhigroup.github.io/).  <br>
 
 
-You can contact me at: [nina_roussille@berkeley.edu](mailto:nina_roussille@berkeley.edu)
+You can contact me at: [Bingyu.Mao@uth.tmc.edu](mailto:Bingyu.Mao@uth.tmc.edu)
