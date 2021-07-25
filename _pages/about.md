@@ -12,7 +12,8 @@ redirect_from:
 <!--![github small](/images/profile.jpg) -->
 <!--<img src="/images/profile.jpg" alt="drawing" width="500" height="400" style="float: left; padding-right:15px"/> -->
 
-<img src="/images/profile.jpg" alt="drawing" width="500" height="400" style="float: center"/> 
+<img src="/images/profile.jpg" alt="drawing" width="500" height="400" style="float: center"/> <br>
+
 My name is Bingyu Mao (毛冰玉), I am a second year PhD student at [School of Biomedical Informatics](https://sbmi.uth.edu/), [The University of Texas Health Science Center at Houston](https://www.uth.edu/). My research interest is in Deep Learning and Neural Ordinary Differential Equation.  <br>
 
 I am now working as a Graduate Research Assistant in [Dr. Degui Zhi's group](https://zhigroup.github.io/).  <br>
