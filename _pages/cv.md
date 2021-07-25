@@ -12,14 +12,14 @@ redirect_from:
 
 ## Education
 
-### The University of Texas Health Science Center at Houston | Houston, US                               
+### The University of Texas Health Science Center at Houston | Houston, TX                               
 
 Aug 2020 - Present
 
 Doctor of Philosophy in Biomedical Informatics 
 
 
-### University of Wisconsin-Madison | Madison, US                               
+### University of Wisconsin-Madison | Madison, WI                               
 
 Aug 2018 - May 2020
 
@@ -35,7 +35,7 @@ Bachelor of Science in Mathematics and Applied Mathematics
 
 ## Work Experience                                  
 
-### School of Biomedical Informatics, UTHealth | Houston, US
+### School of Biomedical Informatics, UTHealth | Houston, TX
 
 Oct 2020 - Present
 
@@ -49,7 +49,7 @@ Supervisor: Degui Zhi, School of Biomedical Informatics, UTHealth
 
 • Neural Ordinary Differential Equation (ODE) models on irregularly sampled time series EHR data.
 
-### Mathematics Department, UW-Madison | Madison, US 
+### Mathematics Department, UW-Madison | Madison, WI
 
 Sep 2019 - May 2020
 
@@ -112,13 +112,13 @@ Course project in “Methods of Applied Mathematics”completed by MATLAB:
 
 ## Awards
 
-### Mathematical Contest In Modeling/Interdisciplinary Contest In Modeling(MCM/ICM)
+### Mathematical Contest In Modeling/Interdisciplinary Contest In Modeling (MCM/ICM)
 
 Feb 2017 
 
 Honorable Mention 
 
-### China Undergraduate Mathematical Contest in Modeling(CUMCM)
+### China Undergraduate Mathematical Contest in Modeling (CUMCM)
 
 Sep 2017 
 
