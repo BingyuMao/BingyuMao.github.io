@@ -9,6 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
+
 ## Education
 
 ### The University of Texas Health Science Center at Houston | Houston, US                               
@@ -31,20 +32,6 @@ Aug 2015 - Jun 2019
 
 Bachelor of Science in Mathematics and Applied Mathematics
 
-
-## Awards
-
-### Mathematical Contest In Modeling/Interdisciplinary Contest In Modeling(MCM/ICM)
-
-Feb 2017 
-
-Honorable Mention 
-
-### China Undergraduate Mathematical Contest in Modeling(CUMCM)
-
-Sep 2017 
-
-Second prize
 
 ## Work Experience                                  
 
@@ -122,6 +109,20 @@ Course project in “Methods of Applied Mathematics”completed by MATLAB:
 • Used Gaussian lowpass filter and Gaussian high-pass filter as examples on some images to test the Fourier transform specific effects;
 
 • Gave a brief extension on Discrete Cosine Transformation and Discrete Time Fourier Transformation. 
+
+## Awards
+
+### Mathematical Contest In Modeling/Interdisciplinary Contest In Modeling(MCM/ICM)
+
+Feb 2017 
+
+Honorable Mention 
+
+### China Undergraduate Mathematical Contest in Modeling(CUMCM)
+
+Sep 2017 
+
+Second prize
 
 ## Skills
 
