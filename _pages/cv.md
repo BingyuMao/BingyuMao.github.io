@@ -14,23 +14,23 @@ redirect_from:
 
 ### The University of Texas Health Science Center at Houston | Houston, TX                               
 
-Aug 2020 - Present
+Aug 2020 - May 2025 (Expected)
 
-Doctor of Philosophy in Biomedical Informatics 
+*Doctor of Philosophy in Biomedical Informatics* 
 
 
 ### University of Wisconsin-Madison | Madison, WI                               
 
 Aug 2018 - May 2020
 
-Master of Arts in Mathematics
+*Master of Arts in Mathematics*
 
 
 ### Sun Yat-Sen University | Guangzhou, China                                      
 
 Aug 2015 - Jun 2019
 
-Bachelor of Science in Mathematics and Applied Mathematics
+*Bachelor of Science in Mathematics and Applied Mathematics*
 
 
 ## Work Experience                                  
@@ -39,7 +39,7 @@ Bachelor of Science in Mathematics and Applied Mathematics
 
 Oct 2020 - Present
 
-Graduate Research Assistant
+*Graduate Research Assistant*
 
 Supervisor: Degui Zhi, School of Biomedical Informatics, UTHealth
 
@@ -53,14 +53,19 @@ Supervisor: Degui Zhi, School of Biomedical Informatics, UTHealth
 
 Sep 2019 - May 2020
 
-Project Assistant
+*Project Assistant*
 
-Numerical Analysis (Course number: Math 514) , Analysis I (Course number: Math 521), Computational Mathematics (Course Number: Math 715).                                 
+• Numerical Analysis (Course number: Math 514) 
+
+• Analysis I (Course number: Math 521)
+
+• Computational Mathematics (Course Number: Math 715)  
+
 ### Digital China Health | Beijing, China 
 
 Jul 2019 - Aug 2019
 
-Natural Language Processing Research Intern
+*Natural Language Processing Research Intern*
 
 Supervisor: Yaoyun Zhang, The University of Texas Health Science Center at Houston
 
