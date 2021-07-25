@@ -11,7 +11,7 @@ author_profile: true
 
 1. [BMI 6334 Deep Learning in Biomedical Informatics](https://sbmi.uth.edu/current-students/catalog-of-courses-bmi/bmi-6334.htm)
 
-* Code Repository
+  * Code Repository
 
 2. [BMI 7302 Theories and Frameworks for Biomedical Informatics Research](https://sbmi.uth.edu/current-students/catalog-of-courses-bmi/bmi-7302.htm)
 
@@ -23,7 +23,7 @@ author_profile: true
 
 1. [BMI 5007 Methods in Health Data Science](https://sbmi.uth.edu/current-students/catalog-of-courses-bmi/bmi-5007.htm)
 
-* Code Repository
+  * Code Repository
 
 2. [BMI 5300 Introduction to Biomedical Informatics](https://sbmi.uth.edu/current-students/catalog-of-courses-bmi/bmi-5300.htm)
 
@@ -36,7 +36,7 @@ author_profile: true
 
 2. [BMI 6319 Data Analysis for Scientific Research in Biomedical Informatics](https://sbmi.uth.edu/current-students/catalog-of-courses-bmi/bmi-6319.htm)
 
-* [Code Repository](https://github.com/BingyuMao/model_comparison_mimic)
+  * [Code Repository](https://github.com/BingyuMao/model_comparison_mimic)
 
 3. [BMI 6323 Machine Learning in Biomedical Informatics](https://sbmi.uth.edu/current-students/catalog-of-courses-bmi/bmi-6323.htm)
 
@@ -45,5 +45,5 @@ author_profile: true
 
 1. [BMI 5352 Statistical Methods in Biomedical Informatics](https://sbmi.uth.edu/current-students/catalog-of-courses-bmi/bmi-5352.htm)
 
-* Code Repository
+  * Code Repository
 
