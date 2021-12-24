@@ -5,7 +5,7 @@ permalink: /research/
 author_profile: true
 ---
 
-## Publication
+## Publications
 
 [**CovRNN - A recurrent neural network model for predicting outcomes of COVID-19 patients: model development and validation using EHR data**](/files/CovRNN.pdf) (Preprint at medRxiv) <br/>
 
@@ -15,5 +15,5 @@ Laila Rasmy, Masayuki Nigo, Bijun Sai Kannadath, Ziqian Xie, Bingyu Mao, Khush P
 
 **Presented at**: AMIA 2021 Annual Symposium <br/>
 
-## Works in progress  
+## Posters
 
