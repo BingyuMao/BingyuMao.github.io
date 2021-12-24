@@ -23,7 +23,8 @@ author_profile: true
 
 1. [BMI 5007](https://sbmi.uth.edu/current-students/catalog-of-courses-bmi/bmi-5007.htm) Methods in Health Data Science
 
-   * Code Repository
+   * [Code Repository](https://github.com/BingyuMao/mtds_health_data)
+
 
 2. [BMI 5300](https://sbmi.uth.edu/current-students/catalog-of-courses-bmi/bmi-5300.htm) Introduction to Biomedical Informatics
 
