@@ -11,7 +11,7 @@ author_profile: true
 
 1. [BMI 6334](https://sbmi.uth.edu/current-students/catalog-of-courses-bmi/bmi-6334.htm) Deep Learning in Biomedical Informatics
 
-   * Code Repository
+   * [Code Repository](https://github.com/BingyuMao/deep_course_hws)
 
 2. [BMI 7302](https://sbmi.uth.edu/current-students/catalog-of-courses-bmi/bmi-7302.htm) Theories and Frameworks for Biomedical Informatics Research
 
