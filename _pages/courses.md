@@ -15,7 +15,25 @@ author_profile: true
 
 2. [BMI 7302](https://sbmi.uth.edu/current-students/catalog-of-courses-bmi/bmi-7302.htm) Theories and Frameworks for Biomedical Informatics Research
 
+   * [Poster](/files/7302Poster.pdf)
+
 3. [BMI 7303](https://sbmi.uth.edu/current-students/catalog-of-courses-bmi/bmi-7303.htm) Critical Review of Biomedical Informatics Literature Seminar
+
+   * [Poster](/files/7303Poster.pdf)
+
+### 2022 Spring
+
+1. PH 1976 Fundamentals of Data Analytics and Predictions
+
+   * Code Repository
+
+2. [BMI 6340](https://sbmi.uth.edu/current-students/catalog-of-courses-bmi/bmi-6340.htm) Health Information Visualization and Visual Analytics
+
+   * Code Repository
+
+3. [BMI 7304](https://sbmi.uth.edu/current-students/catalog-of-courses-bmi/bmi-7304.htm) Machine Learning in Biomedical Informatics
+
+   * Poster
 
 ## 2020 - 2021
 
