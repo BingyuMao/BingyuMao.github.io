@@ -17,3 +17,10 @@ Laila Rasmy, Masayuki Nigo, Bijun Sai Kannadath, Ziqian Xie, Bingyu Mao, Khush P
 
 ## Posters
 
+**Technical Performance Evaluation of a Deep Learning-based Vancomycin Therapeutic Drug Monitoring Model** <br/>
+
+Bingyu Mao, Masayuki Nigo, Hong Thoai Nga Tran, Ziqian Xie, Han Feng, Laila Rasmy, Hongyu Miao, Degui Zhi  <br/>
+
+**Abstract**: Vancomycin therapeutic drug monitoring is recommended by national guidelines. We developed a deep learning-based pharmacokinetic model for personalized vancomycin level prediction (PK-RNN-V) using readily available electronic medical records data which achieves more accurate results than the current Bayesian models in the use for precision dosing. We will present our technical performance evaluation results of our PK-RNN-V models against the Bayesian model (VTDM) using Root Mean Square Error, Mean Absolute Error, and Mean Absolute Percentage Error. <br/>
+
+**Presented at**: AMIA 2022 Informatics Summit <br/>
