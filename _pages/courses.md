@@ -31,7 +31,7 @@ author_profile: true
 
    * Code Repository
 
-3. [BMI 7304](https://sbmi.uth.edu/current-students/catalog-of-courses-bmi/bmi-7304.htm) Machine Learning in Biomedical Informatics
+3. [BMI 7304](https://sbmi.uth.edu/current-students/catalog-of-courses-bmi/bmi-7304.htm) Advanced Research Design for Biomedical Informatics
 
    * Poster
 
