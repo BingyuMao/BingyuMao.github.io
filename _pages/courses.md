@@ -29,8 +29,6 @@ author_profile: true
 
 2. [BMI 6340](https://sbmi.uth.edu/current-students/catalog-of-courses-bmi/bmi-6340.htm) Health Information Visualization and Visual Analytics
 
-   * Code Repository
-
 3. [BMI 7304](https://sbmi.uth.edu/current-students/catalog-of-courses-bmi/bmi-7304.htm) Advanced Research Design for Biomedical Informatics
 
    * Poster
