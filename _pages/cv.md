@@ -37,11 +37,11 @@ Aug 2015 - Jun 2019
 
 Feb 2022
 
-**Second Place**, Healthcare Innovation Collaborative 2022 Annual Case Competition
+**Second Place**, [Healthcare Innovation Collaborative](https://www.txhic.com/) 2022 Annual Case Competition
 
 Mar 2022
 
-**SBMI Student Travel Award**: AMIA 2022 Informatics Summit
+[**SBMI Student Travel Award**](https://sbmi.uth.edu/current-students/financial-services/student-travel-awards.htm#:~:text=In%20keeping%20with%20our%20mission,for%20both%20M.S.%20and%20Ph.): AMIA 2022 Informatics Summit
 
 
 ## Work Experience                                  
@@ -90,7 +90,7 @@ Used web crawler technique to map drugs from NCCD to RxNorm.
 
 ## Activities
 
-### SBMI Student Government Organization, UTHealth
+### [SBMI Student Government Organization](https://sbmi.uth.edu/current-students/sgo.htm), UTHealth
 
 Mar 2022 - Present
 
@@ -103,7 +103,7 @@ Python • R • MATLAB
 
 Github • Latex
 
-#Intermediate
+### Intermediate
 
 Java • C++ • C
 
