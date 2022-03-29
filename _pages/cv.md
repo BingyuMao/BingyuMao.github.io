@@ -37,7 +37,7 @@ Aug 2015 - Jun 2019
 
 Feb 2022, **Second Place**, [Healthcare Innovation Collaborative](https://www.txhic.com/) 2022 Annual Case Competition
 
-Mar 2022, [**SBMI Student Travel Award**](https://sbmi.uth.edu/current-students/financial-services/student-travel-awards.htm#:~:text=In%20keeping%20with%20our%20mission,for%20both%20M.S.%20and%20Ph.): AMIA 2022 Informatics Summit
+Mar 2022, **SBMI Student Travel Award**: AMIA 2022 Informatics Summit
 
 
 ## Work Experience                                  
@@ -55,6 +55,7 @@ Precision dosing is important for drugs that need therapeutic drug monitoring (T
 My research in this field focuses on using deep learning methods to generate vancomycin pharmacokinetic prediction models. The goal is to take the patient’s real-time sparse and irregular observations and offer dynamic predictions.
 
 • Time-series EHR data analysis using deep learning methods
+
 Time series EHR data analysis is a challenge because it is often irregularly sampled and contains many missing values. Traditional machine learning applications are not strong enough to handle these conditions that occur in real-world data. Deep learning methods especially recurrent neural networks (RNN) have the power to deal with time-series data, it is as a result, popular in many time series analysis studies. However, as RNN is not perfect to handle irregularly sampled time-series data, a new technique that used ordinary differential equations (ODE) in traditional deep learning methods called neural ODE became outstanding and my interest in this field started here. 
 
 The first project I attended in this field proposed a deep learning-based model to predict COVID-19 patient outcomes on admission with a minimum level of data preprocessing. Trained on a large heterogeneous dataset our model showed high prediction accuracy, good calibration, and consistently good performance on multiple external datasets.
