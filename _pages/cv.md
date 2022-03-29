@@ -40,7 +40,7 @@ Feb 2022, **Second Place**, [Healthcare Innovation Collaborative](https://www.tx
 Mar 2022, **SBMI Student Travel Award**: AMIA 2022 Informatics Summit
 
 
-## Work Experience                                  
+## Academic Experience                                  
 
 ### School of Biomedical Informatics, UTHealth | Houston, TX
 
