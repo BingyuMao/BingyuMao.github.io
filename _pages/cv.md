@@ -12,21 +12,21 @@ redirect_from:
 
 ## Education
 
-### [The University of Texas Health Science Center at Houston](https://www.uth.edu/) | Houston, TX                               
+### [The University of Texas Health Science Center at Houston](https://www.uth.edu/) | Houston                               
 
 Aug 2020 - May 2025 (Expected)
 
 *Doctor of Philosophy in Biomedical Informatics* 
 
 
-### [University of Wisconsin-Madison](https://www.wisc.edu/) | Madison, WI                               
+### [University of Wisconsin-Madison](https://www.wisc.edu/) | Madison                               
 
 Aug 2018 - May 2020
 
 *Master of Arts in Mathematics*
 
 
-### [Sun Yat-Sen University](http://www.sysu.edu.cn/en/index.htm) | Guangzhou, China                                      
+### [Sun Yat-Sen University](http://www.sysu.edu.cn/en/index.htm) | Guangzhou                                      
 
 Aug 2015 - Jun 2019
 
@@ -42,7 +42,7 @@ Mar 2022, **SBMI Student Travel Award**: AMIA 2022 Informatics Summit
 
 ## Academic Experience                                  
 
-### School of Biomedical Informatics, UTHealth | Houston, TX
+### School of Biomedical Informatics, UTHealth | Houston
 
 Oct 2020 - Present
 
@@ -61,7 +61,7 @@ Time series EHR data analysis is a challenge because it is often irregularly sam
 The first project I attended in this field proposed a deep learning-based model to predict COVID-19 patient outcomes on admission with a minimum level of data preprocessing. Trained on a large heterogeneous dataset our model showed high prediction accuracy, good calibration, and consistently good performance on multiple external datasets.
 
 
-### Mathematics Department, UW-Madison | Madison, WI
+### Mathematics Department, UW-Madison | Madison
 
 Sep 2019 - May 2020
 
@@ -70,7 +70,7 @@ Sep 2019 - May 2020
 Assisted in courses: Numerical Analysis, Analysis I, and Computational Mathematics. 
 
 
-### Digital China Health | Beijing, China 
+### Digital China Health | Beijing 
 
 Jul 2019 - Aug 2019
 
