@@ -35,13 +35,9 @@ Aug 2015 - Jun 2019
 
 ## Awards & Honors
 
-Feb 2022
+Feb 2022, **Second Place**, [Healthcare Innovation Collaborative](https://www.txhic.com/) 2022 Annual Case Competition
 
-**Second Place**, [Healthcare Innovation Collaborative](https://www.txhic.com/) 2022 Annual Case Competition
-
-Mar 2022
-
-[**SBMI Student Travel Award**](https://sbmi.uth.edu/current-students/financial-services/student-travel-awards.htm#:~:text=In%20keeping%20with%20our%20mission,for%20both%20M.S.%20and%20Ph.): AMIA 2022 Informatics Summit
+Mar 2022, [**SBMI Student Travel Award**](https://sbmi.uth.edu/current-students/financial-services/student-travel-awards.htm#:~:text=In%20keeping%20with%20our%20mission,for%20both%20M.S.%20and%20Ph.): AMIA 2022 Informatics Summit
 
 
 ## Work Experience                                  
