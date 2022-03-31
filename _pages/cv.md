@@ -91,7 +91,7 @@ Used web crawler technique to map drugs from NCCD to RxNorm.
 
 Mar 2022 - Present
 
-*Academic Committee*
+*Academics Committee*
 
 ## Skills
 
