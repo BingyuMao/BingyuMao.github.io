@@ -93,6 +93,8 @@ Mar 2022 - Present
 
 *Academics Committee*
 
+*International Student Committee*
+
 ## Skills
 
 ### Expert
