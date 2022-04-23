@@ -7,7 +7,7 @@ author_profile: true
 
 ## Publications
 
-[**CovRNN—A recurrent neural network model for predicting outcomes of COVID-19 patients: model development and validation using EHR data**](/files/CovRNN.pdf) *The Lancet Digital Health, 2022.* <br/>
+[**CovRNN—A recurrent neural network model for predicting outcomes of COVID-19 patients: model development and validation using EHR data**](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(22)00049-8/fulltext) *The Lancet Digital Health, April 2022.* <br/>
 
 Laila Rasmy, Masayuki Nigo, Bijun Sai Kannadath, Ziqian Xie, **Bingyu Mao**, Khush Patel, Yujia Zhou, Wanheng Zhang, Angela Ross, Hua Xu, Degui Zhi  <br/>
 
