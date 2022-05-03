@@ -25,13 +25,13 @@ author_profile: true
 
 1. PH 1976 Fundamentals of Data Analytics and Predictions
 
-   * Code Repository
+   * [Code Repository](https://github.com/BingyuMao/pd_proj)
 
 2. [BMI 6340](https://sbmi.uth.edu/current-students/catalog-of-courses-bmi/bmi-6340.htm) Health Information Visualization and Visual Analytics
 
 3. [BMI 7304](https://sbmi.uth.edu/current-students/catalog-of-courses-bmi/bmi-7304.htm) Advanced Research Design for Biomedical Informatics
 
-   * Poster
+   * [Poster](/files/7304Poster.pdf)
 
 ## 2020 - 2021
 
