@@ -7,7 +7,7 @@ author_profile: true
 
 ## Papers
 
-1. [**Recurrent neural network models (CovRNN) for predicting outcomes of patients with COVID-19 on admission to hospital: model development and validation using electronic health record data**](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(22)00049-8/fulltext) 
+[**Recurrent neural network models (CovRNN) for predicting outcomes of patients with COVID-19 on admission to hospital: model development and validation using electronic health record data**](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(22)00049-8/fulltext) 
 
 *The Lancet Digital Health, April 2022.* <br/>
 
@@ -19,7 +19,7 @@ In this study, we developed recurrent neural network-based models (CovRNN) to pr
 
 CovRNN binary models achieved AUROCs of 93·0% (95% CI 92·6–93·4) for the prediction of in-hospital mortality, 92·9% (92·6–93·2) for the prediction of mechanical ventilation, and 86·5% (86·2–86·9) for the prediction of a prolonged hospital stay, outperforming light gradient boost machine and logistic regression algorithms. External validation confirmed AUROCs in similar ranges (91·3–97·0% for in-hospital mortality prediction, 91·5–96·0% for the prediction of mechanical ventilation, and 81·0–88·3% for the prediction of prolonged hospital stay). For survival prediction, CovRNN achieved a concordance index of 86·0% (95% CI 85·1–86·9) for in-hospital mortality and 92·6% (92·2–93·0) for mechanical ventilation. <br/>
 
-2. [**PK-RNN-V E: A Deep Learning Model Approach to Vancomycin Therapeutic Drug Monitoring Using Electronic Health Record Data**](https://www.medrxiv.org/content/10.1101/2022.05.24.22275271v2) 
+[**PK-RNN-V E: A Deep Learning Model Approach to Vancomycin Therapeutic Drug Monitoring Using Electronic Health Record Data**](https://www.medrxiv.org/content/10.1101/2022.05.24.22275271v2) 
 
 *Journal of Biomedical Informatics, 2022.* <br/>
 
@@ -35,7 +35,7 @@ What this Paper Adds: Deep-learning based pharmacokinetic model for vancomycin (
 
 ## Presentations
 
-1. [**Med-BERT v2: clinical foundation model on standardized secondary clinical data**](https://www.researchgate.net/publication/361569724_Med-BERT_v2_clinical_foundation_model_on_standardized_secondary_clinical_data) <br/>
+[**Med-BERT v2: clinical foundation model on standardized secondary clinical data**](https://www.researchgate.net/publication/361569724_Med-BERT_v2_clinical_foundation_model_on_standardized_secondary_clinical_data) <br/>
 
 Laila Rasmy, Yan Chu, **Bingyu Mao**, Khush Patel, Zhao Li, Hao Yan, Ziqian Xie, Wenjin Zheng, Hua Xu, Degui Zhi <br/>
 
@@ -47,7 +47,7 @@ Adding more patient information including medications and procedures are known t
 
 ## Posters
 
-1. [**Technical Performance Evaluation of a Deep Learning-based Vancomycin Therapeutic Drug Monitoring Model**](/files/PKRNN_Poster.pdf) <br/>
+[**Technical Performance Evaluation of a Deep Learning-based Vancomycin Therapeutic Drug Monitoring Model**](/files/PKRNN_Poster.pdf) <br/>
 
 **Bingyu Mao**, Masayuki Nigo, Hong Thoai Nga Tran, Ziqian Xie, Han Feng, Laila Rasmy, Hongyu Miao, Degui Zhi <br/>
 
@@ -56,7 +56,7 @@ Adding more patient information including medications and procedures are known t
 **Presented at**: AMIA 2022 Informatics Summit, Chicago, IL. <br/>
 
 
-2. [**A multi-aspect technical performance evaluation of deep learning based models for predicting COVID-19 patients outcomes on admission**](/files/CovRNN_poster.pdf) <br/>
+[**A multi-aspect technical performance evaluation of deep learning based models for predicting COVID-19 patients outcomes on admission**](/files/CovRNN_poster.pdf) <br/>
 
 Laila Rasmy, Masayuki Nigo, Bijun Sai Kannadath, Ziqian Xie, **Bingyu Mao**, Angela Ross, Hua Xu, Degui Zhi <br/>
 
