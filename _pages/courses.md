@@ -15,8 +15,6 @@ author_profile: true
 
 [BMI 6313](https://sbmi.uth.edu/current-students/catalog-of-courses-bmi/bmi-6313.htm) Scientific Writing in Healthcare
 
-[BMI 6340](https://sbmi.uth.edu/current-students/catalog-of-courses-bmi/bmi-6340.htm) Health Information Visualization and Visual Analytics
-
 [BMI 7302](https://sbmi.uth.edu/current-students/catalog-of-courses-bmi/bmi-7302.htm) Theories and Frameworks for Biomedical Informatics Research ([Poster](/files/7302Poster.pdf))
 
 [BMI 7303](https://sbmi.uth.edu/current-students/catalog-of-courses-bmi/bmi-7303.htm) Critical Review of Biomedical Informatics Literature Seminar ([Poster](/files/7303Poster.pdf))
@@ -32,6 +30,8 @@ author_profile: true
 [BMI 6323](https://sbmi.uth.edu/current-students/catalog-of-courses-bmi/bmi-6323.htm) Machine Learning in Biomedical Informatics
 
 [BMI 6334](https://sbmi.uth.edu/current-students/catalog-of-courses-bmi/bmi-6334.htm) Deep Learning in Biomedical Informatics ([Code Repository](https://github.com/BingyuMao/deep_course_hws))
+
+[BMI 6340](https://sbmi.uth.edu/current-students/catalog-of-courses-bmi/bmi-6340.htm) Health Information Visualization and Visual Analytics
 
 ### Statistics
 
