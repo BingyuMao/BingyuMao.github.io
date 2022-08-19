@@ -21,7 +21,7 @@ CovRNN binary models achieved AUROCs of 93·0% (95% CI 92·6–93·4) for the pr
 
 [**PK-RNN-V E: A Deep Learning Model Approach to Vancomycin Therapeutic Drug Monitoring Using Electronic Health Record Data**](https://www.sciencedirect.com/science/article/pii/S1532046422001782?via%3Dihub) 
 
-*Journal of Biomedical Informatics, 2022.* <br/>
+*Journal of Biomedical Informatics, August 2022.* <br/>
 
 Masayuki Nigo, Hong Thoai Nga Tran, Ziqian Xie, Han Feng, **Bingyu Mao**,  Laila Rasmy, Hongyu Miao,  Degui Zhi  <br/>
 
