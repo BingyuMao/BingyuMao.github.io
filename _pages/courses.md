@@ -5,7 +5,7 @@ permalink: /courses/
 author_profile: true
 ---
 
-### Biomedical Informatics
+## Biomedical Informatics
 
 [BMI 5300](https://sbmi.uth.edu/current-students/catalog-of-courses-bmi/bmi-5300.htm) Introduction to Biomedical Informatics
 
@@ -21,7 +21,7 @@ author_profile: true
 
 [BMI 7304](https://sbmi.uth.edu/current-students/catalog-of-courses-bmi/bmi-7304.htm) Advanced Research Design for Biomedical Informatics ([Poster](/files/7304Poster.pdf))
 
-### Data Science
+## Data Science
 
 [BMI 5007](https://sbmi.uth.edu/current-students/catalog-of-courses-bmi/bmi-5007.htm) Methods in Health Data Science ([Code Repository](https://github.com/BingyuMao/mtds_health_data))
 
@@ -33,7 +33,7 @@ author_profile: true
 
 [BMI 6340](https://sbmi.uth.edu/current-students/catalog-of-courses-bmi/bmi-6340.htm) Health Information Visualization and Visual Analytics
 
-### Statistics
+## Statistics
 
 [BMI 5352](https://sbmi.uth.edu/current-students/catalog-of-courses-bmi/bmi-5352.htm) Statistical Methods in Biomedical Informatics
 
