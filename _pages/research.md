@@ -7,6 +7,21 @@ author_profile: true
 
 ## Papers
 
+[**PK-RNN-V E: A Deep Learning Model Approach to Vancomycin Therapeutic Drug Monitoring Using Electronic Health Record Data**](https://www.sciencedirect.com/science/article/pii/S1532046422001782?via%3Dihub) 
+
+*Journal of Biomedical Informatics, August 2022.* <br/>
+
+Masayuki Nigo, Hong Thoai Nga Tran, Ziqian Xie, Han Feng, **Bingyu Mao**,  Laila Rasmy, Hongyu Miao,  Degui Zhi  <br/>
+
+**Abstract**: Vancomycin is a commonly used antimicrobial in hospitals, and therapeutic drug monitoring (TDM) is required to optimize its efficacy and avoid toxicities. Bayesian models are currently recommended to predict the antibiotic levels. These models, however, although using carefully designed lab observations, were often developed in limited patient populations. The increasing availability of electronic health record (EHR) data offers an opportunity to develop TDM models for real-world patient populations. 
+
+Here, we present a deep learning-based pharmacokinetic prediction model for vancomycin (PK-RNN-V E) using a large EHR dataset of 5,483 patients with 55,336 vancomycin administrations. PK-RNN-V E takes the patient’s real-time sparse and irregular observations and offers dynamic predictions. Our results show that RNN-PK-V E offers a root mean squared error (RMSE) of 5.39 and outperforms the traditional Bayesian model (VTDM model) with an RMSE of 6.29. We believe that PK-RNN-V E can provide a pharmacokinetic model for vancomycin and other antimicrobials that require TDM. Statement of Significance Problem Current traditional Bayesian models for vancomycin levels were tested in only a limited patient population and take limited patient-specific features. Hence, a more flexible and powerful model, such as deep-learning models, may provide significant advantages. 
+
+What is Already Known: The Bayesian models do not predict the vancomycin levels well in patient populations with unstable hemodynamic status and fluctuating kidney functions. 
+
+What this Paper Adds: Deep-learning based pharmacokinetic model for vancomycin (PK-RNN-V E) provided better prediction accuracy with integrating multiple patient-specific features from time sequence electronic health record data. This study proved the concept of model. <br/>
+
+
 [**Recurrent neural network models (CovRNN) for predicting outcomes of patients with COVID-19 on admission to hospital: model development and validation using electronic health record data**](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(22)00049-8/fulltext) 
 
 *The Lancet Digital Health, April 2022.* <br/>
@@ -19,23 +34,10 @@ In this study, we developed recurrent neural network-based models (CovRNN) to pr
 
 CovRNN binary models achieved AUROCs of 93·0% (95% CI 92·6–93·4) for the prediction of in-hospital mortality, 92·9% (92·6–93·2) for the prediction of mechanical ventilation, and 86·5% (86·2–86·9) for the prediction of a prolonged hospital stay, outperforming light gradient boost machine and logistic regression algorithms. External validation confirmed AUROCs in similar ranges (91·3–97·0% for in-hospital mortality prediction, 91·5–96·0% for the prediction of mechanical ventilation, and 81·0–88·3% for the prediction of prolonged hospital stay). For survival prediction, CovRNN achieved a concordance index of 86·0% (95% CI 85·1–86·9) for in-hospital mortality and 92·6% (92·2–93·0) for mechanical ventilation. <br/>
 
-[**PK-RNN-V E: A Deep Learning Model Approach to Vancomycin Therapeutic Drug Monitoring Using Electronic Health Record Data**](https://www.sciencedirect.com/science/article/pii/S1532046422001782?via%3Dihub) 
-
-*Journal of Biomedical Informatics, September 2022.* <br/>
-
-Masayuki Nigo, Hong Thoai Nga Tran, Ziqian Xie, Han Feng, **Bingyu Mao**,  Laila Rasmy, Hongyu Miao,  Degui Zhi  <br/>
-
-**Abstract**: Vancomycin is a commonly used antimicrobial in hospitals, and therapeutic drug monitoring (TDM) is required to optimize its efficacy and avoid toxicities. Bayesian models are currently recommended to predict the antibiotic levels. These models, however, although using carefully designed lab observations, were often developed in limited patient populations. The increasing availability of electronic health record (EHR) data offers an opportunity to develop TDM models for real-world patient populations. 
-
-Here, we present a deep learning-based pharmacokinetic prediction model for vancomycin (PK-RNN-V E) using a large EHR dataset of 5,483 patients with 55,336 vancomycin administrations. PK-RNN-V E takes the patient’s real-time sparse and irregular observations and offers dynamic predictions. Our results show that RNN-PK-V E offers a root mean squared error (RMSE) of 5.39 and outperforms the traditional Bayesian model (VTDM model) with an RMSE of 6.29. We believe that PK-RNN-V E can provide a pharmacokinetic model for vancomycin and other antimicrobials that require TDM. Statement of Significance Problem Current traditional Bayesian models for vancomycin levels were tested in only a limited patient population and take limited patient-specific features. Hence, a more flexible and powerful model, such as deep-learning models, may provide significant advantages. 
-
-What is Already Known: The Bayesian models do not predict the vancomycin levels well in patient populations with unstable hemodynamic status and fluctuating kidney functions. 
-
-What this Paper Adds: Deep-learning based pharmacokinetic model for vancomycin (PK-RNN-V E) provided better prediction accuracy with integrating multiple patient-specific features from time sequence electronic health record data. This study proved the concept of model. <br/>
 
 ## Presentations
 
-[**Med-BERT v2: clinical foundation model on standardized secondary clinical data**](https://www.researchgate.net/publication/361569724_Med-BERT_v2_clinical_foundation_model_on_standardized_secondary_clinical_data) <br/>
+[**Med-BERT v2: clinical foundation model on standardized secondary clinical data**](/files/MBV2.pdf) <br/>
 
 Laila Rasmy, Yan Chu, **Bingyu Mao**, Khush Patel, Zhao Li, Hao Yan, Ziqian Xie, Wenjin Zheng, Hua Xu, Degui Zhi <br/>
 
