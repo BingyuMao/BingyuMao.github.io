@@ -95,12 +95,8 @@ Mar 2022 - Present
 
 ## Skills
 
-### Expert
-Python • R • MATLAB
+**Programming Languages:** Python • R • MATLAB • SQL • Java • C++ • C
 
-Github • Latex
+**Frameworks:** PyTorch • scikit-learn • Keras • TensorFlow
 
-### Intermediate
-
-Java • C++ • C
-
+**Tools:** GitHub • LaTex
