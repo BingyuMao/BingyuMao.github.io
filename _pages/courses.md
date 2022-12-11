@@ -13,7 +13,7 @@ author_profile: true
 
 [BMI 5311](https://sbmi.uth.edu/current-students/catalog-of-courses-bmi/bmi-5311.htm) Foundations of Biomedical Information Sciences II
 
-[BMI 6313](https://sbmi.uth.edu/current-students/catalog-of-courses-bmi/bmi-6313.htm) Scientific Writing in Healthcare
+[BMI 6313](https://sbmi.uth.edu/current-students/catalog-of-courses-bmi/bmi-6313.htm) Scientific Writing in Healthcare ([Poster](/files/6313Poster.pdf))
 
 [BMI 7302](https://sbmi.uth.edu/current-students/catalog-of-courses-bmi/bmi-7302.htm) Theories and Frameworks for Biomedical Informatics Research ([Poster](/files/7302Poster.pdf))
 
@@ -24,6 +24,8 @@ author_profile: true
 ## Data Science
 
 [BMI 5007](https://sbmi.uth.edu/current-students/catalog-of-courses-bmi/bmi-5007.htm) Methods in Health Data Science ([Code Repository](https://github.com/BingyuMao/mtds_health_data))
+
+[BMI 6318](https://sbmi.uth.edu/current-students/catalog-of-courses-bmi/bmi-6318.htm) Big Data in Biomedical Informatics 
 
 [BMI 6319](https://sbmi.uth.edu/current-students/catalog-of-courses-bmi/bmi-6319.htm) Data Analysis for Scientific Research in Biomedical Informatics ([Code Repository](https://github.com/BingyuMao/model_comparison_mimic))
 
