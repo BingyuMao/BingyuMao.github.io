@@ -26,7 +26,7 @@ Aug 2018 - May 2020
 *Master of Arts in Mathematics*
 
 
-### [Sun Yat-Sen University](http://www.sysu.edu.cn/en/index.htm) | Guangzhou                                      
+### [Sun Yat-Sen University](https://www.sysu.edu.cn/sysuen/) | Guangzhou                                      
 
 Aug 2015 - Jun 2019
 
