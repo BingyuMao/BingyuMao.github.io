@@ -52,9 +52,9 @@ Oct 2020 - Present
 
 Precision dosing is essential for drugs that need therapeutic drug monitoring (TDM) to optimize the efficacy and avoid toxicities. Bayesian models are frequently recommended to predict antibiotic levels. However, these models were often developed in limited patient populations using carefully designed lab observations. The increasing availability of EHR data offers an opportunity for developing TDM models for real-world patient populations. 
 
-My research in this field focuses on using deep learning methods to generate vancomycin pharmacokinetic prediction models. The goal is to take the patient’s real-time sparse and irregular observations and offer dynamic predictions. PK-RNN-V E is the first deep learning-based vancomycin prediction model in the literature. It is a novel pharmacokinetics approach with RNN-based methods for vancomycin with EHR data to achieve more accurate and individualized predictions for vancomycin serum concentration in hospitalized patients. This work was presented as a poster during the AMIA 2022 Informatics Summit conference.
+My research in this field involves the use of deep learning techniques on irregularly sampled time series EHR data to generate predictive models for TDM and precision dosing. The goal is to take the patient’s real-time sparse and irregular observations and offer dynamic predictions. PK-RNN-V E is the first deep learning-based vancomycin prediction model in the literature. It is a novel pharmacokinetics approach with RNN-based methods for vancomycin with EHR data to achieve more accurate and individualized predictions for vancomycin serum concentration in hospitalized patients. This work was presented as a poster during the AMIA 2022 Informatics Summit conference.
 
-• Time-series EHR data analysis using deep learning methods
+• Deep learning-based EHR data analysis
 
 Time series EHR data analysis is challenging because it is often irregularly sampled and contains many missing values. Traditional machine learning applications are not strong enough to handle these conditions that occur in real-world data. Deep learning methods, especially recurrent neural networks (RNN), have the power to deal with time-series data; it is, as a result, popular in many time series analysis studies. 
 
