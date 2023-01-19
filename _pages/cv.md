@@ -36,6 +36,7 @@ Aug 2015 - Jun 2019
 ## Awards & Honors
 
 Aug 2020, **SBMI Dean’s Excellent Award**
+
 Feb 2022, **Second Place**, [Healthcare Innovation Collaborative](https://www.txhic.com/) 2022 Annual Case Competition
 
 Mar 2022, **SBMI Student Travel Award**: AMIA 2022 Informatics Summit
