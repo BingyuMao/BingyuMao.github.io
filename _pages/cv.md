@@ -39,7 +39,7 @@ Aug 2020, **SBMI Dean’s Excellent Award**
 
 Feb 2022, **Second Place**, [Healthcare Innovation Collaborative](https://www.txhic.com/) 2022 Annual Case Competition
 
-Mar 2022, **SBMI Student Travel Award**: AMIA 2022 Informatics Summit
+Mar 2022, **Dr. Noriaki Aoki Fund Travel Award**: AMIA 2022 Informatics Summit
 
 
 ## Academic Experience                                  
