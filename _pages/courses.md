@@ -25,7 +25,7 @@ author_profile: true
 
 [BMI 5007](https://sbmi.uth.edu/current-students/catalog-of-courses-bmi/bmi-5007.htm) Methods in Health Data Science ([Code Repository](https://github.com/BingyuMao/mtds_health_data))
 
-[BMI 6318](https://sbmi.uth.edu/current-students/catalog-of-courses-bmi/bmi-6318.htm) Big Data in Biomedical Informatics 
+[BMI 6318](https://sbmi.uth.edu/current-students/catalog-of-courses-bmi/bmi-6318.htm) Big Data in Biomedical Informatics ([Code Repository]((https://github.com/BingyuMao/big_data_hw)))
 
 [BMI 6319](https://sbmi.uth.edu/current-students/catalog-of-courses-bmi/bmi-6319.htm) Data Analysis for Scientific Research in Biomedical Informatics ([Code Repository](https://github.com/BingyuMao/model_comparison_mimic))
 
