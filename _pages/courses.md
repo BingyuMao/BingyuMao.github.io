@@ -2,7 +2,7 @@
 layout: archive
 title: "Courses"
 permalink: /courses/
-author_profile: true
+author_profile: false
 ---
 
 ## Biomedical Informatics
