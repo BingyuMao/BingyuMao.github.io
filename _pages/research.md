@@ -13,9 +13,7 @@ author_profile: false
 
 **Bingyu Mao**, Ziqian Xie, Laila Rasmy, Masayuki Nigo, Degui Zhi
 
-*IEEE ICHI 2023, June 2023* 
-
-*Houston, TX*
+*IEEE ICHI 2023, Houston, TX* 
 
   <details>
   <summary>Abstract</summary>
@@ -27,9 +25,7 @@ Vancomycin is a widely used antibiotic that requires therapeutic drug monitoring
 
 Laila Rasmy, Yan Chu, **Bingyu Mao**, Khush Patel, Zhao Li, Hao Yan, Ziqian Xie, Wenjin Zheng, Hua Xu, Degui Zhi
 
-*Machine Learning For Healthcare 2022, August 2022* 
-
-*Durham, NC*
+*Machine Learning For Healthcare 2022, Durham, NC* 
 
   <details>
   <summary>Abstract</summary>
@@ -45,9 +41,7 @@ Adding more patient information including medications and procedures are known t
 
 **Bingyu Mao**, Masayuki Nigo, Hong Thoai Nga Tran, Ziqian Xie, Han Feng, Laila Rasmy, Hongyu Miao, Degui Zhi
 
-*AMIA 2022 Informatics Summit, March 2022* 
-
-*Chicago, IL*
+*AMIA 2022 Informatics Summit, Chicago, IL* 
 
   <details>
   <summary>Abstract</summary>
@@ -59,9 +53,7 @@ Vancomycin therapeutic drug monitoring is recommended by national guidelines. We
 
 Laila Rasmy, Masayuki Nigo, Bijun Sai Kannadath, Ziqian Xie, **Bingyu Mao**, Angela Ross, Hua Xu, Degui Zhi
 
-*AMIA 2022 Informatics Summit, March 2022* 
-
-*Chicago, IL*
+*AMIA 2022 Informatics Summit, Chicago, IL* 
 
   <details>
   <summary>Abstract</summary>
