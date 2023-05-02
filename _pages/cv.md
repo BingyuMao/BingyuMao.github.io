@@ -52,15 +52,14 @@ Oct 2020 - Present
 
 • Applications of deep learning in precision dosing
 
-Precision dosing is essential for drugs that need therapeutic drug monitoring (TDM) to optimize the efficacy and avoid toxicities. Bayesian models are frequently recommended to predict antibiotic levels. However, these models were often developed in limited patient populations using carefully designed lab observations. The increasing availability of EHR data offers an opportunity for developing TDM models for real-world patient populations. 
+Precision dosing is essential for drugs that need therapeutic drug monitoring (TDM) to optimize the efficacy and avoid toxicities. Bayesian models are frequently recommended to predict drug concentrations. However, these models were often developed in limited patient populations using carefully designed lab observations. The increasing availability of EHR data offers an opportunity for developing TDM models for real-world patient populations. 
 
-My research in this field involves the use of deep learning techniques on irregularly sampled time series EHR data to generate predictive models for TDM and precision dosing. The goal is to take the patient’s real-time sparse and irregular observations and offer dynamic predictions. PK-RNN-V E is the first deep learning-based vancomycin prediction model in the literature. It is a novel pharmacokinetics approach with RNN-based methods for vancomycin with EHR data to achieve more accurate and individualized predictions for vancomycin serum concentration in hospitalized patients. This work was presented as a poster during the AMIA 2022 Informatics Summit conference.
+My research in this field involves the use of deep learning techniques on irregularly sampled time series EHR data to generate predictive models for TDM and precision dosing. The goal is to take the patient’s real-time sparse and irregular observations and offer dynamic predictions.
 
 • Deep learning-based EHR data analysis
 
 Time series EHR data analysis is challenging because it is often irregularly sampled and contains many missing values. Traditional machine learning applications are not strong enough to handle these conditions that occur in real-world data. Deep learning methods, especially recurrent neural networks (RNN), have the power to deal with time-series data; it is, as a result, popular in many time series analysis studies. 
 
-The first project I attended in this field was CovRNN, a deep learning-based model to predict COVID-19 patient outcomes on admission with a minimum level of data preprocessing. Trained on a large heterogeneous dataset, the model showed high prediction accuracy, good calibration, and consistently good performance on multiple external datasets. This work was presented as a poster during the AMIA 2022 Informatics Summit conference. Another aspect I'm focusing on in this field is the transferability of deep learning models. As a continuous study of the Med-BERT model, Med-BERT v2 is a new version of Med-BERT, adding medications and procedures data to improve the model performance in prediction tasks. It was presented as a presentation during the Machine Learning For Healthcare 2022 conference.
 
 
 ### Mathematics Department, UW-Madison | Madison
