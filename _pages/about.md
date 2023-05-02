@@ -7,6 +7,9 @@ redirect_from:
   - /about/
   - /about.html
 ---
+
+{% include base_path %}
+
 <!-- <img src=https://github.com/bingyumao/bingyumao.github.io/tree/master/images/profile.jpg style="width:540px;height:740px;"> -->
 
 <!--![github small](/images/profile.jpg) -->
