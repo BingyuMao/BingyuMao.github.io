@@ -46,6 +46,7 @@ CovRNN binary models achieved AUROCs of 93·0% (95% CI 92·6–93·4) for the pr
 
 Laila Rasmy, Yan Chu, **Bingyu Mao**, Khush Patel, Zhao Li, Hao Yan, Ziqian Xie, Wenjin Zheng, Hua Xu, Degui Zhi <br/>
 
+
 **Presented at**: Machine Learning For Healthcare 2022, Durham, NC. <br/>
 
   <details>
@@ -61,6 +62,7 @@ Adding more patient information including medications and procedures are known t
 
 **Bingyu Mao**, Ziqian Xie, Laila Rasmy, Masayuki Nigo, Degui Zhi <br/>
 
+
 **Presented at**: IEEE ICHI 2023, Houston, TX. <br/>
 
   <details>
@@ -75,6 +77,7 @@ Vancomycin is a widely used antibiotic that requires therapeutic drug monitoring
 
 **Bingyu Mao**, Masayuki Nigo, Hong Thoai Nga Tran, Ziqian Xie, Han Feng, Laila Rasmy, Hongyu Miao, Degui Zhi <br/>
 
+
 **Presented at**: AMIA 2022 Informatics Summit, Chicago, IL. <br/>
 
   <details>
@@ -86,6 +89,7 @@ Vancomycin therapeutic drug monitoring is recommended by national guidelines. We
 [**A multi-aspect technical performance evaluation of deep learning based models for predicting COVID-19 patients outcomes on admission**](/files/CovRNN_poster.pdf) <br/>
 
 Laila Rasmy, Masayuki Nigo, Bijun Sai Kannadath, Ziqian Xie, **Bingyu Mao**, Angela Ross, Hua Xu, Degui Zhi <br/>
+
 
 **Presented at**: AMIA 2022 Informatics Summit, Chicago, IL. <br/>
 
