@@ -44,7 +44,7 @@ Mar 2022, **Dr. Noriaki Aoki Fund Travel Award**: AMIA 2022 Informatics Summit
 
 ## Academic Experience                                  
 
-### School of Biomedical Informatics, UTHealth | Houston
+### McWilliams School of Biomedical Informatics, UTHealth | Houston
 
 Oct 2020 - Present
 
