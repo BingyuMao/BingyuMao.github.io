@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-<img src="/images/profile.jpg" alt="drawing" width="300" height="180" style="float: left; padding-right:15px"/> <br>
+<img src="/images/profile.JPG" alt="drawing" width="200" height="200" style="float: left; padding-right:15px"/> <br>
 
 Bingyu Mao (毛冰玉)
 
