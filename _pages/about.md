@@ -10,7 +10,6 @@ redirect_from:
 
 {% include base_path %}
 
-<img src=https://github.com/bingyumao/bingyumao.github.io/tree/master/images/profile.jpg style="width:540px;height:740px;">
 
 ![github small](/images/profile.jpg)
 
@@ -21,4 +20,4 @@ I am now working as a Graduate Research Assistant in [Dr. Degui Zhi's group](htt
 
 Contact me at: [Bingyu.Mao@uth.tmc.edu](mailto:Bingyu.Mao@uth.tmc.edu) <br>
 
-Read more: [GitHub](https://github.com/BingyuMao)  • [LinkedIn](https://www.linkedin.com/in/bingyu-mao/)
+Read more: [GitHub](https://github.com/BingyuMao) • [Google Scholar]([https://www.linkedin.com/in/bingyu-mao/](https://scholar.google.com/citations?user=GVs3qjUAAAAJ&hl=en)) • [LinkedIn](https://www.linkedin.com/in/bingyu-mao/)
