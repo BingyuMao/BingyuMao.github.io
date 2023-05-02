@@ -7,8 +7,6 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
-
 
 ## Education
 
@@ -50,16 +48,9 @@ Oct 2020 - Present
 
 *Graduate Research Assistant*
 
-• Applications of deep learning in precision dosing
+- Applications of deep learning in precision dosing
 
-Precision dosing is essential for drugs that need therapeutic drug monitoring (TDM) to optimize the efficacy and avoid toxicities. Bayesian models are frequently recommended to predict drug concentrations. However, these models were often developed in limited patient populations using carefully designed lab observations. The increasing availability of EHR data offers an opportunity for developing TDM models for real-world patient populations. 
-
-My research in this field involves the use of deep learning techniques on irregularly sampled time series EHR data to generate predictive models for TDM and precision dosing. The goal is to take the patient’s real-time sparse and irregular observations and offer dynamic predictions.
-
-• Deep learning-based EHR data analysis
-
-Time series EHR data analysis is challenging because it is often irregularly sampled and contains many missing values. Traditional machine learning applications are not strong enough to handle these conditions that occur in real-world data. Deep learning methods, especially recurrent neural networks (RNN), have the power to deal with time-series data; it is, as a result, popular in many time series analysis studies. 
-
+- Deep learning-based EHR data analysis
 
 
 ### Mathematics Department, UW-Madison | Madison
@@ -77,13 +68,10 @@ Jul 2019 - Aug 2019
 
 *Natural Language Processing Research Intern*
 
-• Standardization of drug terminology completed by Python: 
+- Normalized the drug dataset NCCD from the Chinese Food and Drug Administration using Python and web crawler techniques to map drugs from NCCD to RxNorm;
 
-Normalized the drug dataset NCCD from the Chinese Food and Drug Administration;
+- Labeled electronic health records (EHR) using Plato.
 
-Used web crawler technique to map drugs from NCCD to RxNorm.
-
-• Electronic medical record labeling completed by Plato.
 
 
 ## Activities
