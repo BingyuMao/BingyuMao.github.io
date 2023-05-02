@@ -15,11 +15,7 @@ Masayuki Nigo, Hong Thoai Nga Tran, Ziqian Xie, Han Feng, **Bingyu Mao**,  Laila
 
 **Abstract**: Vancomycin is a commonly used antimicrobial in hospitals, and therapeutic drug monitoring (TDM) is required to optimize its efficacy and avoid toxicities. Bayesian models are currently recommended to predict the antibiotic levels. These models, however, although using carefully designed lab observations, were often developed in limited patient populations. The increasing availability of electronic health record (EHR) data offers an opportunity to develop TDM models for real-world patient populations. 
 
-Here, we present a deep learning-based pharmacokinetic prediction model for vancomycin (PK-RNN-V E) using a large EHR dataset of 5,483 patients with 55,336 vancomycin administrations. PK-RNN-V E takes the patient’s real-time sparse and irregular observations and offers dynamic predictions. Our results show that RNN-PK-V E offers a root mean squared error (RMSE) of 5.39 and outperforms the traditional Bayesian model (VTDM model) with an RMSE of 6.29. We believe that PK-RNN-V E can provide a pharmacokinetic model for vancomycin and other antimicrobials that require TDM. Statement of Significance Problem Current traditional Bayesian models for vancomycin levels were tested in only a limited patient population and take limited patient-specific features. Hence, a more flexible and powerful model, such as deep-learning models, may provide significant advantages. 
-
-What is Already Known: The Bayesian models do not predict the vancomycin levels well in patient populations with unstable hemodynamic status and fluctuating kidney functions. 
-
-What this Paper Adds: Deep-learning based pharmacokinetic model for vancomycin (PK-RNN-V E) provided better prediction accuracy with integrating multiple patient-specific features from time sequence electronic health record data. This study proved the concept of model. <br/>
+Here, we present a deep learning-based pharmacokinetic prediction model for vancomycin (PK-RNN-V E) using a large EHR dataset of 5,483 patients with 55,336 vancomycin administrations. PK-RNN-V E takes the patient’s real-time sparse and irregular observations and offers dynamic predictions. Our results show that RNN-PK-V E offers a root mean squared error (RMSE) of 5.39 and outperforms the traditional Bayesian model (VTDM model) with an RMSE of 6.29. We believe that PK-RNN-V E can provide a pharmacokinetic model for vancomycin and other antimicrobials that require TDM. Statement of Significance Problem Current traditional Bayesian models for vancomycin levels were tested in only a limited patient population and take limited patient-specific features. Hence, a more flexible and powerful model, such as deep-learning models, may provide significant advantages. <br/>
 
 
 [**Recurrent neural network models (CovRNN) for predicting outcomes of patients with COVID-19 on admission to hospital: model development and validation using electronic health record data**](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(22)00049-8/fulltext) 
@@ -46,6 +42,16 @@ Laila Rasmy, Yan Chu, **Bingyu Mao**, Khush Patel, Zhao Li, Hao Yan, Ziqian Xie,
 Adding more patient information including medications and procedures are known to further increase the prediction accuracy for many clinical tasks. However, when we use the earlier version of Med-BERT trained on diagnoses information alone and add to it randomly initialized embeddings for medications and procedures, the magnitude of performance boost it offers deteriorates. Therefore, we trained a new version of Med-BERT adding medications and procedures data. Additionally, we compared the performance of the Med-BERT model trained on claims data (MBv2-Claims) versus the model originally trained on EHR data (MBv2-EHR) to evaluate the generalizability of our approach as well as the generalizability of the pre-trained model. <br/>
 
 **Presented at**: Machine Learning For Healthcare 2022, Durham, NC. <br/>
+
+
+[**A deep-learning-based two-compartment predictive model (PKRNN-2CM) for vancomycin therapeutic drug monitoring**](/files/ICHI_v2.pdf) <br/>
+
+**Bingyu Mao**, Ziqian Xie, Laila Rasmy, Masayuki Nigo, Degui Zhi <br/>
+
+**Abstract**: Vancomycin (VAN) is a widely used antibiotic that requires therapeutic drug monitoring (TDM) for optimized individual dosage. The pharmacokinetic (PK) parameters for VAN TDM can be estimated using deep learning techniques that have the advantage of handling irregularly sampled time series electronic health record (EHR) data. When developing population VAN PK models in adults, a two-compartment model is most commonly considered. This study developed a two-compartment VAN TDM model (PKRNN-2CM) with recurrent neural network (RNN) to predict vancomycin concentration and compared its performance with a one-compartment deep-learning predictive model (PKRNN). A p-value of 0.01 indicates that the PKRNN-2CM model outperformed the PKRNN model. Additional model evaluation done with simulation indicate that the PKRNN-2CM model outperforms the PKRNN model, even at unsampled time points. Our findings have the potential to improve the accuracy and effectiveness of personalized VAN TDM, leading to better clinical outcomes for patients receiving VAN. <br/>
+
+**Presented at**: IEEE ICHI 2023, Houston, TX. <br/>
+
 
 ## Posters
 
