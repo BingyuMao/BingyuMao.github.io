@@ -2,7 +2,7 @@
 layout: archive
 title: "Publications"
 permalink: /publications/
-author_profile: true
+author_profile: false
 ---
 
 [**PK-RNN-V E: A Deep Learning Model Approach to Vancomycin Therapeutic Drug Monitoring Using Electronic Health Record Data**](https://www.sciencedirect.com/science/article/pii/S1532046422001782?via%3Dihub) 
