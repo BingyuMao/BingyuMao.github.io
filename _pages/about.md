@@ -12,9 +12,9 @@ redirect_from:
 
 Bingyu Mao (毛冰玉)
 
-Ph.D. candidate at the [McWilliams School of Biomedical Informatics](https://sbmi.uth.edu/), [The University of Texas Health Science Center at Houston](https://www.uth.edu/)
+*Ph.D. candidate* at the [McWilliams School of Biomedical Informatics](https://sbmi.uth.edu/), [The University of Texas Health Science Center at Houston](https://www.uth.edu/)
 
-Graduate Research Assistant in [Dr. Degui Zhi's group](https://zhigroup.github.io/), [Center for Artificial Intelligence and Genome Informatics](https://sbmi.uth.edu/aigi)
+*Graduate Research Assistant* in [Dr. Degui Zhi's group](https://zhigroup.github.io/), [Center for Artificial Intelligence and Genome Informatics](https://sbmi.uth.edu/aigi)
 
 
 **Research interests:**  deep learning, mathematical modeling, data science
