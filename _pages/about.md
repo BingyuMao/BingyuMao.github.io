@@ -1,12 +1,14 @@
 ---
 permalink: /
-title:  "About"
+title:  "About me"
 excerpt: ""
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+
+<img src="/images/profile.jpg" alt="drawing" width="300" height="180" style="float: left; padding-right:15px"/> 
 
 Bingyu Mao (毛冰玉)
 
@@ -15,7 +17,7 @@ PhD candidate at the [McWilliams School of Biomedical Informatics](https://sbmi.
 Graduate Research Assistant in [Dr. Degui Zhi's group](https://zhigroup.github.io/), [Center for Artificial Intelligence and Genome Informatics](https://sbmi.uth.edu/aigi)  <br>
 
 
-**Research interests:**  deep learning, mathematical modeling, healthcare data analysis
+**Research interests:**  deep learning, mathematical modeling, data science
 
 **Contact me:** [Bingyu.Mao@uth.tmc.edu](mailto:Bingyu.Mao@uth.tmc.edu) <br>
 
