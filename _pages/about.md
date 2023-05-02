@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-<img src="/images/profile.jpg" alt="drawing" width="300" height="180" style="float: left; padding-right:15px"/> 
+<img src="/images/profile.jpg" alt="drawing" width="300" height="180" style="float: left; padding-right:15px"/> <br>
 
-Bingyu Mao (毛冰玉)
+Bingyu Mao (毛冰玉) <br>
 
 PhD candidate at the [McWilliams School of Biomedical Informatics](https://sbmi.uth.edu/), [The University of Texas Health Science Center at Houston](https://www.uth.edu/) <br>
 
