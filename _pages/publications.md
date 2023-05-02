@@ -7,9 +7,9 @@ author_profile: false
 
 [**PK-RNN-V E: A Deep Learning Model Approach to Vancomycin Therapeutic Drug Monitoring Using Electronic Health Record Data**](https://www.sciencedirect.com/science/article/pii/S1532046422001782?via%3Dihub) 
 
-Masayuki Nigo, Hong Thoai Nga Tran, Ziqian Xie, Han Feng, **Bingyu Mao**,  Laila Rasmy, Hongyu Miao,  Degui Zhi  <br/>
+Masayuki Nigo, Hong Thoai Nga Tran, Ziqian Xie, Han Feng, **Bingyu Mao**,  Laila Rasmy, Hongyu Miao,  Degui Zhi
 
-*Journal of Biomedical Informatics, August 2022.* <br/>
+*Journal of Biomedical Informatics, August 2022*
 
   <details>
   <summary>Abstract</summary>
@@ -21,9 +21,9 @@ Here, we present a deep learning-based pharmacokinetic prediction model for vanc
 
 [**Recurrent neural network models (CovRNN) for predicting outcomes of patients with COVID-19 on admission to hospital: model development and validation using electronic health record data**](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(22)00049-8/fulltext) 
 
-Laila Rasmy, Masayuki Nigo, Bijun Sai Kannadath, Ziqian Xie, **Bingyu Mao**, Khush Patel, Yujia Zhou, Wanheng Zhang, Angela Ross, Hua Xu, Degui Zhi  <br/>
+Laila Rasmy, Masayuki Nigo, Bijun Sai Kannadath, Ziqian Xie, **Bingyu Mao**, Khush Patel, Yujia Zhou, Wanheng Zhang, Angela Ross, Hua Xu, Degui Zhi
 
-*The Lancet Digital Health, April 2022.* <br/>
+*The Lancet Digital Health, April 2022*
 
   <details>
   <summary>Abstract</summary>
