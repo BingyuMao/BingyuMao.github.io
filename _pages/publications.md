@@ -7,10 +7,9 @@ author_profile: false
 
 [**PK-RNN-V E: A Deep Learning Model Approach to Vancomycin Therapeutic Drug Monitoring Using Electronic Health Record Data**](https://www.sciencedirect.com/science/article/pii/S1532046422001782?via%3Dihub) 
 
-*Journal of Biomedical Informatics, August 2022.* <br/>
-
 Masayuki Nigo, Hong Thoai Nga Tran, Ziqian Xie, Han Feng, **Bingyu Mao**,  Laila Rasmy, Hongyu Miao,  Degui Zhi  <br/>
 
+*Journal of Biomedical Informatics, August 2022.* <br/>
 
   <details>
   <summary>Abstract</summary>
@@ -22,10 +21,9 @@ Here, we present a deep learning-based pharmacokinetic prediction model for vanc
 
 [**Recurrent neural network models (CovRNN) for predicting outcomes of patients with COVID-19 on admission to hospital: model development and validation using electronic health record data**](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(22)00049-8/fulltext) 
 
-*The Lancet Digital Health, April 2022.* <br/>
-
 Laila Rasmy, Masayuki Nigo, Bijun Sai Kannadath, Ziqian Xie, **Bingyu Mao**, Khush Patel, Yujia Zhou, Wanheng Zhang, Angela Ross, Hua Xu, Degui Zhi  <br/>
 
+*The Lancet Digital Health, April 2022.* <br/>
 
   <details>
   <summary>Abstract</summary>
@@ -35,13 +33,3 @@ In this study, we developed recurrent neural network-based models (CovRNN) to pr
 
 CovRNN binary models achieved AUROCs of 93·0% (95% CI 92·6–93·4) for the prediction of in-hospital mortality, 92·9% (92·6–93·2) for the prediction of mechanical ventilation, and 86·5% (86·2–86·9) for the prediction of a prolonged hospital stay, outperforming light gradient boost machine and logistic regression algorithms. External validation confirmed AUROCs in similar ranges (91·3–97·0% for in-hospital mortality prediction, 91·5–96·0% for the prediction of mechanical ventilation, and 81·0–88·3% for the prediction of prolonged hospital stay). For survival prediction, CovRNN achieved a concordance index of 86·0% (95% CI 85·1–86·9) for in-hospital mortality and 92·6% (92·2–93·0) for mechanical ventilation. <br/>
 </details>
-
-
-
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
