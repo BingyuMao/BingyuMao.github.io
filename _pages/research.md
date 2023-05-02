@@ -9,12 +9,13 @@ author_profile: false
 ## Presentations
 
 
-[**A deep-learning-based two-compartment predictive model (PKRNN-2CM) for vancomycin therapeutic drug monitoring**](/files/ICHI_v2.pdf) <br/>
+[**A deep-learning-based two-compartment predictive model (PKRNN-2CM) for vancomycin therapeutic drug monitoring**](/files/ICHI_v2.pdf) 
 
-**Bingyu Mao**, Ziqian Xie, Laila Rasmy, Masayuki Nigo, Degui Zhi <br/>
+**Bingyu Mao**, Ziqian Xie, Laila Rasmy, Masayuki Nigo, Degui Zhi
 
+*IEEE ICHI 2023, June 2023* 
 
-**Presented at**: IEEE ICHI 2023, Houston, TX. <br/>
+*Houston, TX*
 
   <details>
   <summary>Abstract</summary>
@@ -22,12 +23,13 @@ Vancomycin is a widely used antibiotic that requires therapeutic drug monitoring
 </details>
 
 
-[**Med-BERT v2: clinical foundation model on standardized secondary clinical data**](/files/MBV2.pdf) <br/>
+[**Med-BERT v2: clinical foundation model on standardized secondary clinical data**](/files/MBV2.pdf)
 
-Laila Rasmy, Yan Chu, **Bingyu Mao**, Khush Patel, Zhao Li, Hao Yan, Ziqian Xie, Wenjin Zheng, Hua Xu, Degui Zhi <br/>
+Laila Rasmy, Yan Chu, **Bingyu Mao**, Khush Patel, Zhao Li, Hao Yan, Ziqian Xie, Wenjin Zheng, Hua Xu, Degui Zhi
 
+*Machine Learning For Healthcare 2022, August 2022* 
 
-**Presented at**: Machine Learning For Healthcare 2022, Durham, NC. <br/>
+*Durham, NC*
 
   <details>
   <summary>Abstract</summary>
@@ -39,12 +41,13 @@ Adding more patient information including medications and procedures are known t
 
 ## Posters
 
-[**Technical Performance Evaluation of a Deep Learning-based Vancomycin Therapeutic Drug Monitoring Model**](/files/PKRNN_Poster.pdf) <br/>
+[**Technical Performance Evaluation of a Deep Learning-based Vancomycin Therapeutic Drug Monitoring Model**](/files/PKRNN_Poster.pdf)
 
-**Bingyu Mao**, Masayuki Nigo, Hong Thoai Nga Tran, Ziqian Xie, Han Feng, Laila Rasmy, Hongyu Miao, Degui Zhi <br/>
+**Bingyu Mao**, Masayuki Nigo, Hong Thoai Nga Tran, Ziqian Xie, Han Feng, Laila Rasmy, Hongyu Miao, Degui Zhi
 
+*AMIA 2022 Informatics Summit, March 2022* 
 
-**Presented at**: AMIA 2022 Informatics Summit, Chicago, IL. <br/>
+*Chicago, IL*
 
   <details>
   <summary>Abstract</summary>
@@ -52,12 +55,13 @@ Vancomycin therapeutic drug monitoring is recommended by national guidelines. We
 </details>
 
 
-[**A multi-aspect technical performance evaluation of deep learning based models for predicting COVID-19 patients outcomes on admission**](/files/CovRNN_poster.pdf) <br/>
+[**A multi-aspect technical performance evaluation of deep learning based models for predicting COVID-19 patients outcomes on admission**](/files/CovRNN_poster.pdf)
 
-Laila Rasmy, Masayuki Nigo, Bijun Sai Kannadath, Ziqian Xie, **Bingyu Mao**, Angela Ross, Hua Xu, Degui Zhi <br/>
+Laila Rasmy, Masayuki Nigo, Bijun Sai Kannadath, Ziqian Xie, **Bingyu Mao**, Angela Ross, Hua Xu, Degui Zhi
 
+*AMIA 2022 Informatics Summit, March 2022* 
 
-**Presented at**: AMIA 2022 Informatics Summit, Chicago, IL. <br/>
+*Chicago, IL*
 
   <details>
   <summary>Abstract</summary>
