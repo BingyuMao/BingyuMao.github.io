@@ -48,9 +48,9 @@ Oct 2020 - Present
 
 *Graduate Research Assistant*
 
-- Applications of deep learning in precision dosing
+•  Applications of deep learning in precision dosing
 
-- Deep learning-based EHR data analysis
+• Deep learning-based EHR data analysis
 
 
 ### Mathematics Department, UW-Madison | Madison
@@ -68,10 +68,13 @@ Jul 2019 - Aug 2019
 
 *Natural Language Processing Research Intern*
 
-- Normalized the drug dataset NCCD from the Chinese Food and Drug Administration using Python and web crawler techniques to map drugs from NCCD to RxNorm;
+• Standardization of drug terminology completed by Python:
 
-- Labeled electronic health records (EHR) using Plato.
+Normalized the drug dataset NCCD from the Chinese Food and Drug Administration;
 
+Used web crawler technique to map drugs from NCCD to RxNorm.
+
+• EHR labeling completed by Plato.
 
 
 ## Activities
