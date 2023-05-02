@@ -10,12 +10,10 @@ redirect_from:
 
 {% include base_path %}
 
-<!-- <img src=https://github.com/bingyumao/bingyumao.github.io/tree/master/images/profile.jpg style="width:540px;height:740px;"> -->
+<img src=https://github.com/bingyumao/bingyumao.github.io/tree/master/images/profile.jpg style="width:540px;height:740px;">
 
-<!--![github small](/images/profile.jpg) -->
-<!--<img src="/images/profile.jpg" alt="drawing" width="500" height="400" style="float: left; padding-right:15px"/> -->
+![github small](/images/profile.jpg)
 
-<img src="/images/profile.jpg" alt="drawing" width="500" height="400" style="float: center"/> <br>
 
 My name is Bingyu Mao (毛冰玉), I am a PhD candidate at the [McWilliams School of Biomedical Informatics](https://sbmi.uth.edu/), [The University of Texas Health Science Center at Houston](https://www.uth.edu/). My research interest involves the use of deep learning techniques on irregularly sampled time series electronic health record (EHR) data to generate predictive models for therapeutic drug monitoring (TDM) and precision dosing. 
 I am now working as a Graduate Research Assistant in [Dr. Degui Zhi's group](https://zhigroup.github.io/), [Center for Artificial Intelligence and Genome Informatics](https://sbmi.uth.edu/aigi).  <br>
