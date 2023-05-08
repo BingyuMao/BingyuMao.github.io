@@ -81,7 +81,7 @@ Used web crawler technique to map drugs from NCCD to RxNorm.
 
 ### [SBMI Student Governance Organization](https://sbmi.uth.edu/current-students/sgo.htm), UTHealth
 
-Mar 2022 - Present
+Mar 2022 - May 2023
 
 *Academics Committee, International Student Committee*
 
