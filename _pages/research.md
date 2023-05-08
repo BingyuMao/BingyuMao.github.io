@@ -13,7 +13,7 @@ author_profile: false
 
 **Bingyu Mao**, Ziqian Xie, Laila Rasmy, Masayuki Nigo, Degui Zhi
 
-*IEEE ICHI 2023, Houston, TX* 
+*2023 IEEE 11th International Conference on Healthcare Informatics (ICHI), Houston, TX* 
 
   <details>
   <summary>Abstract</summary>
