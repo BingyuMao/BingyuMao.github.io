@@ -9,7 +9,7 @@ author_profile: false
 ## Presentations
 
 
-[**A deep-learning-based two-compartment predictive model (PKRNN-2CM) for vancomycin therapeutic drug monitoring**](/files/ICHI_v2.pdf) 
+[**A deep-learning-based two-compartment predictive model (PKRNN-2CM) for vancomycin therapeutic drug monitoring**](/files/2023ICHI.pdf) 
 
 **Bingyu Mao**, Ziqian Xie, Laila Rasmy, Masayuki Nigo, Degui Zhi
 
