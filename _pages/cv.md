@@ -39,6 +39,8 @@ Feb 2022, **Second Place**, [Healthcare Innovation Collaborative](https://www.tx
 
 Mar 2022, **Dr. Noriaki Aoki Fund Travel Award**: AMIA 2022 Informatics Summit
 
+May 2023, **Travel Award**: 2023 IEEE 11th International Conference on Healthcare Informatics (ICHI)
+
 
 ## Academic Experience                                  
 
