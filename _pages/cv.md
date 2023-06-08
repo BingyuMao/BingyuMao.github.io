@@ -33,13 +33,13 @@ Aug 2015 - Jun 2019
 
 ## Awards & Honors
 
-Aug 2020, **SBMI Dean’s Excellent Award**
-
-Feb 2022, **Second Place**, [Healthcare Innovation Collaborative](https://www.txhic.com/) 2022 Annual Case Competition
+May 2023, **Travel Award**: 2023 IEEE 11th International Conference on Healthcare Informatics (ICHI)
 
 Mar 2022, **Dr. Noriaki Aoki Fund Travel Award**: AMIA 2022 Informatics Summit
 
-May 2023, **Travel Award**: 2023 IEEE 11th International Conference on Healthcare Informatics (ICHI)
+Feb 2022, **Second Place**, [Healthcare Innovation Collaborative](https://www.txhic.com/) 2022 Annual Case Competition
+
+Aug 2020, **SBMI Dean’s Excellent Award**
 
 
 ## Academic Experience                                  
