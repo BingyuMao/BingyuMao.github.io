@@ -33,7 +33,7 @@ Aug 2015 - Jun 2019
 
 ## Awards & Honors
 
-May 2023, **Travel Award**: 2023 IEEE 11th International Conference on Healthcare Informatics (ICHI)
+Jun 2023, **Travel Award**: 2023 IEEE 11th International Conference on Healthcare Informatics (ICHI)
 
 Mar 2022, **Dr. Noriaki Aoki Fund Travel Award**: AMIA 2022 Informatics Summit
 
@@ -86,6 +86,15 @@ Used web crawler technique to map drugs from NCCD to RxNorm.
 Mar 2022 - May 2023
 
 *Academics Committee, International Student Committee*
+
+
+### 2023 IEEE 11th International Conference on Healthcare Informatics (ICHI)
+
+Jun 2023
+
+*Session Chair*
+
+
 
 ## Skills
 
