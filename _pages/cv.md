@@ -50,9 +50,9 @@ Oct 2020 - Present
 
 *Graduate Research Assistant*
 
-•  Applications of deep learning in precision dosing
+• Applications of deep learning in precision dosing
 
-• Deep learning-based EHR data analysis
+• Deep learning-based time-series EHR data analysis
 
 
 ### Mathematics Department, UW-Madison | Madison
