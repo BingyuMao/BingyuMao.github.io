@@ -52,6 +52,9 @@ Aug 2023 - Present
 
 Assist in the Deep Learning in Biomedical Informatics (BMI 6334) course.
 
+
+### McWilliams School of Biomedical Informatics, UTHealth | Houston
+
 Oct 2020 - Present
 
 *Graduate Research Assistant*
