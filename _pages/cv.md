@@ -46,6 +46,12 @@ Aug 2020, **SBMI Dean’s Excellent Award**
 
 ### McWilliams School of Biomedical Informatics, UTHealth | Houston
 
+Aug 2023 - Present
+
+*Teaching Assistant*
+
+Assist in the Deep Learning in Biomedical Informatics (BMI 6334) course.
+
 Oct 2020 - Present
 
 *Graduate Research Assistant*
@@ -61,7 +67,7 @@ Sep 2019 - May 2020
 
 *Project Assistant*
 
-Assisted in courses: Numerical Analysis, Analysis I, and Computational Mathematics. 
+Assisted in courses: Numerical Analysis (MATH 514), Analysis I (MATH 521), and Computational Mathematics (MATH 714). 
 
 
 ### Digital China Health | Beijing 
