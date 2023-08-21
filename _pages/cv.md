@@ -33,6 +33,8 @@ Aug 2015 - Jun 2019
 
 ## Awards & Honors
 
+Aug 2023, **James Turley Endowed Scholarship for Global Health Award**
+
 Jun 2023, **Travel Award**: 2023 IEEE 11th International Conference on Healthcare Informatics (ICHI)
 
 Mar 2022, **Dr. Noriaki Aoki Fund Travel Award**: AMIA 2022 Informatics Summit
