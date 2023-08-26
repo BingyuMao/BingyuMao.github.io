@@ -92,6 +92,13 @@ Used web crawler technique to map drugs from NCCD to RxNorm.
 
 ## Activities
 
+### HIMSS24 Global Health Conference & Exhibition
+
+Aug 2023
+
+*Reviewer*
+
+
 ### 2023 IEEE 11th International Conference on Healthcare Informatics (ICHI)
 
 Jun 2023
