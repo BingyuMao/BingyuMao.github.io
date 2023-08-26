@@ -50,7 +50,7 @@ Aug 2020, **SBMI Dean’s Excellent Award**
 
 Aug 2023 - Present
 
-*Teaching Assistant*
+*Graduate Teaching Assistant*
 
 Assist in the Deep Learning in Biomedical Informatics (BMI 6334) course.
 
