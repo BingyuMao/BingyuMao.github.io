@@ -92,7 +92,7 @@ Used web crawler technique to map drugs from NCCD to RxNorm.
 
 ## Activities
 
-### HIMSS24 Global Health Conference & Exhibition
+### 2024 HIMSS Global Health Conference & Exhibition
 
 Aug 2023
 
