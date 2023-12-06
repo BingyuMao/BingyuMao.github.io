@@ -61,9 +61,9 @@ Oct 2020 - Present
 
 *Graduate Research Assistant*
 
-• Applications of deep learning in precision dosing
+• Deep learning-based pharmacokinetic (PK) modeling for precision dosing
 
-• Deep learning-based time-series EHR data analysis
+• Time-series EHR data analysis with deep learning
 
 
 ### Mathematics Department, UW-Madison | Madison
@@ -81,14 +81,9 @@ Jul 2019 - Aug 2019
 
 *Natural Language Processing Research Intern*
 
-• Standardization of drug terminology completed by Python:
+• Conducted drug name normalization and mapping using web crawler techniques;
 
-Normalized the drug dataset NCCD from the Chinese Food and Drug Administration;
-
-Used web crawler technique to map drugs from NCCD to RxNorm.
-
-• EHR labeling completed by Plato.
-
+• Completed EHR labeling tasks using Plato.
 
 ## Activities
 
@@ -102,8 +97,8 @@ Mar 2022 - May 2023, **[SBMI Student Governance Organization](https://sbmi.uth.e
 
 ## Skills
 
-**Programming Languages:** Python • R • MATLAB • SQL • Java • C++ • C
+**Programming Languages:** Python • R • SQL • MATLAB • Java • C++ • C
 
-**Frameworks:** PyTorch • scikit-learn • Keras • TensorFlow
+**Frameworks:** PyTorch • TensorFlow • scikit-learn • Keras • MongoDB • Apache Pyspark
 
-**Tools:** GitHub • LaTex
+**Tools:** GitHub • Docker • Tableau • LaTex
