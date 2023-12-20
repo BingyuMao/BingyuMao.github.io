@@ -48,15 +48,6 @@ Aug 2020, **SBMI Dean’s Excellent Award**
 
 ### McWilliams School of Biomedical Informatics, UTHealth | Houston
 
-Aug 2023 - Present
-
-*Graduate Teaching Assistant*
-
-Assist in the Deep Learning in Biomedical Informatics (BMI 6334) course.
-
-
-### McWilliams School of Biomedical Informatics, UTHealth | Houston
-
 Oct 2020 - Present
 
 *Graduate Research Assistant*
@@ -65,6 +56,13 @@ Oct 2020 - Present
 
 • Time-series EHR data analysis with deep learning
 
+### McWilliams School of Biomedical Informatics, UTHealth | Houston
+
+Aug 2023 - Dec 2023
+
+*Graduate Teaching Assistant*
+
+Assist in the Deep Learning in Biomedical Informatics (BMI 6334) course.
 
 ### Mathematics Department, UW-Madison | Madison
 
