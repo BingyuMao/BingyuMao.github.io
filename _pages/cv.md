@@ -52,9 +52,9 @@ Oct 2020 - Present
 
 *Graduate Research Assistant*
 
-• Deep learning-based pharmacokinetic (PK) modeling for precision dosing
+• Deep learning-based pharmacokinetic (PK) modeling for precision dosing;
 
-• Time-series EHR data analysis with deep learning
+• Time-series EHR data analysis with deep learning.
 
 ### McWilliams School of Biomedical Informatics, UTHealth | Houston
 
@@ -62,7 +62,7 @@ Aug 2023 - Dec 2023
 
 *Graduate Teaching Assistant*
 
-Assist in the Deep Learning in Biomedical Informatics (BMI 6334) course.
+Assisted in the Deep Learning in Biomedical Informatics (BMI 6334) course.
 
 ### Mathematics Department, UW-Madison | Madison
 
