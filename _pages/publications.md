@@ -33,3 +33,22 @@ In this study, we developed recurrent neural network-based models (CovRNN) to pr
 
 CovRNN binary models achieved AUROCs of 93·0% (95% CI 92·6–93·4) for the prediction of in-hospital mortality, 92·9% (92·6–93·2) for the prediction of mechanical ventilation, and 86·5% (86·2–86·9) for the prediction of a prolonged hospital stay, outperforming light gradient boost machine and logistic regression algorithms. External validation confirmed AUROCs in similar ranges (91·3–97·0% for in-hospital mortality prediction, 91·5–96·0% for the prediction of mechanical ventilation, and 81·0–88·3% for the prediction of prolonged hospital stay). For survival prediction, CovRNN achieved a concordance index of 86·0% (95% CI 85·1–86·9) for in-hospital mortality and 92·6% (92·2–93·0) for mechanical ventilation. <br/>
 </details>
+
+
+## Preprints
+[**A deep-learning-based two-compartment predictive model (PKRNN-2CM) for vancomycin therapeutic drug monitoring**](https://www.medrxiv.org/content/10.1101/2024.01.30.24302025v1) 
+
+**Bingyu Mao**, Ziqian Xie, Masayuki Nigo, Laila Rasmy, Degui Zhi
+
+*MedRxiv, January 2024*
+
+  <details>
+  <summary>Abstract</summary>
+Objective: Vancomycin is a widely used antibiotic that requires therapeutic drug monitoring (TDM) for optimized individual dosage. The deep learning-based model PKRNN-1CM has shown the advantage of leveraging time series electronic health record (EHR) data for individualized estimation of vancomycin pharmacokinetic (PK) parameters. While one-compartment (1CM) PK models are commonly used because of their simplicity and previous trough-based clinical practices for dose adjustment, the pre-deep learning literature suggests the superiority of two-compartment models (2CM). Motivated by this, we introduce a novel deep-learning-based approach, PKRNN-2CM, for vancomycin TDM. <br/>
+    
+Methods: PKRNN-2CM combines RNN-driven PK parameter estimation with a 2CM PK model to predict vancomycin concentration trajectories. Training on both simulated data and real-world EHR data allows for a comprehensive evaluation of its performance. <br/>
+
+Results: Experiments based on simulated data highlight PKRNN-2CM's superiority over the simpler 1CM model PKRNN-1CM (PKRNN-2CM RMSE=1.30, PKRNN-1CM RMSE=2.50). Application to real data showcases significant improvement over PKRNN-1CM (PKRNN-2CM RMSE=5.62, PKRNN-1CM RMSE=5.84, two-sample unpaired t-test p-value=0.01), with potential further gains expected with non-trough level measurements.  <br/>
+
+Conclusion: PKRNN-2CM is an important improvement in vancomycin TDM, demonstrating enhanced accuracy and performance compared to the PKRNN-1CM model. This deep learning model holds potential for future individualized vancomycin TDM optimization and broader application in diverse clinical scenarios. <br/>
+</details>
