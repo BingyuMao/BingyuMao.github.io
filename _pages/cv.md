@@ -46,9 +46,15 @@ Aug 2020, **SBMI Dean’s Excellent Award**
 
 ## Academic Experience                                  
 
+### PKDM department, Sanofi | Bridgewater
+
+Feb 2024 - Present
+
+*Co-op - Pharmacokinetics, Pharmacodynamics and Drug Metabolism*
+
 ### McWilliams School of Biomedical Informatics, UTHealth | Houston
 
-Oct 2020 - Present
+Oct 2020 - Feb 2024
 
 *Graduate Research Assistant*
 
