@@ -46,7 +46,7 @@ Aug 2020, **SBMI Dean’s Excellent Award**
 
 ## Academic Experience                                  
 
-### PKDM department, Sanofi | Bridgewater
+### PKDM Department, Sanofi | Bridgewater
 
 Feb 2024 - Present
 
