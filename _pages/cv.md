@@ -46,7 +46,7 @@ Aug 2020, **SBMI Dean’s Excellent Award**
 
 ## Academic Experience                                  
 
-### PKDM Department, Sanofi | Bridgewater
+### Translational Medicine and Early Development (TMED) department, Sanofi U.S. | Bridgewater
 
 Feb 2024 - Present
 
