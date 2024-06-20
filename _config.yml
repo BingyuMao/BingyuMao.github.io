@@ -9,8 +9,8 @@
 locale                   : "en-US"
 title                    : "Bingyu Mao"
 title_separator          : "-"
-name                     : &name "Mao"
-description              : &description "2nd year PhD candidate at UTHealth"
+name                     : &name 
+description              : &description 
 url                      : https://bingyumao.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "bingyumao/bingyumao.github.io"
@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "Bingyu Mao"
   avatar           : "profile.png"
-  bio              : "2nd year PhD candidate at UTHealth"
-  location         : "Houston, TX"
+  bio              : 
+  location         : 
   employer         :
   pubmed           : 
   googlescholar    : 
@@ -96,13 +96,13 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "BingyuMao"
+  github           : 
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "Bingyu Mao"
+  linkedin         : 
   orcid            :
   pinterest        :
   soundcloud       :
