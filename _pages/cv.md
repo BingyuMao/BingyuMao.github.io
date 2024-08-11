@@ -46,21 +46,27 @@ Aug 2020, **SBMI Dean’s Excellent Award**
 
 ## Academic Experience                                  
 
-### Translational Medicine and Early Development (TMED) department, Sanofi U.S. | Bridgewater
-
-Feb 2024 - Present
-
-*Co-op - Pharmacokinetics, Pharmacodynamics and Drug Metabolism*
-
 ### McWilliams School of Biomedical Informatics, UTHealth | Houston
 
-Oct 2020 - Feb 2024
+Oct 2020 - Present
 
 *Graduate Research Assistant*
 
 • Deep learning-based pharmacokinetic (PK) modeling for precision dosing;
 
 • Time-series EHR data analysis with deep learning.
+
+### Translational Medicine and Early Development (TMED) department, Sanofi U.S. | Bridgewater
+
+Feb 2024 - Aug 2024
+
+*Co-op - Pharmacokinetics, Pharmacodynamics and Drug Metabolism*
+
+• Conducted literature research to identify and understand AI/ML methods for developing population PK models.
+
+• Implemented popular machine learning (ML) and deep learning (DL) methods using simulated and real clinical data, and compared the model performance with traditional pharmacometric methods.
+
+• Identified scenarios where AI/ML can complement or improve traditional pharmacometric methods.
 
 ### McWilliams School of Biomedical Informatics, UTHealth | Houston
 
