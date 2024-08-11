@@ -16,8 +16,6 @@ Bingyu Mao (毛冰玉)
 
 *Graduate Research Assistant* in [Dr. Degui Zhi's group](https://zhigroup.github.io/), [Center for Artificial Intelligence and Genome Informatics](https://sbmi.uth.edu/aigi)
 
-*Pharmacokinetics, Pharmacodynamics and Drug Metabolism Co-op* at [Sanofi](https://www.sanofi.us/)
-
 
 **Research interests:**  Deep Learning, Mathematical Modeling, Data Science
 
