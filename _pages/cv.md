@@ -56,7 +56,7 @@ Oct 2020 - Present
 
 • Time-series EHR data analysis with deep learning.
 
-### Translational Medicine and Early Development (TMED) department, Sanofi U.S. | Bridgewater
+### Translational Medicine and Early Development (TMED) Department, Sanofi | Bridgewater
 
 Feb 2024 - Aug 2024
 
