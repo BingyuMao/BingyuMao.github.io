@@ -62,11 +62,11 @@ Feb 2024 - Aug 2024
 
 *Co-op - Pharmacokinetics, Pharmacodynamics and Drug Metabolism*
 
-• Conducted literature research to identify and understand AI/ML methods for developing population PK models.
+• Conducted literature research to identify and understand AI/ML methods for developing population PK models;
 
-• Implemented popular machine learning (ML) and deep learning (DL) methods using simulated and real clinical data, and compared the model performance with traditional pharmacometric methods.
+• Implemented popular machine learning and deep learning methods using simulated and real clinical data, and compared the model performance with traditional pharmacometrics methods;
 
-• Identified scenarios where AI/ML can complement or improve traditional pharmacometric methods.
+• Identified scenarios where AI/ML can complement or improve traditional pharmacometrics methods.
 
 ### McWilliams School of Biomedical Informatics, UTHealth | Houston
 
