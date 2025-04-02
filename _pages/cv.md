@@ -52,9 +52,9 @@ Oct 2020 - Present
 
 *Graduate Research Assistant*
 
-• Deep learning-based pharmacokinetic (PK) modeling for precision dosing;
+• Deep learning (DL)-based pharmacokinetic (PK) modeling for precision dosing using time-series EHR data;
 
-• Time-series EHR data analysis with deep learning.
+• Clinical predictive modeling based on clinical foundation models (CFMs) and large language models (LLMs) using structured EHR data.
 
 ### Translational Medicine and Early Development (TMED) Department, Sanofi | Bridgewater
 
@@ -109,6 +109,6 @@ Mar 2022 - May 2023, **[SBMI Student Governance Organization](https://sbmi.uth.e
 
 **Programming Languages:** Python • R • SQL • MATLAB • Java • C++ • C
 
-**Frameworks:** PyTorch • TensorFlow • scikit-learn • Keras • MongoDB • Apache Pyspark
+**Frameworks:** PyTorch • TensorFlow • PEFT • scikit-learn • Keras • TensorFlow • MongoDB • Apache Pyspark
 
-**Tools:** GitHub • Docker • Tableau • LaTex
+**Tools:** GitHub • Azure OpenAI • HuggingFace • Docker • Tableau • LaTex
