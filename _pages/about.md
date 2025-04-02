@@ -40,7 +40,7 @@ redirect_from:
 
 <h3>🔬 Research Interests</h3>
 <ul>
-    <li><strong>Deep Learning for Structured EHR Data</strong></li>
+    <li><strong>Deep Learning for Structured Electronic Health Records (EHR) Data</strong></li>
     <li><strong>Mathematical Modeling for Precision Medicine</strong></li>
     <li><strong>Healthcare Data Science</strong></li>
 </ul>
