@@ -8,28 +8,50 @@ redirect_from:
   - /about.html
 ---
 
-<div style="text-align: center;">
-    <img src="/images/profile.JPG" alt="Profile Picture" width="200" height="200" style="display: block; margin: 0 auto;">
+<div style="text-align: center; max-width: 700px; margin: auto;">
+    <img src="/images/profile.JPG" alt="Profile Picture" style="display: block; margin: 0 auto; width: 200px; border-radius: 50%;">
 </div>
+
 <br>
+
+<p style="text-align: center; font-size: 1.2em; font-weight: bold;">
+    Bingyu Mao (毛冰玉)
+</p>
+
+<p style="text-align: center;">
+    <em>Ph.D. Candidate</em> at the  
+    <a href="https://sbmi.uth.edu/">McWilliams School of Biomedical Informatics</a>,  
+    <a href="https://www.uth.edu/">The University of Texas Health Science Center at Houston</a>
+</p>
+
+<p style="text-align: center;">
+    <em>Graduate Research Assistant</em> in  
+    <a href="https://zhigroup.github.io/">Dr. Degui Zhi's group</a>,  
+    <a href="https://sbmi.uth.edu/aigi">Center for Artificial Intelligence and Genome Informatics</a>
+</p>
+
+<hr>
+
+<h3>🎉 News</h3>
 <p>
+    I have <a href="https://www.linkedin.com/posts/mcwilliamssbmi_bingyu-mao-successfully-defended-her-dissertation-activity-7308953020170452992-jts1?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB7NjFIBhJFxt29UyapDS7X4GK5ovJxU4Bc">
+    passed my Ph.D. dissertation defense</a> on <strong>March 21st</strong> and will formally earn my degree this <strong>May</strong>!
+</p>
 
-Bingyu Mao (毛冰玉)
+<h3>🔬 Research Interests</h3>
+<ul>
+    <li><strong>Deep Learning for Structured EHR Data</strong></li>
+    <li><strong>Mathematical Modeling for Precision Medicine</strong></li>
+    <li><strong>Healthcare Data Science</strong></li>
+</ul>
 
-*Ph.D. candidate* at the [McWilliams School of Biomedical Informatics](https://sbmi.uth.edu/), [The University of Texas Health Science Center at Houston](https://www.uth.edu/)
+<h3>📬 Contact Me</h3>
+<p><a href="mailto:Bingyu.Mao@uth.tmc.edu">Bingyu.Mao@uth.tmc.edu</a></p>
 
-*Graduate Research Assistant* in [Dr. Degui Zhi's group](https://zhigroup.github.io/), [Center for Artificial Intelligence and Genome Informatics](https://sbmi.uth.edu/aigi)
-
-### 🎉 News 
-I have [passed my Ph.D. dissertation defense](https://www.linkedin.com/posts/mcwilliamssbmi_bingyu-mao-successfully-defended-her-dissertation-activity-7308953020170452992-jts1?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB7NjFIBhJFxt29UyapDS7X4GK5ovJxU4Bc) on March 21st and will formally earn my degree this May!
-
-### 🧑‍🔬 Research Interests
-- **Deep Learning for Structured EHR Data**  
-- **Mathematical Modeling for Precision Medicine**  
-- **Healthcare Data Science**
-
-### 📬 Contact Me  
-[Bingyu.Mao@uth.tmc.edu](mailto:Bingyu.Mao@uth.tmc.edu)
-
-### 🔗 Read More  
-[Google Scholar](https://scholar.google.com/citations?user=GVs3qjUAAAAJ&hl=en) • [ResearchGate](https://www.researchgate.net/profile/Bingyu-Mao) • [GitHub](https://github.com/BingyuMao) • [LinkedIn](https://www.linkedin.com/in/bingyu-mao/)
+<h3>🔗 Read More</h3>
+<p>
+    <a href="https://scholar.google.com/citations?user=GVs3qjUAAAAJ&hl=en">Google Scholar</a> • 
+    <a href="https://www.researchgate.net/profile/Bingyu-Mao">ResearchGate</a> • 
+    <a href="https://github.com/BingyuMao">GitHub</a> • 
+    <a href="https://www.linkedin.com/in/bingyu-mao/">LinkedIn</a>
+</p>
