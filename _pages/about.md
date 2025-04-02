@@ -16,8 +16,9 @@ Bingyu Mao (毛冰玉)
 
 *Graduate Research Assistant* in [Dr. Degui Zhi's group](https://zhigroup.github.io/), [Center for Artificial Intelligence and Genome Informatics](https://sbmi.uth.edu/aigi)
 
+**News:** I have [passed my Ph.D. dissertation defense] (https://www.linkedin.com/posts/mcwilliamssbmi_bingyu-mao-successfully-defended-her-dissertation-activity-7308953020170452992-jts1?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB7NjFIBhJFxt29UyapDS7X4GK5ovJxU4Bc) on March 21st and will formally earn my degree this May!
 
-**Research interests:**  Deep Learning, Mathematical Modeling, Data Science
+**Research interests:**  Deep Learning for Structured EHR Data, Mathematical Modeling for Precision Medicine, Healthcare Data Science
 
 **Contact me:** [Bingyu.Mao@uth.tmc.edu](mailto:Bingyu.Mao@uth.tmc.edu)
 
