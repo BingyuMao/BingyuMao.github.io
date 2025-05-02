@@ -12,7 +12,7 @@ redirect_from:
 
 ### [The University of Texas Health Science Center at Houston](https://www.uth.edu/) | Houston                               
 
-Aug 2020 - May 2025 (Expected)
+Aug 2020 - May 2025
 
 *Doctor of Philosophy in Biomedical Informatics* 
 
@@ -48,7 +48,7 @@ Aug 2020, **SBMI Dean’s Excellent Award**
 
 ### McWilliams School of Biomedical Informatics, UTHealth | Houston
 
-Oct 2020 - Present
+Oct 2020 - May 2025
 
 *Graduate Research Assistant*
 
