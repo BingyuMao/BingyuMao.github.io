@@ -49,7 +49,7 @@ CovRNN binary models achieved AUROCs of 93·0% (95% CI 92·6–93·4) for the pr
 </details>
 
 
-## Preprints
+## In progress
 [**A deep-learning-based two-compartment predictive model (PKRNN-2CM) for vancomycin therapeutic drug monitoring**](https://www.medrxiv.org/content/10.1101/2024.01.30.24302025v1) 
 
 **Bingyu Mao**, Ziqian Xie, Masayuki Nigo, Laila Rasmy, Degui Zhi
@@ -66,3 +66,46 @@ Results: Experiments based on simulated data highlight PKRNN-2CM's superiority o
 
 Conclusion: PKRNN-2CM is an important improvement in vancomycin TDM, demonstrating enhanced accuracy and performance compared to the PKRNN-1CM model. This deep learning model holds potential for future individualized vancomycin TDM optimization and broader application in diverse clinical scenarios. <br/>
 </details>
+
+**Evaluating the Impact of AI-Based Model-Informed Drug Development (MIDD): A Comparative Review**
+
+**Bingyu Mao**, Yue Gao, Christine Xu, Sreeraj Macha, Shuai Shao, Malidi Ahamadi
+
+*The American Association of Pharmaceutical Scientists Journal, April 2025* (Accepted)
+
+  <details>
+  <summary>Abstract</summary>
+Model-informed drug development (MIDD) methods play critical role to ensure development of efficacious, and safe individualized therapies. The application of artificial intelligence/machine learning (AI/ML) within the field of drug development has exponentially expanded. Integrating AI/ML into traditional pharmacometrics approaches or using AI/ML as a stand-alone tool has the potential to optimize dosing strategies, inform clinical trial designs, and enhance robustness of quantitative assessments of drug efficacy and safety. <br/>
+  
+This review systematically evaluates the impact of AI-based model-informed drug development (MIDD) methods compared to traditional approaches by blending regulatory perspectives. We conducted a systematic search on PubMed using five Medical Subject Headings (MeSH) terms and included 67 relevant studies in the analysis. The results indicate that AI models have the potential of improving MIDD approaches through different stages of drug development to inform decision-making in clinical trials. However, limitations such as the lack of standardized evaluation metrics and standardized regulatory guidelines on the use of AI-based MIDD methods were noted. Overall, this review highlights the potential applications of AI in drug development and provides a foundation for future research to optimize and integrate AI-based approaches in this field. <br/>
+</details>
+
+**Opportunities for AI-based Model-Informed Drug Development: A Comparative Analysis of NONMEM and AI-Based Models for Population Pharmacokinetic Prediction**
+
+**Bingyu Mao**, Yue Gao, Christine Xu, Sreeraj Macha, Shuai Shao, Malidi Ahamadi
+
+*The American Association of Pharmaceutical Scientists Journal* (Submitted)
+
+  <details>
+  <summary>Abstract</summary>
+Model-informed drug development (MIDD) plays an important role in pharmacometrics by analyzing clinical data using mathematical models to optimize drug dosing strategies. Traditional methods such as nonlinear mixed effects modeling (NONMEM) have long been the gold standard in population pharmacokinetic (PPK) modeling. However, the development of artificial intelligence (AI) presents a potential improvement in predictive accuracy and computational efficiency. This study evaluates the effectiveness of AI-based MIDD methods for PPK analysis, comparing them against traditional NONMEM models. We tested five machine learning (ML) models, three deep learning (DL) models, and a neural ordinary differential equations (ODE) model on both simulated and real clinical datasets under different scenarios, assessing accuracy with metrics such as root mean squared error (RMSE) and coefficient of determination (R²). Simulated datasets with known ground truth were created using a two-compartment model, while the real clinical dataset included data from 1,770 patients pooled from multiple clinical trials. Results indicate that AI/ML models often outperform NONMEM, with variations in performance depending on model type and data characteristics. Neural ODE models showed good performance, providing high accuracy and explainability with large datasets. This work provides valuable insights into the relative strengths and future applications of AI/ML in PPK modeling. <br/>
+</details>
+
+**Do we still need specialized clinical foundation models? Evaluation of fine-tuned generalist large language models vs. specialized clinical foundation models based on structured EHR for disease risk prediction tasks**
+
+**Bingyu Mao**, Ziqian Xie, Jianping He, Michael Ghebranious, Made K. Prasadha, Degui Zhi, Laila Rasmy
+
+*NEJM AI * (To be submitted by May 2025)
+
+  <details>
+  <summary>Abstract</summary>
+Backgrounds: With the wide adoption of electronic health records (EHRs), building models predicting clinical outcomes from EHR data is a promising way to deliver value to the learning healthcare system. While models can be developed from individual hospitals' data sources, a recent trend is to develop clinical foundation models (CFMs), deep learning AI models that are pre-trained on large and potentially heterogeneous data sources to, that can boost the performance of predictive models trained with only local data. Interestingly, the rise of large language models (LLMs) has introduced a new frontier in healthcare. LLMs are much larger models than CFMs, and trained on much richer data sets, and potentially deliver a superior performance than CFMs. It is thus a timely question, what is the best type of model for predictive modeling, CFMs or LLMs? <br/>
+
+Methods: In this study, we fine-tuned both CFMs and LLMs to predict disease risk using established EHR cohorts. Specifically, we compared CFMs such as Med-BERT and CLMBR against general-purpose LLMs like Mistral and LLaMA, as well as a clinical LLM (CLLM), Me-LLaMA. Classifiers were built on top of these fine-tuned models to predict the risk of pancreatic cancer (PaCa) and heart failure among diabetic patients (DHF). We evaluated the models using the same cohorts as the Med-BERT study, in addition to a similar cohort from the EHRSHOT dataset, and assessed performance based on discriminative accuracy measured primarily by the area under the receiver operating characteristic curve (AUROC) and the area under the precision-recall curve (AUPRC). <br/>
+
+Results: On the EHR and claims datasets, specialized CFMs exhibited significantly better performance compared to LLMs, with Med-BERT achieving an AUROC of 80.57 for the PaCa task on the claims dataset while the CLLM Me-LLaMA achieved 79.87 as the highest performance from LLMs (p=0.0013). Additionally, Med-BERT gave an AUROC of 85.39 for DHF prediction on the EHR dataset, compared to the best LLM LLaMA-3.1-70B’s AUROC of 84.73 (p=0.00045). On the EHRSHOT dataset with experiments based on limited patient information, fine-tuned generalist LLMs achieved marginally higher AUROCs (AUROC from the best LLM vs. CFM: 86.1 vs. 85.25 for the diagnosis-only format, AUROC from the best LLM vs. CFM: 86.65 vs. 86.33 for the combined diagnosis, medication, and procedure format); however, the differences were not statistically significant (p=0.27 and 0.58, respectively). Despite this, CFMs and traditional ML models achieved higher AUPRCs in EHRSHOT experiments. Med-BERT achieved the highest AUPRC of 55.85 for the diagnosis-only format while the best LLM provided 41.14. CLMBR achieved the highest AUPRC of 54.9 for the combined diagnosis, medication, and procedure format, while the best LLM provided 49.07. <br/>
+
+Conclusion: Our findings indicate that, while generalist LLMs show promise in specific cases especially when using newer versions, specialized CFMs consistently deliver superior predictive accuracy on large, complex structured EHR data. In particular, Med-BERT and CLMBR achieved significantly higher AUROCs for both PaCa and DHF tasks, highlighting their important role in clinical predictive modeling. This suggests that the choice of model for clinical disease risk prediction tasks should be driven by the complexity and volume of available data. These insights provide a valuable foundation for future research and clinical decision-making, guiding the selection and optimization of clinical predictive modeling. <br/>
+</details>
+
+
