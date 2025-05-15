@@ -19,24 +19,13 @@ redirect_from:
 </p>
 
 <p style="text-align: center;">
-    <em>Ph.D. Candidate</em> at the  
-    <a href="https://sbmi.uth.edu/">McWilliams School of Biomedical Informatics</a>,  
-    <a href="https://www.uth.edu/">The University of Texas Health Science Center at Houston</a>
+I recently earned my Ph.D. in Biomedical Informatics from the 
+<a href="https://sbmi.uth.edu/">McWilliams School of Biomedical Informatics</a> at 
+<a href="https://www.uth.edu/">The University of Texas Health Science Center at Houston</a>.
 </p>
 
-<p style="text-align: center;">
-    <em>Graduate Research Assistant</em> in  
-    <a href="https://zhigroup.github.io/">Dr. Degui Zhi's group</a>,  
-    <a href="https://sbmi.uth.edu/aigi">Center for Artificial Intelligence and Genome Informatics</a>
-</p>
 
 <hr>
-
-<h3>🎉 News</h3>
-<p>
-    I have <a href="https://www.linkedin.com/posts/mcwilliamssbmi_bingyu-mao-successfully-defended-her-dissertation-activity-7308953020170452992-jts1?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB7NjFIBhJFxt29UyapDS7X4GK5ovJxU4Bc">
-    passed my Ph.D. dissertation defense</a> on <strong>March 21st</strong> and will formally earn my degree this <strong>May</strong>!
-</p>
 
 <h3>🔬 Research Interests</h3>
 <ul>
