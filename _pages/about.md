@@ -19,7 +19,7 @@ redirect_from:
 </p>
 
 <p style="text-align: center;">
-I recently earned my Ph.D. in Biomedical Informatics from the 
+*Ph.D.* in Biomedical Informatics from the 
 <a href="https://sbmi.uth.edu/">McWilliams School of Biomedical Informatics</a> at 
 <a href="https://www.uth.edu/">The University of Texas Health Science Center at Houston</a>.
 </p>
