@@ -19,9 +19,7 @@ redirect_from:
 </p>
 
 <p style="text-align: center;">
-<em>Ph.D.</em> in Biomedical Informatics from the 
-<a href="https://sbmi.uth.edu/">McWilliams School of Biomedical Informatics</a> at 
-<a href="https://www.uth.edu/">The University of Texas Health Science Center at Houston</a>.
+<em>Ph.D.</em> in Biomedical Informatics
 </p>
 
 
