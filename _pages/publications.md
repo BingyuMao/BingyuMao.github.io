@@ -5,6 +5,20 @@ permalink: /publications/
 author_profile: false
 ---
 
+[**Evaluating the Impact of AI-Based Model-Informed Drug Development (MIDD): A Comparative Review**](https://link.springer.com/article/10.1208/s12248-025-01075-0)
+
+**Bingyu Mao**, Yue Gao, Christine Xu, Sreeraj Macha, Shuai Shao, Malidi Ahamadi
+
+*The American Association of Pharmaceutical Scientists Journal, June 2025*
+
+  <details>
+  <summary>Abstract</summary>
+Model-informed drug development (MIDD) methods play critical role to ensure development of efficacious, and safe individualized therapies. The application of artificial intelligence/machine learning (AI/ML) within the field of drug development has exponentially expanded. Integrating AI/ML into traditional pharmacometrics approaches or using AI/ML as a stand-alone tool has the potential to optimize dosing strategies, inform clinical trial designs, and enhance robustness of quantitative assessments of drug efficacy and safety. <br/>
+  
+This review systematically evaluates the impact of AI-based model-informed drug development (MIDD) methods compared to traditional approaches by blending regulatory perspectives. We conducted a systematic search on PubMed using five Medical Subject Headings (MeSH) terms and included 67 relevant studies in the analysis. The results indicate that AI models have the potential of improving MIDD approaches through different stages of drug development to inform decision-making in clinical trials. However, limitations such as the lack of standardized evaluation metrics and standardized regulatory guidelines on the use of AI-based MIDD methods were noted. Overall, this review highlights the potential applications of AI in drug development and provides a foundation for future research to optimize and integrate AI-based approaches in this field. <br/>
+</details>
+
+
 [**Deep learning model for personalized prediction of positive MRSA culture using time-series electronic health records**](https://www.nature.com/articles/s41467-024-46211-0) 
 
 Masayuki Nigo, Laila Rasmy, **Bingyu Mao**, Bijun Sai Kannadath, Ziqian Xie,  Degui Zhi
@@ -15,8 +29,6 @@ Masayuki Nigo, Laila Rasmy, **Bingyu Mao**, Bijun Sai Kannadath, Ziqian Xie,  De
   <summary>Abstract</summary>
 Methicillin-resistant Staphylococcus aureus (MRSA) poses significant morbidity and mortality in hospitals. Rapid, accurate risk stratification of MRSA is crucial for optimizing antibiotic therapy. Our study introduced a deep learning model, PyTorch_EHR, which leverages electronic health record (EHR) time-series data, including wide-variety patient specific data, to predict MRSA culture positivity within two weeks. 8,164 MRSA and 22,393 non-MRSA patient events from Memorial Hermann Hospital System, Houston, Texas are used for model development. PyTorch_EHR outperforms logistic regression (LR) and light gradient boost machine (LGBM) models in accuracy (AUROC_PyTorch_EHR = 0.911, AUROC_LR = 0.857, AUROC_LGBM = 0.892). External validation with 393,713 patient events from the Medical Information Mart for Intensive Care (MIMIC)-IV dataset in Boston confirms its superior accuracy (AUROC_PyTorch_EHR = 0.859, AUROC_LR = 0.816, AUROC_LGBM = 0.838). Our model effectively stratifies patients into high-, medium-, and low-risk categories, potentially optimizing antimicrobial therapy and reducing unnecessary MRSA-specific antimicrobials. This highlights the advantage of deep learning models in predicting MRSA positive cultures, surpassing traditional machine learning models and supporting clinicians’ judgments. <br/>
 </details>
-
-
 
 
 [**PK-RNN-V E: A Deep Learning Model Approach to Vancomycin Therapeutic Drug Monitoring Using Electronic Health Record Data**](https://www.sciencedirect.com/science/article/pii/S1532046422001782?via%3Dihub) 
@@ -65,19 +77,6 @@ Methods: PKRNN-2CM combines RNN-driven PK parameter estimation with a 2CM PK mod
 Results: Experiments based on simulated data highlight PKRNN-2CM's superiority over the simpler 1CM model PKRNN-1CM (PKRNN-2CM RMSE=1.30, PKRNN-1CM RMSE=2.50). Application to real data showcases significant improvement over PKRNN-1CM (PKRNN-2CM RMSE=5.62, PKRNN-1CM RMSE=5.84, two-sample unpaired t-test p-value=0.01), with potential further gains expected with non-trough level measurements.  <br/>
 
 Conclusion: PKRNN-2CM is an important improvement in vancomycin TDM, demonstrating enhanced accuracy and performance compared to the PKRNN-1CM model. This deep learning model holds potential for future individualized vancomycin TDM optimization and broader application in diverse clinical scenarios. <br/>
-</details>
-
-**Evaluating the Impact of AI-Based Model-Informed Drug Development (MIDD): A Comparative Review**
-
-**Bingyu Mao**, Yue Gao, Christine Xu, Sreeraj Macha, Shuai Shao, Malidi Ahamadi
-
-*The American Association of Pharmaceutical Scientists Journal, April 2025* (Accepted)
-
-  <details>
-  <summary>Abstract</summary>
-Model-informed drug development (MIDD) methods play critical role to ensure development of efficacious, and safe individualized therapies. The application of artificial intelligence/machine learning (AI/ML) within the field of drug development has exponentially expanded. Integrating AI/ML into traditional pharmacometrics approaches or using AI/ML as a stand-alone tool has the potential to optimize dosing strategies, inform clinical trial designs, and enhance robustness of quantitative assessments of drug efficacy and safety. <br/>
-  
-This review systematically evaluates the impact of AI-based model-informed drug development (MIDD) methods compared to traditional approaches by blending regulatory perspectives. We conducted a systematic search on PubMed using five Medical Subject Headings (MeSH) terms and included 67 relevant studies in the analysis. The results indicate that AI models have the potential of improving MIDD approaches through different stages of drug development to inform decision-making in clinical trials. However, limitations such as the lack of standardized evaluation metrics and standardized regulatory guidelines on the use of AI-based MIDD methods were noted. Overall, this review highlights the potential applications of AI in drug development and provides a foundation for future research to optimize and integrate AI-based approaches in this field. <br/>
 </details>
 
 **Opportunities for AI-based Model-Informed Drug Development: A Comparative Analysis of NONMEM and AI-Based Models for Population Pharmacokinetic Prediction**
