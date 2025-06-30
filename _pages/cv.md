@@ -31,20 +31,7 @@ Aug 2015 - Jun 2019
 *Bachelor of Science in Mathematics and Applied Mathematics*
 
 
-## Awards & Honors
-
-Aug 2023, **James Turley Endowed Scholarship for Global Health Award**
-
-Jun 2023, **Travel Award**: 2023 IEEE 11th International Conference on Healthcare Informatics (ICHI)
-
-Mar 2022, **Dr. Noriaki Aoki Fund Travel Award**: AMIA 2022 Informatics Summit
-
-Feb 2022, **Second Place**, [Healthcare Innovation Collaborative](https://www.txhic.com/) 2022 Annual Case Competition
-
-Aug 2020, **SBMI Dean’s Excellent Award**
-
-
-## Academic Experience                                  
+## Experience                                  
 
 ### McWilliams School of Biomedical Informatics, UTHealth | Houston
 
@@ -95,6 +82,18 @@ Jul 2019 - Aug 2019
 
 • Completed EHR labeling tasks using Plato.
 
+## Awards & Honors
+
+Aug 2023, **James Turley Endowed Scholarship for Global Health Award**
+
+Jun 2023, **Travel Award**: 2023 IEEE 11th International Conference on Healthcare Informatics (ICHI)
+
+Mar 2022, **Dr. Noriaki Aoki Fund Travel Award**: AMIA 2022 Informatics Summit
+
+Feb 2022, **Second Place**, [Healthcare Innovation Collaborative](https://texashic.wixsite.com/website/about-1) 2022 Annual Case Competition
+
+Aug 2020, **SBMI Dean’s Excellent Award**
+
 ## Activities
 
 Aug 2023, **2024 HIMSS Global Health Conference & Exhibition**, *Reviewer*
@@ -102,13 +101,3 @@ Aug 2023, **2024 HIMSS Global Health Conference & Exhibition**, *Reviewer*
 Jun 2023, **2023 IEEE 11th International Conference on Healthcare Informatics (ICHI)**, *Session Chair*
 
 Mar 2022 - May 2023, **[SBMI Student Governance Organization](https://sbmi.uth.edu/current-students/sgo.htm)**, *Academics Committee, International Student Committee*
-
-
-
-## Skills
-
-**Programming Languages:** Python • R • SQL • MATLAB • Java • C++ • C
-
-**Frameworks:** PyTorch • TensorFlow • PEFT • scikit-learn • Keras • TensorFlow • MongoDB • Apache Pyspark
-
-**Tools:** GitHub • Azure OpenAI • HuggingFace • Docker • Tableau • LaTex
