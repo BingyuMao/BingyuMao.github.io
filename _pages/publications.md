@@ -83,7 +83,7 @@ Conclusion: PKRNN-2CM is an important improvement in vancomycin TDM, demonstrati
 
 **Bingyu Mao**, Yue Gao, Christine Xu, Sreeraj Macha, Shuai Shao, Malidi Ahamadi
 
-*The American Association of Pharmaceutical Scientists Journal* (Submitted)
+*The American Association of Pharmaceutical Scientists Journal* (Submitted Revision)
 
   <details>
   <summary>Abstract</summary>
@@ -94,7 +94,7 @@ Model-informed drug development (MIDD) plays an important role in pharmacometric
 
 **Bingyu Mao**, Ziqian Xie, Jianping He, Michael Ghebranious, Made K. Prasadha, Degui Zhi, Laila Rasmy
 
-*NEJM AI* (To be submitted by June 2025)
+*NEJM AI* (To be submitted by July 2025)
 
   <details>
   <summary>Abstract</summary>
