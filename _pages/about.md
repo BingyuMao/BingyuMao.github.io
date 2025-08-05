@@ -29,7 +29,7 @@ redirect_from:
 
 <h3>🔬 Research Interests</h3>
 <ul>
-    <li>LLM-based methods for clinical data abstraction and data curation</li>
+    <li>Large language model (LLM)-based methods for clinical data abstraction and data curation</li>
     <li>Building scalable tools and models for real-world data integration and analysis</li>
     <li>Deep learning for structured electronic health records (EHR) data</li>
     <li>Mathematical modeling for individualized therapeutic drug monitoring</li>
