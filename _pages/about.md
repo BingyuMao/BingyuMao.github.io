@@ -20,6 +20,8 @@ redirect_from:
 
 <p style="text-align: center;">
 <em>Ph.D.</em> in Biomedical Informatics
+
+<em>Data Scientist</em> at Verily
 </p>
 
 
@@ -27,13 +29,14 @@ redirect_from:
 
 <h3>🔬 Research Interests</h3>
 <ul>
-    <li><strong>Deep Learning for Structured Electronic Health Records (EHR) Data</strong></li>
-    <li><strong>Mathematical Modeling for Precision Medicine</strong></li>
-    <li><strong>Healthcare Data Science</strong></li>
+    <li>LLM-based methods for clinical data abstraction and data curation</li>
+    <li>Building scalable tools and models for real-world data integration and analysis</li>
+    <li>Deep learning for structured electronic health records (EHR) data</li>
+    <li>Mathematical modeling for individualized therapeutic drug monitoring</li>
 </ul>
 
 <h3>📬 Contact Me</h3>
-<p><a href="mailto:Bingyu.Mao@uth.tmc.edu">Bingyu.Mao@uth.tmc.edu</a></p>
+<p><a href="mailto:bingyu@verily.health">bingyu@verily.health</a></p>
 
 <h3>🔗 Read More</h3>
 <p>
