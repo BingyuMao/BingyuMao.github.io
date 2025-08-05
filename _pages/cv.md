@@ -31,7 +31,18 @@ Aug 2015 - Jun 2019
 *Bachelor of Science in Mathematics and Applied Mathematics*
 
 
-## Experience                                  
+## Experience
+
+### Verily Life Sciences | Boston
+
+Aug 2025 - Present
+
+*Data Scientist*
+
+• Develop and deploy large language models (LLMs) to curate clinical information from large-scale real-world healthcare data, supporting evidence generation for research and care decisions;
+
+• Design and implement LLM-based agents and foundational models for scalable healthcare data processing.
+
 
 ### McWilliams School of Biomedical Informatics, UTHealth | Houston
 
