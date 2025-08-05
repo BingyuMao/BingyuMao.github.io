@@ -52,7 +52,7 @@ Oct 2020 - May 2025
 
 • Deep learning (DL)-based pharmacokinetic (PK) modeling for precision dosing using time-series EHR data;
 
-• Clinical predictive modeling based on clinical foundation models (CFMs) and large language models (LLMs) using structured EHR data.
+• Clinical predictive modeling based on clinical foundation models (CFMs) and LLMs using structured EHR data.
 
 ### Translational Medicine and Early Development (TMED) Department, Sanofi | Bridgewater
 
@@ -104,11 +104,3 @@ Mar 2022, **Dr. Noriaki Aoki Fund Travel Award**: AMIA 2022 Informatics Summit
 Feb 2022, **Second Place**, [Healthcare Innovation Collaborative](https://texashic.wixsite.com/website/about-1) 2022 Annual Case Competition
 
 Aug 2020, **SBMI Dean’s Excellent Award**
-
-## Activities
-
-Aug 2023, **2024 HIMSS Global Health Conference & Exhibition**, *Reviewer*
-
-Jun 2023, **2023 IEEE 11th International Conference on Healthcare Informatics (ICHI)**, *Session Chair*
-
-Mar 2022 - May 2023, **[SBMI Student Governance Organization](https://sbmi.uth.edu/current-students/sgo.htm)**, *Academics Committee, International Student Committee*
