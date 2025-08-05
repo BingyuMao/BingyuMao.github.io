@@ -94,7 +94,7 @@ Model-informed drug development (MIDD) plays an important role in pharmacometric
 
 **Bingyu Mao**, Ziqian Xie, Jianping He, Michael Ghebranious, Made K. Prasadha, Degui Zhi, Laila Rasmy
 
-*NEJM AI* (To be submitted by July 2025)
+*NEJM AI* (To be submitted soon)
 
   <details>
   <summary>Abstract</summary>
