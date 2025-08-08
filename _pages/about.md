@@ -21,6 +21,8 @@ redirect_from:
 <p style="text-align: center;">
 <em>Ph.D.</em> in Biomedical Informatics
 
+<br>
+
 <em>Data Scientist</em> at Verily
 </p>
 
