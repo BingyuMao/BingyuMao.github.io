@@ -5,11 +5,23 @@ permalink: /publications/
 author_profile: false
 ---
 
+[**Opportunities for AI-based Model-Informed Drug Development: A Comparative Analysis of NONMEM and AI-Based Models for Population Pharmacokinetic Prediction**](https://link.springer.com/article/10.1208/s12248-025-01121-x)
+
+**Bingyu Mao**, Yue Gao, Christine Xu, Sreeraj Macha, Shuai Shao, Malidi Ahamadi
+
+*The American Association of Pharmaceutical Scientists Journal, Nov 2025*
+
+  <details>
+  <summary>Abstract</summary>
+Model-informed drug development (MIDD) plays an important role in pharmacometrics by analyzing clinical data using mathematical models to optimize drug dosing strategies. Traditional methods such as nonlinear mixed effects modeling (NONMEM) have long been the gold standard in population pharmacokinetic (PPK) modeling. However, the development of artificial intelligence (AI) presents a potential improvement in predictive accuracy and computational efficiency. This study evaluates the effectiveness of AI-based MIDD methods for PPK analysis, comparing them against traditional NONMEM models. We tested five machine learning (ML) models, three deep learning (DL) models, and a neural ordinary differential equations (ODE) model on both simulated and real clinical datasets under different scenarios, assessing accuracy with metrics such as root mean squared error (RMSE) and coefficient of determination (R²). Simulated datasets with known ground truth were created using a two-compartment model, while the real clinical dataset included data from 1,770 patients pooled from multiple clinical trials. Results indicate that AI/ML models often outperform NONMEM, with variations in performance depending on model type and data characteristics. Neural ODE models showed good performance, providing high accuracy and explainability with large datasets. This work provides valuable insights into the relative strengths and future applications of AI/ML in PPK modeling. <br/>
+</details>
+
+
 [**Evaluating the Impact of AI-Based Model-Informed Drug Development (MIDD): A Comparative Review**](https://link.springer.com/article/10.1208/s12248-025-01075-0)
 
 **Bingyu Mao**, Yue Gao, Christine Xu, Sreeraj Macha, Shuai Shao, Malidi Ahamadi
 
-*The American Association of Pharmaceutical Scientists Journal, June 2025*
+*The American Association of Pharmaceutical Scientists Journal, Jun 2025*
 
   <details>
   <summary>Abstract</summary>
@@ -23,7 +35,7 @@ This review systematically evaluates the impact of AI-based model-informed drug 
 
 Masayuki Nigo, Laila Rasmy, **Bingyu Mao**, Bijun Sai Kannadath, Ziqian Xie,  Degui Zhi
 
-*Nature Communications, March 2024*
+*Nature Communications, Mar 2024*
 
   <details>
   <summary>Abstract</summary>
@@ -35,7 +47,7 @@ Methicillin-resistant Staphylococcus aureus (MRSA) poses significant morbidity a
 
 Masayuki Nigo, Hong Thoai Nga Tran, Ziqian Xie, Han Feng, **Bingyu Mao**,  Laila Rasmy, Hongyu Miao,  Degui Zhi
 
-*Journal of Biomedical Informatics, August 2022*
+*Journal of Biomedical Informatics, Aug 2022*
 
   <details>
   <summary>Abstract</summary>
@@ -49,7 +61,7 @@ Here, we present a deep learning-based pharmacokinetic prediction model for vanc
 
 Laila Rasmy, Masayuki Nigo, Bijun Sai Kannadath, Ziqian Xie, **Bingyu Mao**, Khush Patel, Yujia Zhou, Wanheng Zhang, Angela Ross, Hua Xu, Degui Zhi
 
-*The Lancet Digital Health, April 2022*
+*The Lancet Digital Health, Apr 2022*
 
   <details>
   <summary>Abstract</summary>
@@ -77,17 +89,6 @@ Methods: PKRNN-2CM combines RNN-driven PK parameter estimation with a 2CM PK mod
 Results: Experiments based on simulated data highlight PKRNN-2CM's superiority over the simpler 1CM model PKRNN-1CM (PKRNN-2CM RMSE=1.30, PKRNN-1CM RMSE=2.50). Application to real data showcases significant improvement over PKRNN-1CM (PKRNN-2CM RMSE=5.62, PKRNN-1CM RMSE=5.84, two-sample unpaired t-test p-value=0.01), with potential further gains expected with non-trough level measurements.  <br/>
 
 Conclusion: PKRNN-2CM is an important improvement in vancomycin TDM, demonstrating enhanced accuracy and performance compared to the PKRNN-1CM model. This deep learning model holds potential for future individualized vancomycin TDM optimization and broader application in diverse clinical scenarios. <br/>
-</details>
-
-**Opportunities for AI-based Model-Informed Drug Development: A Comparative Analysis of NONMEM and AI-Based Models for Population Pharmacokinetic Prediction**
-
-**Bingyu Mao**, Yue Gao, Christine Xu, Sreeraj Macha, Shuai Shao, Malidi Ahamadi
-
-*The American Association of Pharmaceutical Scientists Journal* (Submitted Revision)
-
-  <details>
-  <summary>Abstract</summary>
-Model-informed drug development (MIDD) plays an important role in pharmacometrics by analyzing clinical data using mathematical models to optimize drug dosing strategies. Traditional methods such as nonlinear mixed effects modeling (NONMEM) have long been the gold standard in population pharmacokinetic (PPK) modeling. However, the development of artificial intelligence (AI) presents a potential improvement in predictive accuracy and computational efficiency. This study evaluates the effectiveness of AI-based MIDD methods for PPK analysis, comparing them against traditional NONMEM models. We tested five machine learning (ML) models, three deep learning (DL) models, and a neural ordinary differential equations (ODE) model on both simulated and real clinical datasets under different scenarios, assessing accuracy with metrics such as root mean squared error (RMSE) and coefficient of determination (R²). Simulated datasets with known ground truth were created using a two-compartment model, while the real clinical dataset included data from 1,770 patients pooled from multiple clinical trials. Results indicate that AI/ML models often outperform NONMEM, with variations in performance depending on model type and data characteristics. Neural ODE models showed good performance, providing high accuracy and explainability with large datasets. This work provides valuable insights into the relative strengths and future applications of AI/ML in PPK modeling. <br/>
 </details>
 
 **Do we still need specialized clinical foundation models? Evaluation of fine-tuned generalist large language models vs. specialized clinical foundation models based on structured EHR for disease risk prediction tasks**
