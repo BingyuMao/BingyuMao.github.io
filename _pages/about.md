@@ -15,7 +15,7 @@ redirect_from:
 <br>
 
 <p style="text-align: center; font-size: 1.2em; font-weight: bold;">
-    Bingyu Mao (毛冰玉)
+    Bingyu Mao
 </p>
 
 <p style="text-align: center;">
