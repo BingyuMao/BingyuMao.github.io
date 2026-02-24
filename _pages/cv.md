@@ -39,10 +39,9 @@ Aug 2025 - Present
 
 *Data Scientist*
 
-• Develop and deploy large language models (LLMs) to curate clinical information from large-scale real-world healthcare data, supporting evidence generation for research and care decisions;
+• Developing and evaluating advanced, multi-modal AI agents and stateful LLM workflows for safe, patient-facing healthcare applications;
 
-• Design and implement LLM-based agents and foundational models for scalable healthcare data processing.
-
+• Establishing relieable evaluation frameworks, benchmarks, and synthetic data methodologies to validate the clinical accuracy and safety of foundation models.
 
 ### McWilliams School of Biomedical Informatics, UTHealth | Houston
 
