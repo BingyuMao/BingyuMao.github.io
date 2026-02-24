@@ -31,8 +31,8 @@ redirect_from:
 
 <h3>🔬 Research Interests</h3>
 <ul>
-    <li>Developing and evaluating advanced, multi-modal AI agents and stateful LLM workflows for safe, patient-facing healthcare applications</li>
-    <li>Establishing rigorous evaluation frameworks, benchmarks, and synthetic data methodologies to validate the clinical accuracy and safety of foundation models</li>
+    <li>Developing robust benchmarks and utilizing synthetic data methodologies to validate the safety and reasoning of healthcare LLMs</li>
+    <li>Exploring multi-modal foundation models and action-driven architectures to automate and improve clinical workflows</li>
     <li>Deep learning for structured electronic health records (EHR) data</li>
     <li>Mathematical modeling for individualized therapeutic drug monitoring</li>
 </ul>
