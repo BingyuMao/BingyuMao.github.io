@@ -31,8 +31,8 @@ redirect_from:
 
 <h3>🔬 Research Interests</h3>
 <ul>
-    <li>Large language model (LLM)-based methods for clinical data abstraction and data curation</li>
-    <li>Building scalable tools and models for real-world data integration and analysis</li>
+    <li>Developing and evaluating advanced, multi-modal AI agents and stateful LLM workflows for safe, patient-facing healthcare applications</li>
+    <li>Establishing rigorous evaluation frameworks, benchmarks, and synthetic data methodologies to validate the clinical accuracy and safety of foundation models</li>
     <li>Deep learning for structured electronic health records (EHR) data</li>
     <li>Mathematical modeling for individualized therapeutic drug monitoring</li>
 </ul>
