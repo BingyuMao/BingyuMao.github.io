@@ -5,6 +5,18 @@ permalink: /publications/
 author_profile: false
 ---
 
+[**A Reinforcement Learning (RL)-Motivated Simulation Framework for Evaluating Vancomycin Dosing Strategies**](https://pmc.ncbi.nlm.nih.gov/articles/PMC12919618/)
+
+**Bingyu Mao**, Ziqian Xie, Laila Rasmy, Masayuki Nigo, Degui Zhi
+
+*AMIA Annual Symposium, Feb 2026*
+
+  <details>
+  <summary>Abstract</summary>
+Achieving and maintaining the therapeutic range in vancomycin treatment is important for optimal outcomes. While guidelines and best practices based on empirical studies exist, the theoretical best dosing strategies under various conditions remain illusive. We developed an RL-based simulation framework using a deep learning two-compartment pharmacokinetic model (PK-RNN-2CM) and introduced the area under the time-concentration curve (AUC) reward score, which translates clinical guidelines into an RL reward. Ground truth time-concentration curves were generated from patient-specific data, and simulated curves were produced under different dosing strategies with optional noise perturbations to mimic real-world settings. Evaluation metrics included 24-hour AUC assessments and RMSE. Results indicated that while the low-dosing AUC target (low-doser) and the high-dosing AUC target (high-doser) performed comparably in noise-free conditions, the low-doser achieved slightly higher AUC reward scores under noisy conditions, whereas the high-doser exhibited greater stability. This framework opens new approaches for optimizing vancomycin dosing. <br/>
+</details>
+
+
 [**Opportunities for AI-based Model-Informed Drug Development: A Comparative Analysis of NONMEM and AI-Based Models for Population Pharmacokinetic Prediction**](https://link.springer.com/article/10.1208/s12248-025-01121-x)
 
 **Bingyu Mao**, Yue Gao, Christine Xu, Sreeraj Macha, Shuai Shao, Malidi Ahamadi
@@ -33,7 +45,7 @@ This review systematically evaluates the impact of AI-based model-informed drug 
 
 [**Deep learning model for personalized prediction of positive MRSA culture using time-series electronic health records**](https://www.nature.com/articles/s41467-024-46211-0) 
 
-Masayuki Nigo, Laila Rasmy, **Bingyu Mao**, Bijun Sai Kannadath, Ziqian Xie,  Degui Zhi
+Masayuki Nigo, Laila Rasmy, **Bingyu Mao**, Bijun Sai Kannadath, Ziqian Xie, Degui Zhi
 
 *Nature Communications, Mar 2024*
 
@@ -45,7 +57,7 @@ Methicillin-resistant Staphylococcus aureus (MRSA) poses significant morbidity a
 
 [**PK-RNN-V E: A Deep Learning Model Approach to Vancomycin Therapeutic Drug Monitoring Using Electronic Health Record Data**](https://www.sciencedirect.com/science/article/pii/S1532046422001782?via%3Dihub) 
 
-Masayuki Nigo, Hong Thoai Nga Tran, Ziqian Xie, Han Feng, **Bingyu Mao**,  Laila Rasmy, Hongyu Miao,  Degui Zhi
+Masayuki Nigo, Hong Thoai Nga Tran, Ziqian Xie, Han Feng, **Bingyu Mao**,  Laila Rasmy, Hongyu Miao, Degui Zhi
 
 *Journal of Biomedical Informatics, Aug 2022*
 
