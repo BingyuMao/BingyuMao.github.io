@@ -29,20 +29,4 @@ a[href^="mailto:"] {
   font-weight: 500;
 }
 
-/* Hide default details marker */
-summary::-webkit-details-marker {
-  display: none;
-}
-
-/* Custom chevron for details */
-summary:before {
-  content: "▸";
-  display: inline-block;
-  margin-right: 0.5rem;
-  transition: transform 0.3s ease;
-  font-size: 0.9em;
-}
-
-details[open] summary:before {
-  transform: rotate(90deg);
-}
+/* Details/Summary styling is handled in _theme-toggle.scss */

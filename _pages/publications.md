@@ -90,7 +90,7 @@ CovRNN binary models achieved AUROCs of 93·0% (95% CI 92·6–93·4) for the pr
 
 **Bingyu Mao**, Ziqian Xie, Masayuki Nigo, Laila Rasmy, Degui Zhi
 
-*MedRxiv, January 2024*
+*MedRxiv, Jan 2024*
 
   <details>
   <summary>Abstract</summary>

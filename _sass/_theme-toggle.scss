@@ -7,6 +7,7 @@
   /* Light Mode (Default) - Morandi Colors */
   --bg-color: #ffffff;
   --text-color: #4A5A5E;
+  --text-muted: #6B7A7E;
   --heading-color: #5A7884;
   --heading-light: #7B9AA8;
   --subheading-color: #8B7D6F;
@@ -26,6 +27,7 @@
   /* Dark Mode - Morandi Colors Adapted */
   --bg-color: #2A3035;
   --text-color: #D4D8DA;
+  --text-muted: #A8AEB2;
   --heading-color: #A5BCC7;
   --heading-light: #8BA5B2;
   --subheading-color: #B8AA9D;
@@ -39,6 +41,11 @@
   --masthead-bg: #1F2326;
   --masthead-border: #3F4449;
   --hr-color: #3F4449;
+}
+
+/* About Me page degree/title color */
+[style*="color: #6B7A7E"] {
+  color: var(--text-muted) !important;
 }
 
 /* Apply theme colors */
@@ -94,9 +101,13 @@ body,
   color: var(--link-color) !important;
 }
 
-/* Override inline text colors */
-p, li, div, span {
-  color: var(--text-color) !important;
+/* Base text colors - don't override inline styles */
+.page__content > p:not([style*="color"]),
+.page__content > ul > li:not([style*="color"]),
+.page__content > ol > li:not([style*="color"]),
+.archive p:not([style*="color"]),
+.archive li:not([style*="color"]) {
+  color: var(--text-color);
 }
 
 /* Theme Toggle Button */
@@ -164,29 +175,92 @@ h1.page__title {
   color: var(--subheading-color) !important;
 }
 
-a {
+/* External links (to other websites) */
+a[href^="http"]:not([href*="bingyumao.github.io"]),
+a[href^="https"]:not([href*="bingyumao.github.io"]) {
   color: var(--link-color) !important;
 }
 
-a:hover {
+a[href^="http"]:not([href*="bingyumao.github.io"]):hover,
+a[href^="https"]:not([href*="bingyumao.github.io"]):hover {
   color: var(--link-hover) !important;
 }
 
+/* Internal links with /files/ */
 a[href^="/files/"],
 a[href*="/files/"] {
   color: var(--link-internal) !important;
 }
 
-summary {
-  color: var(--heading-color) !important;
+a[href^="/files/"]:hover,
+a[href*="/files/"]:hover {
+  color: var(--subheading-color) !important;
 }
 
+/* Email links */
+a[href^="mailto:"] {
+  color: var(--link-internal) !important;
+  font-weight: 500;
+}
+
+a[href^="mailto:"]:hover {
+  color: var(--link-hover) !important;
+}
+
+/* Navigation and masthead links */
+.greedy-nav a,
+.masthead__menu-item a {
+  color: var(--heading-light) !important;
+}
+
+/* Summary (Abstract button) */
+summary {
+  color: var(--heading-color) !important;
+  cursor: pointer;
+  font-weight: 600;
+  padding: 0.75rem 0;
+  font-size: 1.05em;
+  list-style: none;
+  display: block;
+  position: relative;
+}
+
+summary::-webkit-details-marker,
+summary::marker {
+  display: none !important;
+}
+
+summary::-moz-list-bullet {
+  list-style-type: none !important;
+}
+
+/* Details/Summary styling */
 details {
-  border-left-color: var(--accent-color) !important;
+  margin-bottom: 1.5em;
+  border-left: 3px solid var(--accent-color);
+  padding-left: 1.5rem;
+  transition: border-color 0.3s ease;
+}
+
+details:hover {
+  border-color: var(--link-color);
+}
+
+details[open] {
+  border-color: var(--link-internal);
 }
 
 summary:before {
-  color: var(--heading-color) !important;
+  content: "▸";
+  display: inline-block;
+  margin-right: 0.5rem;
+  transition: transform 0.3s ease;
+  color: var(--heading-color);
+  font-size: 0.9em;
+}
+
+details[open] summary:before {
+  transform: rotate(90deg);
 }
 
 .greedy-nav a,
@@ -226,44 +300,37 @@ pre {
   color: var(--link-color) !important;
 }
 
-/* About Me page specific fixes */
+/* About Me page - respect inline styles */
 .page[itemtype="http://schema.org/CreativeWork"] {
   background-color: var(--bg-color) !important;
 }
 
-.page[itemtype="http://schema.org/CreativeWork"] p,
-.page[itemtype="http://schema.org/CreativeWork"] li,
-.page[itemtype="http://schema.org/CreativeWork"] div {
-  color: var(--text-color) !important;
+/* Only override elements WITHOUT inline color styles */
+.page[itemtype="http://schema.org/CreativeWork"] p:not([style*="color"]),
+.page[itemtype="http://schema.org/CreativeWork"] li:not([style*="color"]) {
+  color: var(--text-color);
 }
 
-/* Ensure all text elements follow theme */
-body, body * {
-  color: inherit;
-}
-
+/* Headings use theme colors */
 h1, h2, h3, h4, h5, h6 {
   color: var(--heading-color) !important;
 }
 
-/* Strong and emphasis */
-strong, b {
-  color: var(--text-color) !important;
+.page__content h3,
+.archive h3 {
+  color: var(--subheading-color) !important;
+}
+
+/* Strong and emphasis - only if no inline style */
+strong:not([style*="color"]),
+b:not([style*="color"]) {
   font-weight: bold;
 }
 
-em, i {
-  color: var(--text-color) !important;
-  font-style: italic;
-}
-
-/* List items */
-ul, ol {
-  color: var(--text-color) !important;
-}
-
-li {
-  color: var(--text-color) !important;
+/* List items without inline styles */
+.page__content ul:not([style*="color"]),
+.page__content ol:not([style*="color"]) {
+  color: var(--text-color);
 }
 
 /* Smooth transition for all themed elements */

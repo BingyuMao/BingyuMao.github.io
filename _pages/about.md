@@ -18,7 +18,7 @@ redirect_from:
     Bingyu Mao
 </p>
 
-<p style="text-align: center;">
+<p style="text-align: center; color: #6B7A7E;">
 <em>Ph.D.</em> in Biomedical Informatics
 
 <br>
