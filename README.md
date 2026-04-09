@@ -1,17 +1,7 @@
-# Bingyu Mao's Personal Website
+# Personal professional website
 
-Personal academic and professional website built with Jekyll.
+Personal professional website built with Jekyll.
 
-## Local Development
-
-To run the site locally:
-
-```bash
-bundle install
-bundle exec jekyll serve
-```
-
-The site will be available at `http://localhost:4000`.
 
 ## Structure
 

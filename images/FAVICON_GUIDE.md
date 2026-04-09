@@ -1,8 +1,8 @@
 # Favicon Emoji Guide
 
-## How to Change Your Favicon Emoji
+## How to Change Emoji
 
-Your favicon is an emoji! To change it:
+The current favicon is an emoji! To change it:
 
 1. Open `images/favicon.svg` in any text editor
 2. Find the line with `<text>⭐</text>`
