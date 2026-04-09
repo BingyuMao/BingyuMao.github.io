@@ -8,10 +8,11 @@
    - Accessible for color-blind users
 
    Colors:
-   - Primary: Dusty Blue #7B9AA8 (titles, accents)
-   - Secondary: Warm Taupe #A89B8D (neutral elements)
+   - Primary: Darker Dusty Blue #5A7884 (titles, accents)
+   - Secondary: Darker Warm Taupe #8B7D6F (h3 headers)
+   - Navigation: Lighter Dusty Blue #7B9AA8 (navigation menu)
    - Links: Muted Teal #5F9B9E (external)
-   - Internal: Soft Plum #9B8FA4 (internal navigation)
+   - Internal: Soft Plum #9B8FA4 (internal files)
    - Highlight: Dusty Rose #C4A69D (hover states)
    - Text: Charcoal #4A5A5E (main text)
 */
@@ -32,13 +33,13 @@ body.layout--default .page__title,
 }
 
 /* ============================================================================
-   PAGE TITLES - Morandi Dusty Blue
+   PAGE TITLES - Darker Morandi Blue for Better Readability
    ========================================================================= */
 
 .page__title,
 .archive h1,
 h1.page__title {
-  color: #7B9AA8 !important; /* Morandi dusty blue */
+  color: #5A7884 !important; /* Darker Morandi dusty blue */
 }
 
 .archive__subtitle {
@@ -76,11 +77,13 @@ a[href*="/files/"]:hover {
 .greedy-nav a,
 .masthead__menu-item a {
   color: #7B9AA8 !important; /* Dusty blue for navigation */
+  text-decoration: none !important; /* Remove narrow underline */
 }
 
 .greedy-nav a:hover,
 .masthead__menu-item a:hover {
   color: #5F9B9E !important; /* Teal on hover */
+  text-decoration: none !important; /* Keep only wide underline */
 }
 
 /* Email links */
@@ -99,7 +102,7 @@ a[href^="mailto:"]:hover {
 
 details {
   margin-bottom: 1.5em;
-  border-left: 3px solid #7B9AA8; /* Dusty blue accent */
+  border-left: 3px solid #5A7884; /* Darker dusty blue accent */
   padding-left: 1.5rem;
   transition: border-color 0.3s ease;
 }
@@ -114,7 +117,7 @@ details[open] {
 
 summary {
   font-weight: 600;
-  color: #7B9AA8 !important; /* Dusty blue */
+  color: #5A7884 !important; /* Darker dusty blue */
   cursor: pointer;
   padding: 0.75rem 0;
   font-size: 1.05em;
@@ -138,7 +141,7 @@ summary:before {
   display: inline-block;
   margin-right: 0.5rem;
   transition: transform 0.3s ease;
-  color: #7B9AA8;
+  color: #5A7884;
   font-size: 0.9em;
 }
 
@@ -154,18 +157,18 @@ details p {
 }
 
 /* ============================================================================
-   SECTION HEADERS - Morandi Style
+   SECTION HEADERS - Darker Morandi for Readability
    ========================================================================= */
 
 .page__content h2,
 .archive h2 {
-  color: #7B9AA8; /* Dusty blue for h2 */
+  color: #5A7884; /* Darker dusty blue for h2 */
   border-bottom-color: #E5DDD5; /* Very light taupe border */
 }
 
 .page__content h3,
 .archive h3 {
-  color: #A89B8D; /* Warm taupe for h3 */
+  color: #8B7D6F; /* Darker warm taupe for h3 */
 }
 
 /* ============================================================================
