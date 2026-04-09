@@ -17,6 +17,9 @@
   --border-color: #E5DDD5;
   --code-bg: #F5F3F0;
   --sidebar-bg: #FAFAF8;
+  --masthead-bg: #ffffff;
+  --masthead-border: #f2f3f3;
+  --hr-color: #E5DDD5;
 }
 
 [data-theme="dark"] {
@@ -33,13 +36,67 @@
   --border-color: #3F4449;
   --code-bg: #363A3F;
   --sidebar-bg: #31353A;
+  --masthead-bg: #1F2326;
+  --masthead-border: #3F4449;
+  --hr-color: #3F4449;
 }
 
 /* Apply theme colors */
 body {
-  background-color: var(--bg-color);
-  color: var(--text-color);
+  background-color: var(--bg-color) !important;
+  color: var(--text-color) !important;
   transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Masthead/Navigation Bar */
+.masthead {
+  background-color: var(--masthead-bg) !important;
+  border-bottom: 1px solid var(--masthead-border) !important;
+}
+
+.masthead__inner-wrap {
+  background-color: var(--masthead-bg) !important;
+}
+
+.greedy-nav {
+  background: var(--masthead-bg) !important;
+}
+
+/* Horizontal rules */
+hr {
+  border-color: var(--hr-color) !important;
+  background-color: var(--hr-color) !important;
+}
+
+/* Page content background */
+html,
+body,
+#main,
+.page,
+.archive,
+.page__content,
+.page__inner-wrap,
+.layout--default,
+.layout--archive,
+.wrapper {
+  background-color: var(--bg-color) !important;
+}
+
+/* Footer */
+.page__footer,
+.page__footer-follow,
+.page__footer-copyright {
+  background-color: var(--sidebar-bg) !important;
+  color: var(--text-color) !important;
+}
+
+.page__footer a {
+  color: var(--link-color) !important;
+}
+
+/* Override inline text colors */
+p, li, div, span {
+  color: var(--text-color) !important;
 }
 
 /* Theme Toggle Button */
@@ -143,7 +200,70 @@ pre {
 }
 
 .sidebar {
-  background-color: var(--sidebar-bg);
+  background-color: var(--sidebar-bg) !important;
+}
+
+.author__avatar img {
+  border-color: var(--border-color) !important;
+}
+
+.author__content,
+.author__bio,
+.author__urls-wrapper {
+  background-color: transparent !important;
+  color: var(--text-color) !important;
+}
+
+.author__name {
+  color: var(--heading-color) !important;
+}
+
+.author__bio {
+  color: var(--text-color) !important;
+}
+
+.author__urls a {
+  color: var(--link-color) !important;
+}
+
+/* About Me page specific fixes */
+.page[itemtype="http://schema.org/CreativeWork"] {
+  background-color: var(--bg-color) !important;
+}
+
+.page[itemtype="http://schema.org/CreativeWork"] p,
+.page[itemtype="http://schema.org/CreativeWork"] li,
+.page[itemtype="http://schema.org/CreativeWork"] div {
+  color: var(--text-color) !important;
+}
+
+/* Ensure all text elements follow theme */
+body, body * {
+  color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--heading-color) !important;
+}
+
+/* Strong and emphasis */
+strong, b {
+  color: var(--text-color) !important;
+  font-weight: bold;
+}
+
+em, i {
+  color: var(--text-color) !important;
+  font-style: italic;
+}
+
+/* List items */
+ul, ol {
+  color: var(--text-color) !important;
+}
+
+li {
+  color: var(--text-color) !important;
 }
 
 /* Smooth transition for all themed elements */
