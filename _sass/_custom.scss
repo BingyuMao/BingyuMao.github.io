@@ -1,0 +1,119 @@
+/* ============================================================================
+   CUSTOM STYLES - Modern Professional Design
+   ========================================================================= */
+
+/* Center About Me title */
+body.layout--default .page__title,
+.page[itemtype="http://schema.org/CreativeWork"] .page__title {
+  text-align: center;
+}
+
+/* Ensure archive pages are properly centered with equal margins */
+.archive {
+  float: none !important;
+}
+
+/* ============================================================================
+   PROFESSIONAL LINK COLORS
+   ========================================================================= */
+
+/* External links (to other websites) */
+a[href^="http"]:not([href*="bingyumao.github.io"]),
+a[href^="https"]:not([href*="bingyumao.github.io"]) {
+  color: #059669; /* Emerald-600 for external links */
+  transition: color 0.2s ease;
+
+  &:hover {
+    color: #047857; /* Darker on hover */
+  }
+}
+
+/* Internal/anchor links and special links */
+.page__content a:not([href^="http"]),
+.page__content a[href*="bingyumao.github.io"] {
+  color: #6366f1; /* Indigo-500 for internal links */
+
+  &:hover {
+    color: #4f46e5; /* Darker on hover */
+  }
+}
+
+/* Navigation links */
+.greedy-nav a,
+.masthead__menu-item a {
+  color: #2563eb !important; /* Blue-600 for navigation */
+
+  &:hover {
+    color: #1d4ed8 !important;
+  }
+}
+
+/* Email links */
+a[href^="mailto:"] {
+  color: #0ea5e9; /* Cyan-600 for contact */
+  font-weight: 500;
+
+  &:hover {
+    color: #0284c7;
+  }
+}
+
+/* ============================================================================
+   INTERACTIVE ELEMENTS - Details/Summary (Abstract buttons)
+   ========================================================================= */
+
+details {
+  margin-bottom: 1.5em;
+  border-left: 3px solid #3b82f6; /* Blue accent */
+  padding-left: 1.5rem;
+  transition: border-color 0.3s ease;
+
+  &:hover {
+    border-color: #2563eb;
+  }
+
+  &[open] {
+    border-color: #6366f1; /* Indigo when open */
+  }
+}
+
+summary {
+  font-weight: 600;
+  color: #3b82f6; /* Blue-500 */
+  cursor: pointer;
+  padding: 0.75rem 0;
+  font-size: 1.05em;
+  list-style: none;
+  position: relative;
+  transition: color 0.2s ease;
+
+  &:hover {
+    color: #2563eb;
+  }
+
+  /* Hide default marker */
+  &::-webkit-details-marker {
+    display: none;
+  }
+
+  /* Custom chevron */
+  &:before {
+    content: "▸";
+    display: inline-block;
+    margin-right: 0.5rem;
+    transition: transform 0.3s ease;
+    color: #3b82f6;
+    font-size: 0.9em;
+  }
+}
+
+details[open] summary:before {
+  transform: rotate(90deg);
+}
+
+/* Abstract content styling */
+details p {
+  margin-top: 1rem;
+  line-height: 1.7;
+  color: #374151; /* Neutral gray for readability */
+}
