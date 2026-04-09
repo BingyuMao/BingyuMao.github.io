@@ -1,24 +1,5 @@
 /* ============================================================================
-   MORANDI COLOR SCHEME - Professional & Color-Blind Friendly
-   ========================================================================= */
-
-/* Morandi Color Palette:
-   - Soft, muted, desaturated tones
-   - Professional yet calming
-   - Accessible for color-blind users
-
-   Colors:
-   - Primary: Darker Dusty Blue #5A7884 (titles, accents)
-   - Secondary: Darker Warm Taupe #8B7D6F (h3 headers)
-   - Navigation: Lighter Dusty Blue #7B9AA8 (navigation menu)
-   - Links: Muted Teal #5F9B9E (external)
-   - Internal: Soft Plum #9B8FA4 (internal files)
-   - Highlight: Dusty Rose #C4A69D (hover states)
-   - Text: Charcoal #4A5A5E (main text)
-*/
-
-/* ============================================================================
-   LAYOUT & SPACING
+   CUSTOM STYLES - Layout & Specific Overrides
    ========================================================================= */
 
 /* Center About Me title */
@@ -32,155 +13,36 @@ body.layout--default .page__title,
   float: none !important;
 }
 
-/* ============================================================================
-   PAGE TITLES - Darker Morandi Blue for Better Readability
-   ========================================================================= */
-
-.page__title,
-.archive h1,
-h1.page__title {
-  color: #5A7884 !important; /* Darker Morandi dusty blue */
-}
-
-.archive__subtitle {
-  color: #A89B8D; /* Warm taupe for subtitles */
-}
-
-/* ============================================================================
-   LINK COLORS - Color-Blind Friendly
-   ========================================================================= */
-
-/* All links default to Morandi teal */
-a {
-  color: #5F9B9E !important; /* Muted teal */
-  text-decoration: none;
-  transition: color 0.2s ease;
-}
-
-a:hover {
-  color: #C4A69D !important; /* Dusty rose on hover */
-  text-decoration: underline;
-}
-
-/* Internal links with /files/ */
-a[href^="/files/"],
-a[href*="/files/"] {
-  color: #9B8FA4 !important; /* Soft plum for internal files */
-}
-
-a[href^="/files/"]:hover,
-a[href*="/files/"]:hover {
-  color: #A89B8D !important; /* Warm taupe on hover */
-}
-
-/* Navigation links */
+/* Navigation - remove narrow underline */
 .greedy-nav a,
 .masthead__menu-item a {
-  color: #7B9AA8 !important; /* Dusty blue for navigation */
-  text-decoration: none !important; /* Remove narrow underline */
+  text-decoration: none !important;
 }
 
 .greedy-nav a:hover,
 .masthead__menu-item a:hover {
-  color: #5F9B9E !important; /* Teal on hover */
-  text-decoration: none !important; /* Keep only wide underline */
+  text-decoration: none !important;
 }
 
-/* Email links */
+/* Email links emphasis */
 a[href^="mailto:"] {
-  color: #9B8FA4 !important; /* Soft plum for email */
   font-weight: 500;
 }
 
-a[href^="mailto:"]:hover {
-  color: #C4A69D !important; /* Dusty rose on hover */
-}
-
-/* ============================================================================
-   INTERACTIVE ELEMENTS - Abstract Buttons
-   ========================================================================= */
-
-details {
-  margin-bottom: 1.5em;
-  border-left: 3px solid #5A7884; /* Darker dusty blue accent */
-  padding-left: 1.5rem;
-  transition: border-color 0.3s ease;
-}
-
-details:hover {
-  border-color: #5F9B9E; /* Teal on hover */
-}
-
-details[open] {
-  border-color: #9B8FA4; /* Soft plum when open */
-}
-
-summary {
-  font-weight: 600;
-  color: #5A7884 !important; /* Darker dusty blue */
-  cursor: pointer;
-  padding: 0.75rem 0;
-  font-size: 1.05em;
-  list-style: none;
-  position: relative;
-  transition: color 0.2s ease;
-}
-
-summary:hover {
-  color: #5F9B9E !important; /* Teal on hover */
-}
-
-/* Hide default marker */
+/* Hide default details marker */
 summary::-webkit-details-marker {
   display: none;
 }
 
-/* Custom chevron */
+/* Custom chevron for details */
 summary:before {
   content: "▸";
   display: inline-block;
   margin-right: 0.5rem;
   transition: transform 0.3s ease;
-  color: #5A7884;
   font-size: 0.9em;
 }
 
 details[open] summary:before {
   transform: rotate(90deg);
-}
-
-/* Abstract content styling */
-details p {
-  margin-top: 1rem;
-  line-height: 1.7;
-  color: #4A5A5E; /* Charcoal for readability */
-}
-
-/* ============================================================================
-   SECTION HEADERS - Darker Morandi for Readability
-   ========================================================================= */
-
-.page__content h2,
-.archive h2 {
-  color: #5A7884; /* Darker dusty blue for h2 */
-  border-bottom-color: #E5DDD5; /* Very light taupe border */
-}
-
-.page__content h3,
-.archive h3 {
-  color: #8B7D6F; /* Darker warm taupe for h3 */
-}
-
-/* ============================================================================
-   EMPHASIZED TEXT
-   ========================================================================= */
-
-strong,
-b {
-  color: #4A5A5E; /* Darker for emphasis */
-}
-
-em,
-i {
-  color: #6B7A7E; /* Slightly muted */
 }

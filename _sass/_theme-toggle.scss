@@ -1,0 +1,152 @@
+/* ============================================================================
+   THEME TOGGLE - Light/Dark Mode Switch
+   ========================================================================= */
+
+/* CSS Variables for Theme Colors */
+:root {
+  /* Light Mode (Default) - Morandi Colors */
+  --bg-color: #ffffff;
+  --text-color: #4A5A5E;
+  --heading-color: #5A7884;
+  --heading-light: #7B9AA8;
+  --subheading-color: #8B7D6F;
+  --link-color: #5F9B9E;
+  --link-hover: #C4A69D;
+  --link-internal: #9B8FA4;
+  --accent-color: #5A7884;
+  --border-color: #E5DDD5;
+  --code-bg: #F5F3F0;
+  --sidebar-bg: #FAFAF8;
+}
+
+[data-theme="dark"] {
+  /* Dark Mode - Morandi Colors Adapted */
+  --bg-color: #2A3035;
+  --text-color: #D4D8DA;
+  --heading-color: #A5BCC7;
+  --heading-light: #8BA5B2;
+  --subheading-color: #B8AA9D;
+  --link-color: #7FB5B8;
+  --link-hover: #D9B8AD;
+  --link-internal: #B5A5BA;
+  --accent-color: #7A96A3;
+  --border-color: #3F4449;
+  --code-bg: #363A3F;
+  --sidebar-bg: #31353A;
+}
+
+/* Apply theme colors */
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Theme Toggle Button */
+.theme-toggle {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 1000;
+  background: var(--accent-color);
+  border: none;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+
+.theme-toggle:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.theme-toggle svg {
+  width: 24px;
+  height: 24px;
+  fill: #ffffff;
+}
+
+/* Hide/show icons based on theme */
+.theme-toggle .sun-icon {
+  display: none;
+}
+
+.theme-toggle .moon-icon {
+  display: block;
+}
+
+[data-theme="dark"] .theme-toggle .sun-icon {
+  display: block;
+}
+
+[data-theme="dark"] .theme-toggle .moon-icon {
+  display: none;
+}
+
+/* Update existing elements to use CSS variables */
+.page__title,
+.archive h1,
+h1.page__title {
+  color: var(--heading-color) !important;
+}
+
+.page__content h2,
+.archive h2 {
+  color: var(--heading-color) !important;
+  border-bottom-color: var(--border-color) !important;
+}
+
+.page__content h3,
+.archive h3 {
+  color: var(--subheading-color) !important;
+}
+
+a {
+  color: var(--link-color) !important;
+}
+
+a:hover {
+  color: var(--link-hover) !important;
+}
+
+a[href^="/files/"],
+a[href*="/files/"] {
+  color: var(--link-internal) !important;
+}
+
+summary {
+  color: var(--heading-color) !important;
+}
+
+details {
+  border-left-color: var(--accent-color) !important;
+}
+
+summary:before {
+  color: var(--heading-color) !important;
+}
+
+.greedy-nav a,
+.masthead__menu-item a {
+  color: var(--heading-light) !important;
+}
+
+code,
+pre {
+  background-color: var(--code-bg) !important;
+}
+
+.sidebar {
+  background-color: var(--sidebar-bg);
+}
+
+/* Smooth transition for all themed elements */
+* {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
