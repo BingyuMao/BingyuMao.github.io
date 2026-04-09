@@ -29,7 +29,7 @@ redirect_from:
 
 <hr>
 
-<h3>🔬 Research Interests</h3>
+<h3>Research Interests</h3>
 <ul>
     <li>Developing robust benchmarks and utilizing synthetic data methodologies to validate the safety and reasoning of healthcare LLMs</li>
     <li>Exploring multi-modal foundation models and action-driven architectures to automate and improve clinical workflows</li>
@@ -37,10 +37,10 @@ redirect_from:
     <li>Mathematical modeling for individualized therapeutic drug monitoring</li>
 </ul>
 
-<h3>📬 Contact Me</h3>
+<h3>Contact</h3>
 <p><a href="mailto:bingyu@verily.health">bingyu@verily.health</a></p>
 
-<h3>🔗 Read More</h3>
+<h3>Links</h3>
 <p>
     <a href="https://scholar.google.com/citations?user=GVs3qjUAAAAJ&hl=en">Google Scholar</a> • 
     <a href="https://www.researchgate.net/profile/Bingyu-Mao">ResearchGate</a> • 

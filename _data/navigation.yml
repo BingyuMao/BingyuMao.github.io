@@ -5,11 +5,8 @@ main:
     url: /publications/
 
   - title: "Research"
-    url: /research/   
+    url: /research/
 
-  - title: "Projects"
-    url: /projects/    
-    
   - title: "CV"
     url: /cv/
 

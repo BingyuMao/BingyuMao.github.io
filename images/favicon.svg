@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!--
+    EMOJI FAVICON - Easy to customize!
+
+    To change the emoji:
+    1. Find the <text> tag below
+    2. Replace the emoji between the tags with any emoji you like
+
+    Popular options:
+    ⭐ Star
+    🌸 Cherry blossom
+    ✨ Sparkles
+    🧬 DNA
+    🔬 Microscope
+    🤖 Robot
+    💡 Light bulb
+    🎯 Target
+  -->
+  <text x="50" y="50" font-size="80" text-anchor="middle" dominant-baseline="central">🌟</text>
+</svg>
