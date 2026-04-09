@@ -63,8 +63,8 @@ While a comprehensive evaluation plan needs to be agreed on during the early pha
 
 ## Academic Projects
 
-<details>
-  <summary>Biomedical Informatics</summary>
+<details markdown="1">
+<summary>Biomedical Informatics</summary>
 
 [BMI 6313](https://sbmi.uth.edu/current-students/catalog-of-courses-bmi/bmi-6313.htm) Scientific Writing in Healthcare ([Poster](/files/6313Poster.pdf))
 
@@ -76,8 +76,8 @@ While a comprehensive evaluation plan needs to be agreed on during the early pha
 
 </details>
 
-<details>
-  <summary>Data Science</summary>
+<details markdown="1">
+<summary>Data Science</summary>
 
 [BMI 5007](https://sbmi.uth.edu/current-students/catalog-of-courses-bmi/bmi-5007.htm) Methods in Health Data Science ([Code Repository](https://github.com/BingyuMao/mtds_health_data))
 
@@ -89,8 +89,8 @@ While a comprehensive evaluation plan needs to be agreed on during the early pha
 
 </details>
 
-<details>
-  <summary>Statistics</summary>
+<details markdown="1">
+<summary>Statistics</summary>
 
 PH 1976 Fundamentals of Data Analytics and Predictions ([Code Repository](https://github.com/BingyuMao/pd_proj))
 
