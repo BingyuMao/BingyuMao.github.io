@@ -1,5 +1,23 @@
 /* ============================================================================
-   CUSTOM STYLES - Modern Professional Design
+   MORANDI COLOR SCHEME - Professional & Color-Blind Friendly
+   ========================================================================= */
+
+/* Morandi Color Palette:
+   - Soft, muted, desaturated tones
+   - Professional yet calming
+   - Accessible for color-blind users
+
+   Colors:
+   - Primary: Dusty Blue #7B9AA8 (titles, accents)
+   - Secondary: Warm Taupe #A89B8D (neutral elements)
+   - Links: Muted Teal #5F9B9E (external)
+   - Internal: Soft Plum #9B8FA4 (internal navigation)
+   - Highlight: Dusty Rose #C4A69D (hover states)
+   - Text: Charcoal #4A5A5E (main text)
+*/
+
+/* ============================================================================
+   LAYOUT & SPACING
    ========================================================================= */
 
 /* Center About Me title */
@@ -14,97 +32,114 @@ body.layout--default .page__title,
 }
 
 /* ============================================================================
-   PROFESSIONAL LINK COLORS
+   PAGE TITLES - Morandi Dusty Blue
    ========================================================================= */
 
-/* External links (to other websites) */
-a[href^="http"]:not([href*="bingyumao.github.io"]),
-a[href^="https"]:not([href*="bingyumao.github.io"]) {
-  color: #059669; /* Emerald-600 for external links */
-  transition: color 0.2s ease;
-
-  &:hover {
-    color: #047857; /* Darker on hover */
-  }
+.page__title,
+.archive h1,
+h1.page__title {
+  color: #7B9AA8 !important; /* Morandi dusty blue */
 }
 
-/* Internal/anchor links and special links */
-.page__content a:not([href^="http"]),
-.page__content a[href*="bingyumao.github.io"] {
-  color: #6366f1; /* Indigo-500 for internal links */
+.archive__subtitle {
+  color: #A89B8D; /* Warm taupe for subtitles */
+}
 
-  &:hover {
-    color: #4f46e5; /* Darker on hover */
-  }
+/* ============================================================================
+   LINK COLORS - Color-Blind Friendly
+   ========================================================================= */
+
+/* All links default to Morandi teal */
+a {
+  color: #5F9B9E !important; /* Muted teal */
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #C4A69D !important; /* Dusty rose on hover */
+  text-decoration: underline;
+}
+
+/* Internal links with /files/ */
+a[href^="/files/"],
+a[href*="/files/"] {
+  color: #9B8FA4 !important; /* Soft plum for internal files */
+}
+
+a[href^="/files/"]:hover,
+a[href*="/files/"]:hover {
+  color: #A89B8D !important; /* Warm taupe on hover */
 }
 
 /* Navigation links */
 .greedy-nav a,
 .masthead__menu-item a {
-  color: #2563eb !important; /* Blue-600 for navigation */
+  color: #7B9AA8 !important; /* Dusty blue for navigation */
+}
 
-  &:hover {
-    color: #1d4ed8 !important;
-  }
+.greedy-nav a:hover,
+.masthead__menu-item a:hover {
+  color: #5F9B9E !important; /* Teal on hover */
 }
 
 /* Email links */
 a[href^="mailto:"] {
-  color: #0ea5e9; /* Cyan-600 for contact */
+  color: #9B8FA4 !important; /* Soft plum for email */
   font-weight: 500;
+}
 
-  &:hover {
-    color: #0284c7;
-  }
+a[href^="mailto:"]:hover {
+  color: #C4A69D !important; /* Dusty rose on hover */
 }
 
 /* ============================================================================
-   INTERACTIVE ELEMENTS - Details/Summary (Abstract buttons)
+   INTERACTIVE ELEMENTS - Abstract Buttons
    ========================================================================= */
 
 details {
   margin-bottom: 1.5em;
-  border-left: 3px solid #3b82f6; /* Blue accent */
+  border-left: 3px solid #7B9AA8; /* Dusty blue accent */
   padding-left: 1.5rem;
   transition: border-color 0.3s ease;
+}
 
-  &:hover {
-    border-color: #2563eb;
-  }
+details:hover {
+  border-color: #5F9B9E; /* Teal on hover */
+}
 
-  &[open] {
-    border-color: #6366f1; /* Indigo when open */
-  }
+details[open] {
+  border-color: #9B8FA4; /* Soft plum when open */
 }
 
 summary {
   font-weight: 600;
-  color: #3b82f6; /* Blue-500 */
+  color: #7B9AA8 !important; /* Dusty blue */
   cursor: pointer;
   padding: 0.75rem 0;
   font-size: 1.05em;
   list-style: none;
   position: relative;
   transition: color 0.2s ease;
+}
 
-  &:hover {
-    color: #2563eb;
-  }
+summary:hover {
+  color: #5F9B9E !important; /* Teal on hover */
+}
 
-  /* Hide default marker */
-  &::-webkit-details-marker {
-    display: none;
-  }
+/* Hide default marker */
+summary::-webkit-details-marker {
+  display: none;
+}
 
-  /* Custom chevron */
-  &:before {
-    content: "▸";
-    display: inline-block;
-    margin-right: 0.5rem;
-    transition: transform 0.3s ease;
-    color: #3b82f6;
-    font-size: 0.9em;
-  }
+/* Custom chevron */
+summary:before {
+  content: "▸";
+  display: inline-block;
+  margin-right: 0.5rem;
+  transition: transform 0.3s ease;
+  color: #7B9AA8;
+  font-size: 0.9em;
 }
 
 details[open] summary:before {
@@ -115,5 +150,34 @@ details[open] summary:before {
 details p {
   margin-top: 1rem;
   line-height: 1.7;
-  color: #374151; /* Neutral gray for readability */
+  color: #4A5A5E; /* Charcoal for readability */
+}
+
+/* ============================================================================
+   SECTION HEADERS - Morandi Style
+   ========================================================================= */
+
+.page__content h2,
+.archive h2 {
+  color: #7B9AA8; /* Dusty blue for h2 */
+  border-bottom-color: #E5DDD5; /* Very light taupe border */
+}
+
+.page__content h3,
+.archive h3 {
+  color: #A89B8D; /* Warm taupe for h3 */
+}
+
+/* ============================================================================
+   EMPHASIZED TEXT
+   ========================================================================= */
+
+strong,
+b {
+  color: #4A5A5E; /* Darker for emphasis */
+}
+
+em,
+i {
+  color: #6B7A7E; /* Slightly muted */
 }

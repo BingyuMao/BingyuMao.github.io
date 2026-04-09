@@ -57,10 +57,10 @@ $body-color                 : #fff;
 $background-color           : #fff;
 $code-background-color      : #fafafa;
 $code-background-color-dark : $light-gray;
-$text-color                 : #2d3748;
+$text-color                 : #4A5A5E; /* Morandi charcoal */
 $border-color               : $lighter-gray;
 
-$primary-color              : #1a202c;
+$primary-color              : #7B9AA8; /* Morandi dusty blue */
 $success-color              : #62c462;
 $warning-color              : #f89406;
 $danger-color               : #ee5f5b;
@@ -89,12 +89,12 @@ $youtube-color              : #bb0000;
 $xing-color                 : #006567;
 
 
-/* links */
-$link-color                 : #3b82f6; /* Modern blue */
-$link-color-hover           : #2563eb; /* Darker blue on hover */
-$link-color-visited         : #6366f1; /* Indigo for visited */
+/* links - Morandi colors */
+$link-color                 : #5F9B9E; /* Muted teal */
+$link-color-hover           : #C4A69D; /* Dusty rose on hover */
+$link-color-visited         : #9B8FA4; /* Soft plum for visited */
 $masthead-link-color        : $primary-color;
-$masthead-link-color-hover  : mix(#000, $primary-color, 25%);
+$masthead-link-color-hover  : #5F9B9E; /* Teal on hover */
 
 
 /*
