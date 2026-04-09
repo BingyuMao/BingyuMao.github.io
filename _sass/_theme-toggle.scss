@@ -250,17 +250,9 @@ details[open] {
   border-color: var(--link-internal);
 }
 
+/* No chevron icon - clean left border only */
 summary:before {
-  content: "▸";
-  display: inline-block;
-  margin-right: 0.5rem;
-  transition: transform 0.3s ease;
-  color: var(--heading-color);
-  font-size: 0.9em;
-}
-
-details[open] summary:before {
-  transform: rotate(90deg);
+  content: none;
 }
 
 .greedy-nav a,

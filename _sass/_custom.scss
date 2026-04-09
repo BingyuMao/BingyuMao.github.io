@@ -29,4 +29,9 @@ a[href^="mailto:"] {
   font-weight: 500;
 }
 
-/* Details/Summary styling is handled in _theme-toggle.scss */
+/* Details/Summary - remove any chevron icons */
+summary:before,
+summary::before {
+  content: none !important;
+  display: none !important;
+}
