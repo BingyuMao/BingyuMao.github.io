@@ -4,17 +4,44 @@
 
   const themeToggle = document.getElementById('theme-toggle');
   const htmlElement = document.documentElement;
-
-  // Get system preference or default to 'light'
   const darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
-  const systemTheme = darkModeMediaQuery.matches ? 'dark' : 'light';
-  htmlElement.setAttribute('data-theme', systemTheme);
+
+  // Detect if this is a page reload (F5) or back/forward navigation
+  const navigationType = performance.getEntriesByType('navigation')[0]?.type;
+  const isReload = navigationType === 'reload' || navigationType === 'back_forward';
+
+  // Initialize theme
+  if (isReload) {
+    // Reset to system preference on reload
+    const systemTheme = darkModeMediaQuery.matches ? 'dark' : 'light';
+    htmlElement.setAttribute('data-theme', systemTheme);
+    sessionStorage.removeItem('theme');
+    sessionStorage.removeItem('theme-toggle-position');
+  } else {
+    // Load from session storage (persists during page navigation)
+    const savedTheme = sessionStorage.getItem('theme');
+    if (savedTheme) {
+      htmlElement.setAttribute('data-theme', savedTheme);
+    } else {
+      const systemTheme = darkModeMediaQuery.matches ? 'dark' : 'light';
+      htmlElement.setAttribute('data-theme', systemTheme);
+      sessionStorage.setItem('theme', systemTheme);
+    }
+
+    // Restore button position
+    const savedPosition = JSON.parse(sessionStorage.getItem('theme-toggle-position') || '{}');
+    if (savedPosition.bottom && savedPosition.right) {
+      themeToggle.style.bottom = savedPosition.bottom;
+      themeToggle.style.right = savedPosition.right;
+    }
+  }
 
   // Toggle theme function
   function toggleTheme() {
     const currentTheme = htmlElement.getAttribute('data-theme');
     const newTheme = currentTheme === 'light' ? 'dark' : 'light';
     htmlElement.setAttribute('data-theme', newTheme);
+    sessionStorage.setItem('theme', newTheme);
   }
 
   // Draggable functionality
@@ -80,8 +107,15 @@
 
     themeToggle.classList.remove('dragging');
 
-    // If not dragging, it was a click
-    if (!isDragging) {
+    // Save button position if dragged
+    if (isDragging) {
+      const position = {
+        bottom: themeToggle.style.bottom,
+        right: themeToggle.style.right
+      };
+      sessionStorage.setItem('theme-toggle-position', JSON.stringify(position));
+    } else {
+      // If not dragging, it was a click
       toggleTheme();
     }
 
@@ -96,6 +130,8 @@
 
   // Listen for system theme preference changes
   darkModeMediaQuery.addEventListener('change', function(e) {
-    htmlElement.setAttribute('data-theme', e.matches ? 'dark' : 'light');
+    const newTheme = e.matches ? 'dark' : 'light';
+    htmlElement.setAttribute('data-theme', newTheme);
+    sessionStorage.setItem('theme', newTheme);
   });
 })();
