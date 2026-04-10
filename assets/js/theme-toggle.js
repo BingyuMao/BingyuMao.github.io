@@ -22,13 +22,6 @@
   let isDragging = false;
   let startX, startY, initialX, initialY;
 
-  // Load saved position or use defaults
-  const savedPosition = JSON.parse(localStorage.getItem('theme-toggle-position') || '{}');
-  if (savedPosition.bottom !== undefined && savedPosition.right !== undefined) {
-    themeToggle.style.bottom = savedPosition.bottom;
-    themeToggle.style.right = savedPosition.right;
-  }
-
   function onMouseDown(e) {
     // Prevent text selection
     e.preventDefault();
@@ -88,15 +81,8 @@
 
     themeToggle.classList.remove('dragging');
 
-    // Save position
-    if (isDragging) {
-      const position = {
-        bottom: themeToggle.style.bottom,
-        right: themeToggle.style.right
-      };
-      localStorage.setItem('theme-toggle-position', JSON.stringify(position));
-    } else {
-      // If not dragging, it was a click
+    // If not dragging, it was a click
+    if (!isDragging) {
       toggleTheme();
     }
 
