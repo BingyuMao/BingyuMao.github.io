@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-<div style="text-align: center; max-width: 900px; margin: auto;">
+<div style="text-align: center; margin: auto;">
     <img src="/images/profile.JPG" alt="Profile Picture" style="display: block; margin: 0 auto; width: 200px; border-radius: 50%;">
 </div>
 

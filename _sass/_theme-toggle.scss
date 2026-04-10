@@ -113,7 +113,7 @@ body,
 /* Theme Toggle Button */
 .theme-toggle {
   position: fixed;
-  top: 1rem;
+  bottom: 1rem;
   right: 1rem;
   z-index: 1000;
   background: var(--accent-color);
@@ -121,17 +121,23 @@ body,
   border-radius: 50%;
   width: 44px;
   height: 44px;
-  cursor: pointer;
+  cursor: move;
   display: flex;
   align-items: center;
   justify-content: center;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
-  transition: all 0.3s ease;
+  transition: box-shadow 0.3s ease;
+  touch-action: none;
+  user-select: none;
 }
 
 .theme-toggle:hover {
-  transform: scale(1.1);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.theme-toggle.dragging {
+  cursor: grabbing;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
 }
 
 .theme-toggle svg {
