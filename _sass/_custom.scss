@@ -35,20 +35,3 @@ summary::before {
   content: none !important;
   display: none !important;
 }
-
-/* Add spacing between sidebar and content on large screens */
-@media (min-width: 925px) {
-  .sidebar {
-    margin-right: 2rem;
-  }
-}
-
-/* For pages without sidebar (author_profile: false), center the content with equal margins */
-#main:not(:has(.sidebar)) .archive {
-  @media (min-width: 925px) {
-    float: none !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    width: 83.33333% !important;
-  }
-}
