@@ -32,7 +32,7 @@ Aug 2015 - Jun 2019
 
 ## Experience
 
-### Verily Life Sciences | Boston
+### Verily Health | Boston
 
 Aug 2025 - Present
 
