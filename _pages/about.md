@@ -10,7 +10,7 @@ redirect_from:
 ---
 
 <div style="text-align: center; margin: auto;">
-    <img src="/images/profile.JPG" alt="Profile Picture" style="display: block; margin: 0 auto; width: 200px; border-radius: 50%;">
+    <img src="/images/profile.png" alt="Profile Picture" style="display: block; margin: 0 auto; width: 200px; border-radius: 50%;">
 </div>
 
 <br>
