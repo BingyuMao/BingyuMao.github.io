@@ -43,7 +43,7 @@ redirect_from:
 
 <h3>Links</h3>
 <p>
-    <a href="https://scholar.google.com/citations?user=GVs3qjUAAAAJ&hl=en">Google Scholar</a> • 
+    <a href="https://scholar.google.com/citations?hl=en&user=A7ajrdwAAAAJ">Google Scholar</a> • 
     <a href="https://www.researchgate.net/profile/Bingyu-Mao">ResearchGate</a> • 
     <a href="https://github.com/BingyuMao">GitHub</a> • 
     <a href="https://www.linkedin.com/in/bingyu-mao/">LinkedIn</a>
