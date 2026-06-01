@@ -36,7 +36,7 @@ B Mao, Y Gao, C Xu, S Macha, S Shao, M Ahamadi
 *The AAPS Journal, Jun 2025*
 
 
-## In progress
+## In Progress
 
 [**Disease Risk Prediction Using Structured EHR Data: Can Generalist Large Language Models Match Specialized Clinical Foundation Models? A Comparative Evaluation with Fine-Tuning**](https://www.medrxiv.org/content/10.64898/2026.04.24.26351503v1)
 
