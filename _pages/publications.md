@@ -5,128 +5,41 @@ permalink: /publications/
 author_profile: false
 ---
 
+## Selected Publications
+
+
 [**Improving Vancomycin Therapeutic Drug Monitoring With a Deep Learning–Based Two-Compartment Predictive Model: Development and Validation Study**](https://ai.jmir.org/2026/1/e81103) 
 
-**Bingyu Mao**, Ziqian Xie, Laila Rasmy, Masayuki Nigo, Degui Zhi
+B Mao, Z Xie, L Rasmy, M Nigo, D Zhi
 
 *JMIR AI, Jun 2026*
-
-  <details>
-  <summary>Abstract</summary>
-Background:
-Vancomycin is a widely used antibiotic that requires therapeutic drug monitoring (TDM) for optimized individual dosage. A deep learning–based model, pharmacokinetic recurrent neural network–1 compartment model (PKRNN-1CM), has shown the advantage of leveraging time-series electronic health record data for individualized estimation of vancomycin pharmacokinetic (PK) parameters. While 1-compartment PK models are commonly used because of their simplicity and previous trough-based clinical practices for dose adjustment, the pre–deep learning literature suggests the superiority of 2-compartment models. <br/>
-
-Objective:
-This study introduces the pharmacokinetic recurrent neural network–2 compartment model (PKRNN-2CM), a novel deep learning–based model designed to improve vancomycin TDM by integrating a 2-compartment PK framework. <br/>
-
-Methods:
-PKRNN-2CM combines recurrent neural network–driven PK parameter estimation with a 2-compartment PK model to predict vancomycin concentration trajectories. Training on both simulated data and real-world electronic health record data allows for a comprehensive evaluation of its performance. <br/>
-
-Results:
-Experiments based on simulated data highlight PKRNN-2CM’s superiority over the simpler 1-compartment model, PKRNN-1CM, in predicting vancomycin concentration measurements (root mean square error 3.04 vs 4.50). Application to a real dataset from 5483 patients showcases significant improvement over PKRNN-1CM (root mean square error 5.55 vs 5.65; 2-sample 2-tailed unpaired t test; P=.01), with potential further gains expected with nontrough level measurements. Our simulation also indicates that PKRNN-2CM offers a better estimate of the average area under the concentration-time curve to minimum inhibitory concentration ratio, a more clinically relevant measure. <br/>
-
-Conclusions:
-PKRNN-2CM is an important improvement in vancomycin TDM, demonstrating enhanced accuracy and performance compared to the PKRNN-1CM model. This deep learning model holds potential for future individualized vancomycin TDM optimization and broader applications in diverse clinical scenarios. <br/>
-</details>
 
 
 [**A Reinforcement Learning (RL)-Motivated Simulation Framework for Evaluating Vancomycin Dosing Strategies**](https://pmc.ncbi.nlm.nih.gov/articles/PMC12919618/)
 
-**Bingyu Mao**, Ziqian Xie, Laila Rasmy, Masayuki Nigo, Degui Zhi
+B Mao, Z Xie, L Rasmy, M Nigo, D Zhi
 
 *AMIA Annual Symposium, Feb 2026*
-
-  <details>
-  <summary>Abstract</summary>
-Achieving and maintaining the therapeutic range in vancomycin treatment is important for optimal outcomes. While guidelines and best practices based on empirical studies exist, the theoretical best dosing strategies under various conditions remain illusive. We developed an RL-based simulation framework using a deep learning two-compartment pharmacokinetic model (PK-RNN-2CM) and introduced the area under the time-concentration curve (AUC) reward score, which translates clinical guidelines into an RL reward. Ground truth time-concentration curves were generated from patient-specific data, and simulated curves were produced under different dosing strategies with optional noise perturbations to mimic real-world settings. Evaluation metrics included 24-hour AUC assessments and RMSE. Results indicated that while the low-dosing AUC target (low-doser) and the high-dosing AUC target (high-doser) performed comparably in noise-free conditions, the low-doser achieved slightly higher AUC reward scores under noisy conditions, whereas the high-doser exhibited greater stability. This framework opens new approaches for optimizing vancomycin dosing. <br/>
-</details>
 
 
 [**Opportunities for AI-based Model-Informed Drug Development: A Comparative Analysis of NONMEM and AI-Based Models for Population Pharmacokinetic Prediction**](https://link.springer.com/article/10.1208/s12248-025-01121-x)
 
-**Bingyu Mao**, Yue Gao, Christine Xu, Sreeraj Macha, Shuai Shao, Malidi Ahamadi
+B Mao, Y Gao, C Xu, S Macha, S Shao, M Ahamadi
 
 *The AAPS Journal, Nov 2025*
-
-  <details>
-  <summary>Abstract</summary>
-Model-informed drug development (MIDD) plays an important role in pharmacometrics by analyzing clinical data using mathematical models to optimize drug dosing strategies. Traditional methods such as nonlinear mixed effects modeling (NONMEM) have long been the gold standard in population pharmacokinetic (PPK) modeling. However, the development of artificial intelligence (AI) presents a potential improvement in predictive accuracy and computational efficiency. This study evaluates the effectiveness of AI-based MIDD methods for PPK analysis, comparing them against traditional NONMEM models. We tested five machine learning (ML) models, three deep learning (DL) models, and a neural ordinary differential equations (ODE) model on both simulated and real clinical datasets under different scenarios, assessing accuracy with metrics such as root mean squared error (RMSE) and coefficient of determination (R²). Simulated datasets with known ground truth were created using a two-compartment model, while the real clinical dataset included data from 1,770 patients pooled from multiple clinical trials. Results indicate that AI/ML models often outperform NONMEM, with variations in performance depending on model type and data characteristics. Neural ODE models showed good performance, providing high accuracy and explainability with large datasets. This work provides valuable insights into the relative strengths and future applications of AI/ML in PPK modeling. <br/>
-</details>
 
 
 [**Evaluating the Impact of AI-Based Model-Informed Drug Development (MIDD): A Comparative Review**](https://link.springer.com/article/10.1208/s12248-025-01075-0)
 
-**Bingyu Mao**, Yue Gao, Christine Xu, Sreeraj Macha, Shuai Shao, Malidi Ahamadi
+B Mao, Y Gao, C Xu, S Macha, S Shao, M Ahamadi
 
 *The AAPS Journal, Jun 2025*
-
-  <details>
-  <summary>Abstract</summary>
-Model-informed drug development (MIDD) methods play critical role to ensure development of efficacious, and safe individualized therapies. The application of artificial intelligence/machine learning (AI/ML) within the field of drug development has exponentially expanded. Integrating AI/ML into traditional pharmacometrics approaches or using AI/ML as a stand-alone tool has the potential to optimize dosing strategies, inform clinical trial designs, and enhance robustness of quantitative assessments of drug efficacy and safety. <br/>
-  
-This review systematically evaluates the impact of AI-based model-informed drug development (MIDD) methods compared to traditional approaches by blending regulatory perspectives. We conducted a systematic search on PubMed using five Medical Subject Headings (MeSH) terms and included 67 relevant studies in the analysis. The results indicate that AI models have the potential of improving MIDD approaches through different stages of drug development to inform decision-making in clinical trials. However, limitations such as the lack of standardized evaluation metrics and standardized regulatory guidelines on the use of AI-based MIDD methods were noted. Overall, this review highlights the potential applications of AI in drug development and provides a foundation for future research to optimize and integrate AI-based approaches in this field. <br/>
-</details>
-
-
-[**Deep learning model for personalized prediction of positive MRSA culture using time-series electronic health records**](https://www.nature.com/articles/s41467-024-46211-0) 
-
-Masayuki Nigo, Laila Rasmy, **Bingyu Mao**, Bijun Sai Kannadath, Ziqian Xie, Degui Zhi
-
-*Nature Communications, Mar 2024*
-
-  <details>
-  <summary>Abstract</summary>
-Methicillin-resistant Staphylococcus aureus (MRSA) poses significant morbidity and mortality in hospitals. Rapid, accurate risk stratification of MRSA is crucial for optimizing antibiotic therapy. Our study introduced a deep learning model, PyTorch_EHR, which leverages electronic health record (EHR) time-series data, including wide-variety patient specific data, to predict MRSA culture positivity within two weeks. 8,164 MRSA and 22,393 non-MRSA patient events from Memorial Hermann Hospital System, Houston, Texas are used for model development. PyTorch_EHR outperforms logistic regression (LR) and light gradient boost machine (LGBM) models in accuracy (AUROC_PyTorch_EHR = 0.911, AUROC_LR = 0.857, AUROC_LGBM = 0.892). External validation with 393,713 patient events from the Medical Information Mart for Intensive Care (MIMIC)-IV dataset in Boston confirms its superior accuracy (AUROC_PyTorch_EHR = 0.859, AUROC_LR = 0.816, AUROC_LGBM = 0.838). Our model effectively stratifies patients into high-, medium-, and low-risk categories, potentially optimizing antimicrobial therapy and reducing unnecessary MRSA-specific antimicrobials. This highlights the advantage of deep learning models in predicting MRSA positive cultures, surpassing traditional machine learning models and supporting clinicians’ judgments. <br/>
-</details>
-
-
-[**PK-RNN-V E: A Deep Learning Model Approach to Vancomycin Therapeutic Drug Monitoring Using Electronic Health Record Data**](https://www.sciencedirect.com/science/article/pii/S1532046422001782?via%3Dihub) 
-
-Masayuki Nigo, Hong Thoai Nga Tran, Ziqian Xie, Han Feng, **Bingyu Mao**,  Laila Rasmy, Hongyu Miao, Degui Zhi
-
-*Journal of Biomedical Informatics, Aug 2022*
-
-  <details>
-  <summary>Abstract</summary>
-Vancomycin is a commonly used antimicrobial in hospitals, and therapeutic drug monitoring (TDM) is required to optimize its efficacy and avoid toxicities. Bayesian models are currently recommended to predict the antibiotic levels. These models, however, although using carefully designed lab observations, were often developed in limited patient populations. The increasing availability of electronic health record (EHR) data offers an opportunity to develop TDM models for real-world patient populations. <br/>
-
-Here, we present a deep learning-based pharmacokinetic prediction model for vancomycin (PK-RNN-V E) using a large EHR dataset of 5,483 patients with 55,336 vancomycin administrations. PK-RNN-V E takes the patient’s real-time sparse and irregular observations and offers dynamic predictions. Our results show that RNN-PK-V E offers a root mean squared error (RMSE) of 5.39 and outperforms the traditional Bayesian model (VTDM model) with an RMSE of 6.29. We believe that PK-RNN-V E can provide a pharmacokinetic model for vancomycin and other antimicrobials that require TDM. <br/>
-</details>
-
-
-[**Recurrent neural network models (CovRNN) for predicting outcomes of patients with COVID-19 on admission to hospital: model development and validation using electronic health record data**](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(22)00049-8/fulltext) 
-
-Laila Rasmy, Masayuki Nigo, Bijun Sai Kannadath, Ziqian Xie, **Bingyu Mao**, Khush Patel, Yujia Zhou, Wanheng Zhang, Angela Ross, Hua Xu, Degui Zhi
-
-*The Lancet Digital Health, Apr 2022*
-
-  <details>
-  <summary>Abstract</summary>
-Predicting outcomes of COVID-19 patients at an early stage is critical for optimized clinical care and resource management, especially during a pandemic. Although multiple machine learning models have been proposed to address this issue, based on the need for extensive data pre-processing and feature engineering, these models have not been validated or implemented outside of the original study site. <br/>
-
-In this study, we developed recurrent neural network-based models (CovRNN) to predict the outcomes of patients with COVID-19 by use of available electronic health record data on admission to hospital, without the need for specific feature selection or missing data imputation. CovRNN was designed to predict three outcomes: in-hospital mortality, need for mechanical ventilation, and prolonged hospital stay (>7 days). For in-hospital mortality and mechanical ventilation, CovRNN produced time-to-event risk scores (survival prediction; evaluated by the concordance index) and all-time risk scores (binary prediction; area under the receiver operating characteristic curve AUROC was the main metric); we only trained a binary classification model for prolonged hospital stay. For binary classification tasks, we compared CovRNN against traditional machine learning algorithms: logistic regression and light gradient boost machine. Model performance was evaluated in the multi-hospital test set. <br/>
-
-CovRNN binary models achieved AUROCs of 93·0% (95% CI 92·6–93·4) for the prediction of in-hospital mortality, 92·9% (92·6–93·2) for the prediction of mechanical ventilation, and 86·5% (86·2–86·9) for the prediction of a prolonged hospital stay, outperforming light gradient boost machine and logistic regression algorithms. External validation confirmed AUROCs in similar ranges (91·3–97·0% for in-hospital mortality prediction, 91·5–96·0% for the prediction of mechanical ventilation, and 81·0–88·3% for the prediction of prolonged hospital stay). For survival prediction, CovRNN achieved a concordance index of 86·0% (95% CI 85·1–86·9) for in-hospital mortality and 92·6% (92·2–93·0) for mechanical ventilation. <br/>
-</details>
 
 
 ## In progress
 
 [**Disease Risk Prediction Using Structured EHR Data: Can Generalist Large Language Models Match Specialized Clinical Foundation Models? A Comparative Evaluation with Fine-Tuning**](https://www.medrxiv.org/content/10.64898/2026.04.24.26351503v1)
 
-**Bingyu Mao**, Made K. Prasadha, Ziqian Xie, Jianping He, Michael Ghebranious, Hua Xu, Degui Zhi, Laila Rasmy
+B Mao, MK Prasadha, Z Xie, J He, M Ghebranious, H Xu, D Zhi, L Rasmy
 
 *MedRxiv, May 2026*
-
-  <details>
-  <summary>Abstract</summary>
-Background: Electronic health records (EHRs) with clinical decision support tools are now ubiquitous in healthcare organizations. Clinical foundation models (CFMs) pretrained on large-scale, heterogeneous structured EHR data have emerged as a powerful approach to improve predictive performance and generalizability. Meanwhile, large language models (LLMs) pretrained on broad data sources are being applied to an expanding range of healthcare tasks. However, it remains unclear whether generalist LLMs can match specialized CFMs for disease risk prediction using structured clinical data.  <br/>
-
-Methods: We compared CFMs (Med-BERT, CLMBR) against fine-tuned generalist LLMs (Mistral, LLaMA-2/3/3.1), a clinical LLM (Me-LLaMA), and LLM-generated embeddings paired with simple classifiers (using DeepSeek, Qwen3, and GPT-OSS) on two disease risk prediction tasks: heart failure risk among diabetic patients (DHF) and pancreatic cancer diagnosis (PaCa). Evaluations spanned multi-site EHR data, claims data, and an open-source single-institution benchmark (EHRSHOT). Performance was assessed using the area under the receiver operating characteristic curve (AUROC) and the area under the precision-recall curve (AUPRC).  <br/>
-
-Results: On larger EHR and claims cohorts (>30,000 patients), fine-tuned CFMs outperformed fine-tuned LLMs by a small but statistically significant margin (<1% AUROC). The clinical LLM performed comparably to generalist LLMs despite being smaller. On the open-source PaCa cohort (3,810 patients, 199 cases), LLMs achieved slightly higher AUROCs that were not statistically significant (LLaMA-3.1-70B 86.1% vs. Med-BERT 85.3%, p=0.27), but CFMs achieved significantly higher AUPRC (Med-BERT 55.9% vs. LLaMA-3.1-70B 41.1%, p=0.001). Notably, LLM-generated trajectory embeddings paired with logistic regression or a simple MLP, without any LLM fine-tuning, achieved the best overall performance, with AUROC exceeding 90% (Qwen3) and AUPRC reaching 66% (GPT-OSS 20B).  <br/>
-
-Conclusion: LLM-generated embeddings with lightweight classifiers outperformed both fine-tuned CFMs and fine-tuned LLMs on AUROC and AUPRC. While these results demonstrate the potential of generalist models to match or surpass specialized CFMs, their substantially greater computational cost and variable AUPRC performance in the fine-tuning setting warrant caution. We provide a reproducible evaluation framework and codebase to support continued benchmarking. <br/>
-</details>
-
-
