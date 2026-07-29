@@ -5,11 +5,11 @@ Personal professional website built with Jekyll.
 
 ## Structure
 
-- `_pages/`: Main content pages (about, publications, research, CV)
+- `_pages/`: Main content pages (about, publications, projects, CV)
 - `_sass/`: Styling and theme customization
 - `_includes/`: Reusable HTML components
 - `_layouts/`: Page layouts
-- `files/`: PDFs and downloadable files
+- `files/`: PDFs, downloadable files, and hosted project demos
 - `images/`: Site images
 
 ## Deployment
