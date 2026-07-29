@@ -29,7 +29,8 @@ author_profile: false
 **B Mao**, MK Prasadha, Z Xie, J He, M Ghebranious, H Xu, D Zhi, L Rasmy  
 *MedRxiv, May 2026*
 
-## Co-authored Publications
+<details class="pub" markdown="1">
+<summary>Co-authored Publications</summary>
 
 [Deep learning model for personalized prediction of positive MRSA culture using time-series electronic health records](https://www.nature.com/articles/s41467-024-46211-0)  
 M Nigo, L Rasmy, **B Mao**, BS Kannadath, Z Xie, D Zhi  
@@ -43,7 +44,10 @@ M Nigo, HTN Tran, Z Xie, H Feng, **B Mao**, L Rasmy, H Miao, D Zhi
 L Rasmy, M Nigo, BS Kannadath, Z Xie, **B Mao**, K Patel, Y Zhou, W Zhang, A Ross, H Xu, D Zhi  
 *The Lancet Digital Health, Apr 2022*
 
-## Presentations
+</details>
+
+<details class="pub" markdown="1">
+<summary>Presentations</summary>
 
 [A deep-learning-based two-compartment predictive model (PKRNN-2CM) for vancomycin therapeutic drug monitoring](https://www.computer.org/csdl/proceedings-article/ichi/2023/026300a484/1SN7pSdD8WY)  
 **B Mao**, Z Xie, L Rasmy, M Nigo, D Zhi  
@@ -53,7 +57,10 @@ L Rasmy, M Nigo, BS Kannadath, Z Xie, **B Mao**, K Patel, Y Zhou, W Zhang, A Ros
 L Rasmy, Y Chu, **B Mao**, K Patel, Z Li, H Yan, Z Xie, W Zheng, H Xu, D Zhi  
 *Machine Learning For Healthcare 2022, Durham, NC*
 
-## Posters
+</details>
+
+<details class="pub" markdown="1">
+<summary>Posters</summary>
 
 [Technical Performance Evaluation of a Deep Learning-based Vancomycin Therapeutic Drug Monitoring Model](/files/PKRNN_Poster.pdf)  
 **B Mao**, M Nigo, HTN Tran, Z Xie, H Feng, L Rasmy, H Miao, D Zhi  
@@ -62,3 +69,5 @@ L Rasmy, Y Chu, **B Mao**, K Patel, Z Li, H Yan, Z Xie, W Zheng, H Xu, D Zhi
 [A multi-aspect technical performance evaluation of deep learning based models for predicting COVID-19 patients outcomes on admission](/files/CovRNN_poster.pdf)  
 L Rasmy, M Nigo, BS Kannadath, Z Xie, **B Mao**, A Ross, H Xu, D Zhi  
 *AMIA 2022 Informatics Summit, Chicago, IL*
+
+</details>

@@ -35,3 +35,116 @@ summary::before {
   content: none !important;
   display: none !important;
 }
+
+/* ----------------------------------------------------------------------------
+   Project cards — compact horizontal media object (thumbnail left, text right)
+   ---------------------------------------------------------------------------- */
+.project-card {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  border: 1px solid #e3e8ef;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 2px 10px rgba(20, 40, 70, 0.06);
+  margin-bottom: 1.4em;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+
+  &:hover {
+    box-shadow: 0 8px 20px rgba(20, 40, 70, 0.12);
+    transform: translateY(-2px);
+  }
+
+  &__media {
+    flex: 0 0 38%;
+    max-width: 300px;
+    align-self: stretch;
+    display: block;
+    background: #f6f7fb;
+    border-right: 1px solid #e3e8ef;
+
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: top center;
+    }
+  }
+
+  &__body {
+    flex: 1 1 auto;
+    min-width: 0;
+    padding: 16px 20px;
+  }
+
+  &__title {
+    margin: 0 0 0.3em;
+    font-size: 1.15em;
+  }
+
+  &__desc {
+    margin: 0 0 0.8em;
+    color: #6b7a7e;
+    font-size: 0.9em;
+    line-height: 1.5;
+  }
+
+  &__actions {
+    margin: 0;
+
+    .btn {
+      margin-bottom: 0.3em;
+    }
+  }
+
+  &__note {
+    margin: 0.55em 0 0;
+    color: #8a97a3;
+    font-size: 0.78em;
+  }
+}
+
+/* Stack vertically on small screens: image on top, text below */
+@media (max-width: 600px) {
+  .project-card {
+    display: block;
+
+    &__media {
+      max-width: none;
+      max-height: 190px;
+      border-right: 0;
+      border-bottom: 1px solid #e3e8ef;
+    }
+  }
+}
+
+/* ----------------------------------------------------------------------------
+   Collapsible publication sections — summary reads like an <h2> heading
+   ---------------------------------------------------------------------------- */
+details.pub > summary {
+  margin: 2em 0 0.5em;
+  font-family: $header-font-family;
+  font-size: $type-size-4;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.3;
+  cursor: pointer;
+  list-style: none;
+
+  &::-webkit-details-marker {
+    display: none;
+  }
+
+  /* subtle affordance that it expands */
+  &:after {
+    content: " \25B8"; /* ▸ */
+    color: #9aa7b1;
+    font-size: 0.8em;
+  }
+}
+
+details.pub[open] > summary:after {
+  content: " \25BE"; /* ▾ */
+}
