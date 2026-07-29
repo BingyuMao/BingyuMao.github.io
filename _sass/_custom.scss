@@ -68,8 +68,8 @@ summary::before {
       display: block;
       width: 100%;
       height: 100%;
-      object-fit: cover;
-      object-position: top center;
+      object-fit: contain;
+      object-position: center;
     }
   }
 
@@ -136,15 +136,4 @@ details.pub > summary {
   &::-webkit-details-marker {
     display: none;
   }
-
-  /* subtle affordance that it expands */
-  &:after {
-    content: " \25B8"; /* ▸ */
-    color: #9aa7b1;
-    font-size: 0.8em;
-  }
-}
-
-details.pub[open] > summary:after {
-  content: " \25BE"; /* ▾ */
 }
