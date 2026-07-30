@@ -106,16 +106,21 @@ summary::before {
   }
 }
 
-/* Stack vertically on small screens: image on top, text below */
+/* Stack vertically on small screens: image on top, text below.
+   Use the GIF's natural height here (not height:100%) — when stacked the media
+   box has no defined height, so height:100% would overflow and overlap the text. */
 @media (max-width: 600px) {
   .project-card {
     display: block;
+  }
 
-    &__media {
-      max-width: none;
-      max-height: 190px;
-      border-right: 0;
-      border-bottom: 1px solid #e3e8ef;
+  .project-card__media {
+    max-width: none;
+    border-right: 0;
+    border-bottom: 1px solid #e3e8ef;
+
+    img {
+      height: auto;
     }
   }
 }
