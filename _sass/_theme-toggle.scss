@@ -279,11 +279,6 @@ summary:before {
   content: none;
 }
 
-.greedy-nav a,
-.masthead__menu-item a {
-  color: var(--heading-light) !important;
-}
-
 code,
 pre {
   background-color: var(--code-bg) !important;
@@ -330,11 +325,6 @@ pre {
 /* Headings use theme colors */
 h1, h2, h3, h4, h5, h6 {
   color: var(--heading-color) !important;
-}
-
-.page__content h3,
-.archive h3 {
-  color: var(--subheading-color) !important;
 }
 
 /* Strong and emphasis - only if no inline style */
