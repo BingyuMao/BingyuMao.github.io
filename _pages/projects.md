@@ -18,8 +18,8 @@ redirect_from:
     <div class="project-card__head">
       <h3 class="project-card__title">Apple Health Insights</h3>
       <span class="project-card__actions">
-        <a class="link-btn link-btn--accent" href="/files/apple-health-demo-female.html" target="_blank" rel="noopener"><i class="fas fa-play"></i> Live demo</a>
-        <a class="link-btn" href="https://github.com/BingyuMao/apple-health-insights" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a>
+        <a class="link-btn link-btn--accent" href="/files/apple-health-demo-female.html" target="_blank" rel="noopener"><i class="fas fa-play"></i> Demo</a>
+        <a class="link-btn" href="https://github.com/BingyuMao/apple-health-insights" target="_blank" rel="noopener"><i class="fab fa-github"></i> Repo</a>
       </span>
     </div>
     <p class="project-card__desc">

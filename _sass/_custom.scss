@@ -77,15 +77,13 @@ summary::before {
     max-width: 300px;
     align-self: stretch;
     display: block;
-    background: var(--card-media-bg);
     border-right: 1px solid var(--border-color);
 
+    /* Natural height so the GIF fills its box exactly — no letterbox bars */
     img {
       display: block;
       width: 100%;
-      height: 100%;
-      object-fit: contain;
-      object-position: center;
+      height: auto;
     }
   }
 
@@ -125,6 +123,8 @@ summary::before {
 
     .link-btn {
       margin: 0;
+      min-width: 6em;
+      justify-content: center;
     }
   }
 
@@ -316,19 +316,34 @@ body {
     line-height: 1.5;
   }
 
-  /* Fixed 2x2 grid so the four links never wrap to a lopsided 3 + 1 */
+  /* Icon-only social links in a single row (no button chrome or labels) */
   &__links {
-    display: grid;
-    grid-template-columns: repeat(2, max-content);
-    gap: 0.5em 0.6em;
-    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1.2rem;
+    margin: 0.3em 0 0;
+    font-size: 1.6em;
 
-    .link-btn {
-      width: 100%;
-      margin: 0;
-      justify-content: center;
+    a {
+      line-height: 1;
+      text-decoration: none !important;
+      transition: color 0.2s ease, transform 0.2s ease;
+
+      &:hover {
+        transform: translateY(-2px);
+      }
     }
   }
+}
+
+/* Keep the social icons on-palette (override the theme's link colors) */
+#main .profile-hero__links a {
+  color: var(--heading-color) !important;
+}
+
+#main .profile-hero__links a:hover {
+  color: var(--link-color) !important;
 }
 
 /* Stack and center on small screens */
