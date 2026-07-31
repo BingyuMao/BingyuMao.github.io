@@ -2,11 +2,26 @@
    CUSTOM STYLES - Layout & Specific Overrides
    ========================================================================= */
 
-/* Center the page title (e.g. "About me" above the profile hero) */
+/* Other layouts: center the title normally */
 body.layout--default .page__title,
-.page[itemtype="http://schema.org/CreativeWork"] .page__title,
-.archive .page__title {
+.page[itemtype="http://schema.org/CreativeWork"] .page__title {
   text-align: center;
+}
+
+/* Home: the visible title sits centered above the profile photo (the left
+   hero column), lined up over the avatar rather than the whole page. */
+.page__title:not(.page__title--hidden) {
+  width: 190px;
+  max-width: 38%;
+  margin: 0 0 0.5em;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .page__title:not(.page__title--hidden) {
+    width: auto;
+    max-width: none;
+  }
 }
 
 /* Ensure archive pages are properly centered with equal margins */
@@ -149,7 +164,7 @@ details > summary {
   padding: 0.55em 1.05em;
   font-family: $sans-serif;
   font-size: 0.85em;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 1;
   text-decoration: none !important;
   background-color: var(--btn-bg);
