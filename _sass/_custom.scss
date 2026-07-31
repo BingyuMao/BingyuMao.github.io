@@ -43,16 +43,16 @@ summary::before {
   display: flex;
   align-items: center;
   gap: 0;
-  border: 1px solid #e3e8ef;
+  border: 1px solid var(--border-color);
   border-radius: 12px;
   overflow: hidden;
-  background: #fff;
-  box-shadow: 0 2px 10px rgba(20, 40, 70, 0.06);
+  background: var(--card-bg);
+  box-shadow: 0 2px 10px var(--card-shadow);
   margin-bottom: 1.4em;
   transition: box-shadow 0.2s ease, transform 0.2s ease;
 
   &:hover {
-    box-shadow: 0 8px 20px rgba(20, 40, 70, 0.12);
+    box-shadow: 0 8px 20px var(--card-shadow-hover);
     transform: translateY(-2px);
   }
 
@@ -61,8 +61,8 @@ summary::before {
     max-width: 300px;
     align-self: stretch;
     display: block;
-    background: #f6f7fb;
-    border-right: 1px solid #e3e8ef;
+    background: var(--card-media-bg);
+    border-right: 1px solid var(--border-color);
 
     img {
       display: block;
@@ -86,7 +86,7 @@ summary::before {
 
   &__desc {
     margin: 0 0 0.8em;
-    color: #6b7a7e;
+    color: var(--text-color) !important;
     font-size: 0.9em;
     line-height: 1.5;
   }
@@ -101,7 +101,7 @@ summary::before {
 
   &__note {
     margin: 0.55em 0 0;
-    color: #8a97a3;
+    color: var(--text-muted) !important;
     font-size: 0.78em;
   }
 }
@@ -117,7 +117,7 @@ summary::before {
   .project-card__media {
     max-width: none;
     border-right: 0;
-    border-bottom: 1px solid #e3e8ef;
+    border-bottom: 1px solid var(--border-color);
 
     img {
       height: auto;

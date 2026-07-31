@@ -21,6 +21,10 @@
   --masthead-bg: #ffffff;
   --masthead-border: #f2f3f3;
   --hr-color: #E5DDD5;
+  --card-bg: #ffffff;
+  --card-media-bg: #F5F3F0;
+  --card-shadow: rgba(20, 40, 70, 0.06);
+  --card-shadow-hover: rgba(20, 40, 70, 0.12);
 }
 
 [data-theme="dark"] {
@@ -41,6 +45,10 @@
   --masthead-bg: #1F2326;
   --masthead-border: #3F4449;
   --hr-color: #3F4449;
+  --card-bg: #31353A;
+  --card-media-bg: #262B30;
+  --card-shadow: rgba(0, 0, 0, 0.35);
+  --card-shadow-hover: rgba(0, 0, 0, 0.5);
 }
 
 /* About Me page degree/title color */
