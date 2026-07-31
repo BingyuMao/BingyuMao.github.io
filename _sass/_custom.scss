@@ -124,26 +124,16 @@ summary::before {
 /* ----------------------------------------------------------------------------
    Collapsible publication sections — summary reads like an <h2> heading
    ---------------------------------------------------------------------------- */
-/* Collapsed sections: keep them close together (no meaningless empty space
-   between one summary and the next), matching the h2 rhythm above. */
-details.pub {
-  margin-bottom: 0.4em;
+/* Collapsible sections — one shared look on Publications and Projects.
+   Summary keeps the theme size (1.05em); a medium gap sits between sections
+   (wider than the old tight Publications spacing, narrower than Projects'). */
+details {
+  margin-bottom: 0.7em;
 }
 
-details.pub > summary {
+details > summary {
   margin: 0;
-  padding: 0.4em 0;
-  font-family: $header-font-family;
-  font-size: $type-size-4;
-  font-weight: 600;
-  letter-spacing: -0.02em;
-  line-height: 1.3;
-  cursor: pointer;
-  list-style: none;
-
-  &::-webkit-details-marker {
-    display: none;
-  }
+  padding: 0.35em 0;
 }
 
 /* ----------------------------------------------------------------------------
