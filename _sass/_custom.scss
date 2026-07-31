@@ -151,7 +151,7 @@ details > summary {
   font-weight: 600;
   line-height: 1;
   text-decoration: none !important;
-  background-color: #456a78; /* deep Morandi blue — white contrast 5.9 */
+  background-color: #5a7884; /* Morandi primary — matches headings; white contrast 4.7 */
   border-radius: 6px;
   cursor: pointer;
   transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
@@ -162,17 +162,17 @@ details > summary {
   }
 
   &:hover {
-    background-color: #375563;
+    background-color: #4c6672;
     transform: translateY(-1px);
     box-shadow: 0 3px 9px var(--card-shadow-hover);
   }
 
-  /* prominent accent variant (e.g. Live demo) */
+  /* accent variant (e.g. Live demo) — same Morandi tone for a calm, consistent look */
   &--accent {
-    background-color: #1f6f84; /* deep teal — white contrast 5.7 */
+    background-color: #5a7884;
 
     &:hover {
-      background-color: #16596b;
+      background-color: #4c6672;
     }
   }
 }
@@ -211,9 +211,10 @@ body {
   font-size: 0.9em;
 }
 
-/* Hide the page title (it just repeats the nav tab). Kept in the DOM for
-   screen readers / SEO, and removed from flow so it leaves no empty gap. */
-.page__title {
+/* On inner tabs the page title just repeats the nav label, so hide it
+   (the home page keeps its "About me" title). Kept in the DOM for screen
+   readers / SEO, and removed from flow so it leaves no empty gap. */
+.page__title--hidden {
   position: absolute !important;
   width: 1px;
   height: 1px;
@@ -225,8 +226,8 @@ body {
   border: 0;
 }
 
-/* First real element sits at the very top now that the title is hidden */
-.page__title + * {
+/* First real element sits at the very top when the title is hidden */
+.page__title--hidden + * {
   margin-top: 0 !important;
 }
 
