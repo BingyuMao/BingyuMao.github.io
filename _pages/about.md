@@ -43,8 +43,8 @@ redirect_from:
 
 <h3>Links</h3>
 <p>
-    <a href="https://scholar.google.com/citations?hl=en&user=A7ajrdwAAAAJ">Google Scholar</a> • 
-    <a href="https://www.researchgate.net/profile/Bingyu-Mao">ResearchGate</a> • 
-    <a href="https://github.com/BingyuMao">GitHub</a> • 
-    <a href="https://www.linkedin.com/in/bingyu-mao/">LinkedIn</a>
+    <a class="link-btn" href="https://scholar.google.com/citations?hl=en&user=A7ajrdwAAAAJ" target="_blank" rel="noopener"><i class="ai ai-google-scholar"></i> Google Scholar</a>
+    <a class="link-btn" href="https://www.researchgate.net/profile/Bingyu-Mao" target="_blank" rel="noopener"><i class="ai ai-researchgate"></i> ResearchGate</a>
+    <a class="link-btn" href="https://github.com/BingyuMao" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a>
+    <a class="link-btn" href="https://www.linkedin.com/in/bingyu-mao/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i> LinkedIn</a>
 </p>

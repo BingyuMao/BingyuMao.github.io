@@ -93,10 +93,6 @@ summary::before {
 
   &__actions {
     margin: 0;
-
-    .btn {
-      margin-bottom: 0.3em;
-    }
   }
 
   &__note {
@@ -141,4 +137,54 @@ details.pub > summary {
   &::-webkit-details-marker {
     display: none;
   }
+}
+
+/* ----------------------------------------------------------------------------
+   Icon action / link buttons — used by project cards and home social links.
+   Deep backgrounds give white text a >=5.7:1 contrast ratio (WCAG AA).
+   ---------------------------------------------------------------------------- */
+.link-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
+  margin: 0.3em 0.5em 0.3em 0;
+  padding: 0.55em 1.05em;
+  font-family: $sans-serif;
+  font-size: 0.85em;
+  font-weight: 600;
+  line-height: 1;
+  text-decoration: none !important;
+  background-color: #456a78; /* deep Morandi blue — white contrast 5.9 */
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+
+  i {
+    font-size: 1.05em;
+    line-height: 1;
+  }
+
+  &:hover {
+    background-color: #375563;
+    transform: translateY(-1px);
+    box-shadow: 0 3px 9px var(--card-shadow-hover);
+  }
+
+  /* prominent accent variant (e.g. Live demo) */
+  &--accent {
+    background-color: #1f6f84; /* deep teal — white contrast 5.7 */
+
+    &:hover {
+      background-color: #16596b;
+    }
+  }
+}
+
+/* Keep button labels white: the theme's link-color rules use !important with
+   higher specificity than a plain class, so raise specificity with #main. */
+#main a.link-btn,
+#main a.link-btn:visited,
+#main a.link-btn:hover,
+#main a.link-btn:focus {
+  color: #ffffff !important;
 }
