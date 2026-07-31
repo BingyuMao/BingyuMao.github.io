@@ -76,10 +76,12 @@ summary::before {
     flex: 0 0 38%;
     max-width: 300px;
     align-self: stretch;
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-right: 1px solid var(--border-color);
 
-    /* Natural height so the GIF fills its box exactly — no letterbox bars */
+    /* Natural height (no letterbox), vertically centered in the card */
     img {
       display: block;
       width: 100%;
@@ -316,16 +318,22 @@ body {
     line-height: 1.5;
   }
 
-  /* Icon-only social links in a single row (no button chrome or labels) */
+  /* Icon-only social links in a single row (no button chrome or labels).
+     Each icon gets an equal-width, centered slot so sizes/spacing read
+     uniformly even though the glyph widths differ across icon fonts. */
   &__links {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 1.2rem;
+    gap: 0.9rem;
     margin: 0.3em 0 0;
     font-size: 1.6em;
 
     a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 1.5em;
       line-height: 1;
       text-decoration: none !important;
       transition: color 0.2s ease, transform 0.2s ease;
