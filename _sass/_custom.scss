@@ -2,9 +2,10 @@
    CUSTOM STYLES - Layout & Specific Overrides
    ========================================================================= */
 
-/* Center About Me title */
+/* Center the page title (e.g. "About me" above the profile hero) */
 body.layout--default .page__title,
-.page[itemtype="http://schema.org/CreativeWork"] .page__title {
+.page[itemtype="http://schema.org/CreativeWork"] .page__title,
+.archive .page__title {
   text-align: center;
 }
 
@@ -151,7 +152,8 @@ details > summary {
   font-weight: 600;
   line-height: 1;
   text-decoration: none !important;
-  background-color: #5a7884; /* Morandi primary — matches headings; white contrast 4.7 */
+  background-color: var(--btn-bg);
+  border: 1px solid var(--btn-border);
   border-radius: 6px;
   cursor: pointer;
   transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
@@ -162,17 +164,17 @@ details > summary {
   }
 
   &:hover {
-    background-color: #4c6672;
+    background-color: var(--btn-bg-hover);
     transform: translateY(-1px);
     box-shadow: 0 3px 9px var(--card-shadow-hover);
   }
 
-  /* accent variant (e.g. Live demo) — same Morandi tone for a calm, consistent look */
+  /* accent variant (e.g. Live demo) — same tone for a calm, consistent look */
   &--accent {
-    background-color: #5a7884;
+    background-color: var(--btn-bg);
 
     &:hover {
-      background-color: #4c6672;
+      background-color: var(--btn-bg-hover);
     }
   }
 }
@@ -183,7 +185,7 @@ details > summary {
 #main a.link-btn:visited,
 #main a.link-btn:hover,
 #main a.link-btn:focus {
-  color: #ffffff !important;
+  color: var(--btn-text) !important;
 }
 
 /* ----------------------------------------------------------------------------

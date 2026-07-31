@@ -25,6 +25,11 @@
   --card-media-bg: #F5F3F0;
   --card-shadow: rgba(20, 40, 70, 0.06);
   --card-shadow-hover: rgba(20, 40, 70, 0.12);
+  /* Light theme: soft light button with dark text (calm, not attention-grabbing) */
+  --btn-bg: #E7ECEE;
+  --btn-bg-hover: #DAE1E3;
+  --btn-text: #42606B;
+  --btn-border: #D2DBDD;
 }
 
 [data-theme="dark"] {
@@ -49,6 +54,11 @@
   --card-media-bg: #262B30;
   --card-shadow: rgba(0, 0, 0, 0.35);
   --card-shadow-hover: rgba(0, 0, 0, 0.5);
+  /* Dark theme: keep the filled Morandi button with white text */
+  --btn-bg: #5A7884;
+  --btn-bg-hover: #4C6672;
+  --btn-text: #FFFFFF;
+  --btn-border: transparent;
 }
 
 /* About Me page degree/title color */
