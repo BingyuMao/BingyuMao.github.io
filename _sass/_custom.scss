@@ -190,15 +190,8 @@ details.pub > summary {
 }
 
 /* ----------------------------------------------------------------------------
-   Readability & rhythm — comfortable measure, calmer spacing
+   Readability & rhythm — calmer spacing
    ---------------------------------------------------------------------------- */
-
-/* Cap the reading column so lines stay a comfortable length on wide screens */
-.archive {
-  max-width: 44rem;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 /* Slightly more open body rhythm (base is 1.6) */
 body {
@@ -219,4 +212,65 @@ body {
 details.pub > summary {
   padding-bottom: 0.3em;
   border-bottom: 1px solid var(--border-color);
+}
+
+/* ----------------------------------------------------------------------------
+   Home hero — avatar on the left, name / intro / links on the right
+   ---------------------------------------------------------------------------- */
+.profile-hero {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin: 0.5rem 0 1.5rem;
+
+  &__avatar {
+    flex: 0 0 auto;
+    width: 190px;
+    max-width: 38%;
+
+    img {
+      display: block;
+      width: 100%;
+      border-radius: 50%;
+    }
+  }
+
+  &__body {
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+
+  &__name {
+    margin: 0 0 0.2em;
+    font-size: 1.9em;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    color: var(--heading-color);
+  }
+
+  &__tagline {
+    margin: 0 0 1em;
+    color: var(--text-muted);
+    font-size: 1.05em;
+    line-height: 1.5;
+  }
+
+  &__links {
+    margin: 0;
+  }
+}
+
+/* Stack and center on small screens */
+@media (max-width: 600px) {
+  .profile-hero {
+    display: block;
+    text-align: center;
+
+    &__avatar {
+      width: 160px;
+      max-width: 55%;
+      margin: 0 auto 1.1rem;
+    }
+  }
 }
