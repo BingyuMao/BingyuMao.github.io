@@ -124,8 +124,15 @@ summary::before {
 /* ----------------------------------------------------------------------------
    Collapsible publication sections — summary reads like an <h2> heading
    ---------------------------------------------------------------------------- */
+/* Collapsed sections: keep them close together (no meaningless empty space
+   between one summary and the next), matching the h2 rhythm above. */
+details.pub {
+  margin-bottom: 0.4em;
+}
+
 details.pub > summary {
-  margin: 2em 0 0.5em;
+  margin: 0;
+  padding: 0.4em 0;
   font-family: $header-font-family;
   font-size: $type-size-4;
   font-weight: 600;
@@ -212,6 +219,30 @@ body {
 .archive p:not([class]),
 .archive li:not([class]) {
   font-size: 0.9em;
+}
+
+/* Hide the page title (it just repeats the nav tab). Kept in the DOM for
+   screen readers / SEO, and removed from flow so it leaves no empty gap. */
+.page__title {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* First real element sits at the very top now that the title is hidden */
+.page__title + * {
+  margin-top: 0 !important;
+}
+
+/* Tighter, purposeful spacing above section headings */
+.archive h2 {
+  margin: 1.4em 0 0.4em;
 }
 
 /* ----------------------------------------------------------------------------
