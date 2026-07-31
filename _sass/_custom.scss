@@ -188,3 +188,35 @@ details.pub > summary {
 #main a.link-btn:focus {
   color: #ffffff !important;
 }
+
+/* ----------------------------------------------------------------------------
+   Readability & rhythm — comfortable measure, calmer spacing
+   ---------------------------------------------------------------------------- */
+
+/* Cap the reading column so lines stay a comfortable length on wide screens */
+.archive {
+  max-width: 44rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Slightly more open body rhythm (base is 1.6) */
+body {
+  line-height: 1.7;
+}
+
+/* A little breathing room between paragraphs and list items */
+.archive p {
+  margin-bottom: 1.15em;
+}
+
+.archive li {
+  margin-bottom: 0.4em;
+}
+
+/* Calm, consistent hairline under section headings */
+.archive h2,
+details.pub > summary {
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid var(--border-color);
+}
