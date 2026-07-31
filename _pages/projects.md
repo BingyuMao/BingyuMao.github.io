@@ -15,16 +15,18 @@ redirect_from:
     <img src="/images/apple-health-insights.gif" alt="Apple Health Insights — scrolling through the interactive dashboard" loading="lazy">
   </a>
   <div class="project-card__body">
-    <h3 class="project-card__title">Apple Health Insights</h3>
+    <div class="project-card__head">
+      <h3 class="project-card__title">Apple Health Insights</h3>
+      <span class="project-card__actions">
+        <a class="link-btn link-btn--accent" href="/files/apple-health-demo-female.html" target="_blank" rel="noopener"><i class="fas fa-play"></i> Live demo</a>
+        <a class="link-btn" href="https://github.com/BingyuMao/apple-health-insights" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a>
+      </span>
+    </div>
     <p class="project-card__desc">
-      A privacy-first tool that turns your iPhone Health export into a de-identified, interactive dashboard with optional, source-cited AI health suggestions. Everything runs locally — your raw data never leaves your machine.
-    </p>
-    <p class="project-card__actions">
-      <a class="link-btn link-btn--accent" href="/files/apple-health-demo-female.html" target="_blank" rel="noopener"><i class="fas fa-play"></i> Live demo</a>
-      <a class="link-btn" href="https://github.com/BingyuMao/apple-health-insights" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a>
+      A privacy-first tool that turns your iPhone Health export into a de-identified, interactive dashboard with optional, source-cited AI health suggestions. Everything runs locally, so your raw data never leaves your machine.
     </p>
     <p class="project-card__note">
-      Interactive demo built from synthetic data — no real health information (<a href="/files/apple-health-demo-male.html" target="_blank" rel="noopener">2nd sample</a>).
+      Interactive demo built from synthetic data with no real health information (<a href="/files/apple-health-demo-male.html" target="_blank" rel="noopener">2nd sample</a>).
     </p>
   </div>
 </div>

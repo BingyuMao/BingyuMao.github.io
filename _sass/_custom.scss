@@ -95,24 +95,41 @@ summary::before {
     padding: 16px 20px;
   }
 
+  /* Title on the left, action buttons on the right of the same row */
+  &__head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.5em 1em;
+    margin-bottom: 0.55em;
+  }
+
   &__title {
-    margin: 0 0 0.3em;
-    font-size: 1.15em;
+    margin: 0;
+    font-size: 1.05em;
   }
 
   &__desc {
-    margin: 0 0 0.8em;
+    margin: 0 0 0.6em;
     color: var(--text-color) !important;
     font-size: 0.9em;
     line-height: 1.5;
   }
 
   &__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4em;
     margin: 0;
+
+    .link-btn {
+      margin: 0;
+    }
   }
 
   &__note {
-    margin: 0.55em 0 0;
+    margin: 0;
     color: var(--text-muted) !important;
     font-size: 0.78em;
   }
@@ -150,6 +167,12 @@ details {
 details > summary {
   margin: 0;
   padding: 0.35em 0;
+}
+
+/* More breathing room above the first collapsed section (where it follows a
+   normal paragraph, e.g. "Co-authored Publications" under "In Progress") */
+p + details.pub {
+  margin-top: 1.4em;
 }
 
 /* ----------------------------------------------------------------------------
