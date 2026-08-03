@@ -2,8 +2,9 @@
 <script src="{{ base_path }}/assets/js/theme-toggle.js"></script>
 
 <script>
-  // Consistency: open external links and file/document links in a new tab,
-  // while keeping in-site navigation (the nav tabs) in the same tab.
+  /* Consistency: open external links and /files/ document links in a new tab,
+     while keeping in-site navigation (the nav tabs) in the same tab.
+     Note: block comment (not //) so it survives HTML whitespace compression. */
   document.addEventListener('DOMContentLoaded', function() {
     document.querySelectorAll('#main a[href]').forEach(function(a) {
       var href = a.getAttribute('href') || '';
