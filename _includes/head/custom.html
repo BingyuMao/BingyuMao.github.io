@@ -2,6 +2,28 @@
 
 <!-- start custom head snippets -->
 
+<!-- Set the theme before first paint so navigating between pages doesn't
+     flash the light background in dark mode. Mirrors assets/js/theme-toggle.js. -->
+<script>
+  (function() {
+    try {
+      var nav = performance.getEntriesByType('navigation')[0];
+      var isReload = nav && (nav.type === 'reload' || nav.type === 'back_forward');
+      var systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      var theme;
+      if (isReload) {
+        theme = systemDark ? 'dark' : 'light';
+        sessionStorage.removeItem('theme');
+        sessionStorage.removeItem('theme-toggle-position');
+      } else {
+        theme = sessionStorage.getItem('theme') || (systemDark ? 'dark' : 'light');
+        sessionStorage.setItem('theme', theme);
+      }
+      document.documentElement.setAttribute('data-theme', theme);
+    } catch (e) {}
+  })();
+</script>
+
 <!-- Google Fonts - Inter -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
