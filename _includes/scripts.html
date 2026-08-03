@@ -1,4 +1,20 @@
 <script src="{{ base_path }}/assets/js/main.min.js"></script>
 <script src="{{ base_path }}/assets/js/theme-toggle.js"></script>
 
+<script>
+  // Consistency: open external links and file/document links in a new tab,
+  // while keeping in-site navigation (the nav tabs) in the same tab.
+  document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('#main a[href]').forEach(function(a) {
+      var href = a.getAttribute('href') || '';
+      var isExternal = /^https?:\/\//i.test(href) && a.hostname !== window.location.hostname;
+      var isFile = href.indexOf('/files/') !== -1;
+      if (isExternal || isFile) {
+        a.setAttribute('target', '_blank');
+        a.setAttribute('rel', 'noopener noreferrer');
+      }
+    });
+  });
+</script>
+
 {% include analytics.html %}
