@@ -32,6 +32,10 @@ author_profile: false
 <details class="pub" markdown="1">
 <summary>Co-authored Publications</summary>
 
+[Patient-Facing AI System for Symptom Guidance Using Simulated Encounters and Physician Review: Analytical Validation Study](https://formative.jmir.org/2026/1/e103419/)  
+A Patwardhan, N Verma, P Barman, **B Mao**, N Li, P Varghese, V Peri, LS Lehmann  
+*JMIR Formative Research, Aug 2026*
+
 [Deep learning model for personalized prediction of positive MRSA culture using time-series electronic health records](https://www.nature.com/articles/s41467-024-46211-0)  
 M Nigo, L Rasmy, **B Mao**, BS Kannadath, Z Xie, D Zhi  
 *Nature Communications, Mar 2024*
